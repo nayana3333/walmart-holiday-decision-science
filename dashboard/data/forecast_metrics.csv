@@ -1,0 +1,93 @@
+scope,model,mape_pct,rmse,test_weeks,train_weeks,winner,interpretation
+Aggregate,Seasonal naive (52-week),2.2447,1307251.5763,20,71,False,Challenger retained for comparison.
+Aggregate,OLS lag + holiday + macro,1.8728,1105184.7369,20,71,True,Lowest holdout MAPE for this scope.
+Store 1,Seasonal naive (52-week),4.4354,87218.6765,20,71,False,Challenger retained for comparison.
+Store 1,OLS lag + holiday + macro,2.1456,51962.7000,20,71,True,Lowest holdout MAPE for this scope.
+Store 2,Seasonal naive (52-week),4.8522,105706.7064,20,71,False,Challenger retained for comparison.
+Store 2,OLS lag + holiday + macro,2.6421,61195.9235,20,71,True,Lowest holdout MAPE for this scope.
+Store 3,Seasonal naive (52-week),8.1624,37328.3528,20,71,True,Lowest holdout MAPE for this scope.
+Store 3,OLS lag + holiday + macro,8.5472,39397.5095,20,71,False,Challenger retained for comparison.
+Store 4,Seasonal naive (52-week),3.5594,91531.6700,20,71,True,Lowest holdout MAPE for this scope.
+Store 4,OLS lag + holiday + macro,3.6966,94873.4066,20,71,False,Challenger retained for comparison.
+Store 5,Seasonal naive (52-week),6.5156,23491.0185,20,71,False,Challenger retained for comparison.
+Store 5,OLS lag + holiday + macro,4.9819,18093.4365,20,71,True,Lowest holdout MAPE for this scope.
+Store 6,Seasonal naive (52-week),3.9452,73282.3680,20,71,False,Challenger retained for comparison.
+Store 6,OLS lag + holiday + macro,3.1495,59168.1851,20,71,True,Lowest holdout MAPE for this scope.
+Store 7,Seasonal naive (52-week),3.6808,29037.6412,20,71,True,Lowest holdout MAPE for this scope.
+Store 7,OLS lag + holiday + macro,10.0307,66533.1655,20,71,False,Challenger retained for comparison.
+Store 8,Seasonal naive (52-week),4.3335,49087.1347,20,71,False,Challenger retained for comparison.
+Store 8,OLS lag + holiday + macro,2.9040,33194.0183,20,71,True,Lowest holdout MAPE for this scope.
+Store 9,Seasonal naive (52-week),4.0745,25957.2973,20,71,False,Challenger retained for comparison.
+Store 9,OLS lag + holiday + macro,3.9963,25962.4521,20,71,True,Lowest holdout MAPE for this scope.
+Store 10,Seasonal naive (52-week),2.6626,59582.8169,20,71,True,Lowest holdout MAPE for this scope.
+Store 10,OLS lag + holiday + macro,6.3074,128112.9714,20,71,False,Challenger retained for comparison.
+Store 11,Seasonal naive (52-week),4.6503,71985.2850,20,71,False,Challenger retained for comparison.
+Store 11,OLS lag + holiday + macro,3.7412,65369.7841,20,71,True,Lowest holdout MAPE for this scope.
+Store 12,Seasonal naive (52-week),2.6808,30113.8512,20,71,True,Lowest holdout MAPE for this scope.
+Store 12,OLS lag + holiday + macro,3.1736,38266.1910,20,71,False,Challenger retained for comparison.
+Store 13,Seasonal naive (52-week),3.4481,96043.1513,20,71,True,Lowest holdout MAPE for this scope.
+Store 13,OLS lag + holiday + macro,7.2597,158078.6227,20,71,False,Challenger retained for comparison.
+Store 14,Seasonal naive (52-week),20.6676,355211.6924,20,71,True,Lowest holdout MAPE for this scope.
+Store 14,OLS lag + holiday + macro,21.5514,363005.6102,20,71,False,Challenger retained for comparison.
+Store 15,Seasonal naive (52-week),3.7136,26760.7412,20,71,True,Lowest holdout MAPE for this scope.
+Store 15,OLS lag + holiday + macro,4.7275,36311.3395,20,71,False,Challenger retained for comparison.
+Store 16,Seasonal naive (52-week),3.4822,22076.1534,20,71,True,Lowest holdout MAPE for this scope.
+Store 16,OLS lag + holiday + macro,8.9527,51920.4238,20,71,False,Challenger retained for comparison.
+Store 17,Seasonal naive (52-week),5.5757,62682.7508,20,71,True,Lowest holdout MAPE for this scope.
+Store 17,OLS lag + holiday + macro,6.2112,64217.3147,20,71,False,Challenger retained for comparison.
+Store 18,Seasonal naive (52-week),8.4433,151024.0604,20,71,False,Challenger retained for comparison.
+Store 18,OLS lag + holiday + macro,5.9199,106572.5826,20,71,True,Lowest holdout MAPE for this scope.
+Store 19,Seasonal naive (52-week),3.3831,53780.5702,20,71,True,Lowest holdout MAPE for this scope.
+Store 19,OLS lag + holiday + macro,4.1353,68354.5850,20,71,False,Challenger retained for comparison.
+Store 20,Seasonal naive (52-week),4.0440,99505.1533,20,71,False,Challenger retained for comparison.
+Store 20,OLS lag + holiday + macro,3.3186,87529.2973,20,71,True,Lowest holdout MAPE for this scope.
+Store 21,Seasonal naive (52-week),7.5449,61726.9555,20,71,True,Lowest holdout MAPE for this scope.
+Store 21,OLS lag + holiday + macro,7.5837,63717.9216,20,71,False,Challenger retained for comparison.
+Store 22,Seasonal naive (52-week),3.4667,50745.2843,20,71,False,Challenger retained for comparison.
+Store 22,OLS lag + holiday + macro,3.3850,47127.2224,20,71,True,Lowest holdout MAPE for this scope.
+Store 23,Seasonal naive (52-week),3.8285,72552.2318,20,71,True,Lowest holdout MAPE for this scope.
+Store 23,OLS lag + holiday + macro,3.9570,74518.3290,20,71,False,Challenger retained for comparison.
+Store 24,Seasonal naive (52-week),3.5567,64685.2759,20,71,True,Lowest holdout MAPE for this scope.
+Store 24,OLS lag + holiday + macro,3.6846,61300.5480,20,71,False,Challenger retained for comparison.
+Store 25,Seasonal naive (52-week),4.0946,32565.3043,20,71,False,Challenger retained for comparison.
+Store 25,OLS lag + holiday + macro,2.8241,28672.7693,20,71,True,Lowest holdout MAPE for this scope.
+Store 26,Seasonal naive (52-week),2.9432,35064.1377,20,71,False,Challenger retained for comparison.
+Store 26,OLS lag + holiday + macro,2.4811,32710.1693,20,71,True,Lowest holdout MAPE for this scope.
+Store 27,Seasonal naive (52-week),4.2033,95504.0088,20,71,False,Challenger retained for comparison.
+Store 27,OLS lag + holiday + macro,3.4179,79867.7531,20,71,True,Lowest holdout MAPE for this scope.
+Store 28,Seasonal naive (52-week),5.0301,91121.2312,20,71,False,Challenger retained for comparison.
+Store 28,OLS lag + holiday + macro,4.1256,70570.0276,20,71,True,Lowest holdout MAPE for this scope.
+Store 29,Seasonal naive (52-week),4.5096,31077.4106,20,71,False,Challenger retained for comparison.
+Store 29,OLS lag + holiday + macro,4.2204,29937.8372,20,71,True,Lowest holdout MAPE for this scope.
+Store 30,Seasonal naive (52-week),5.4756,31716.2694,20,71,False,Challenger retained for comparison.
+Store 30,OLS lag + holiday + macro,3.5466,18040.8380,20,71,True,Lowest holdout MAPE for this scope.
+Store 31,Seasonal naive (52-week),2.2508,37184.7936,20,71,True,Lowest holdout MAPE for this scope.
+Store 31,OLS lag + holiday + macro,2.8821,45163.5325,20,71,False,Challenger retained for comparison.
+Store 32,Seasonal naive (52-week),2.9498,44432.5938,20,71,True,Lowest holdout MAPE for this scope.
+Store 32,OLS lag + holiday + macro,3.2906,50157.1258,20,71,False,Challenger retained for comparison.
+Store 33,Seasonal naive (52-week),6.7388,20851.8348,20,71,True,Lowest holdout MAPE for this scope.
+Store 33,OLS lag + holiday + macro,12.1451,33409.6674,20,71,False,Challenger retained for comparison.
+Store 34,Seasonal naive (52-week),4.0748,45073.1070,20,71,False,Challenger retained for comparison.
+Store 34,OLS lag + holiday + macro,2.5440,29308.4450,20,71,True,Lowest holdout MAPE for this scope.
+Store 35,Seasonal naive (52-week),6.5078,68791.7819,20,71,False,Challenger retained for comparison.
+Store 35,OLS lag + holiday + macro,5.7534,60533.5677,20,71,True,Lowest holdout MAPE for this scope.
+Store 36,Seasonal naive (52-week),19.8966,60749.2097,20,71,False,Challenger retained for comparison.
+Store 36,OLS lag + holiday + macro,3.6574,14190.2450,20,71,True,Lowest holdout MAPE for this scope.
+Store 37,Seasonal naive (52-week),2.3397,15216.8361,20,71,True,Lowest holdout MAPE for this scope.
+Store 37,OLS lag + holiday + macro,2.7256,17261.9955,20,71,False,Challenger retained for comparison.
+Store 38,Seasonal naive (52-week),9.6191,47547.7476,20,71,True,Lowest holdout MAPE for this scope.
+Store 38,OLS lag + holiday + macro,12.4762,58958.3830,20,71,False,Challenger retained for comparison.
+Store 39,Seasonal naive (52-week),8.6338,147736.6278,20,71,False,Challenger retained for comparison.
+Store 39,OLS lag + holiday + macro,3.7098,68814.6988,20,71,True,Lowest holdout MAPE for this scope.
+Store 40,Seasonal naive (52-week),2.9720,36912.8055,20,71,False,Challenger retained for comparison.
+Store 40,OLS lag + holiday + macro,2.6851,33755.2881,20,71,True,Lowest holdout MAPE for this scope.
+Store 41,Seasonal naive (52-week),7.4469,110675.2707,20,71,False,Challenger retained for comparison.
+Store 41,OLS lag + holiday + macro,2.4510,42721.2247,20,71,True,Lowest holdout MAPE for this scope.
+Store 42,Seasonal naive (52-week),3.9100,29393.0398,20,71,True,Lowest holdout MAPE for this scope.
+Store 42,OLS lag + holiday + macro,4.6292,32183.9045,20,71,False,Challenger retained for comparison.
+Store 43,Seasonal naive (52-week),2.8051,22095.1779,20,71,True,Lowest holdout MAPE for this scope.
+Store 43,OLS lag + holiday + macro,2.8917,23750.0051,20,71,False,Challenger retained for comparison.
+Store 44,Seasonal naive (52-week),11.2471,40265.6120,20,71,False,Challenger retained for comparison.
+Store 44,OLS lag + holiday + macro,3.1056,13383.1751,20,71,True,Lowest holdout MAPE for this scope.
+Store 45,Seasonal naive (52-week),3.4397,38464.5662,20,71,True,Lowest holdout MAPE for this scope.
+Store 45,OLS lag + holiday + macro,5.5389,49088.3022,20,71,False,Challenger retained for comparison.

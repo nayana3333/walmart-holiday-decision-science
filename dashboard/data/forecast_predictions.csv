@@ -1,0 +1,1841 @@
+scope,date,actual,predicted,model
+Aggregate,2012-06-15,48412110.7000,47447561.7700,Seasonal naive (52-week)
+Aggregate,2012-06-22,47668284.9700,45884094.5800,Seasonal naive (52-week)
+Aggregate,2012-06-29,46597112.1200,47578519.5000,Seasonal naive (52-week)
+Aggregate,2012-07-06,51253021.8800,47859263.7800,Seasonal naive (52-week)
+Aggregate,2012-07-13,46099732.1000,45515929.9200,Seasonal naive (52-week)
+Aggregate,2012-07-20,46059543.4500,45274411.3900,Seasonal naive (52-week)
+Aggregate,2012-07-27,44097154.9700,43683274.2800,Seasonal naive (52-week)
+Aggregate,2012-08-03,47485899.5600,48015466.9700,Seasonal naive (52-week)
+Aggregate,2012-08-10,47403451.0400,46249569.2100,Seasonal naive (52-week)
+Aggregate,2012-08-17,47354452.0500,46917347.6200,Seasonal naive (52-week)
+Aggregate,2012-08-24,47447323.6000,47416948.4500,Seasonal naive (52-week)
+Aggregate,2012-08-31,47159639.4300,45376623.2700,Seasonal naive (52-week)
+Aggregate,2012-09-07,48330059.3100,46763227.5300,Seasonal naive (52-week)
+Aggregate,2012-09-14,44226038.6500,43793960.0800,Seasonal naive (52-week)
+Aggregate,2012-09-21,44354547.1100,42718096.7300,Seasonal naive (52-week)
+Aggregate,2012-09-28,43734899.4000,42195830.8100,Seasonal naive (52-week)
+Aggregate,2012-10-05,47566639.3100,47211688.3600,Seasonal naive (52-week)
+Aggregate,2012-10-12,46128514.2500,44374820.3000,Seasonal naive (52-week)
+Aggregate,2012-10-19,45122410.5700,45818953.4400,Seasonal naive (52-week)
+Aggregate,2012-10-26,45544116.2900,45855821.0500,Seasonal naive (52-week)
+Aggregate,2012-06-15,48412110.7000,48920380.0295,OLS lag + holiday + macro
+Aggregate,2012-06-22,47668284.9700,47720005.9565,OLS lag + holiday + macro
+Aggregate,2012-06-29,46597112.1200,49205826.6559,OLS lag + holiday + macro
+Aggregate,2012-07-06,51253021.8800,48858948.9807,OLS lag + holiday + macro
+Aggregate,2012-07-13,46099732.1000,46911190.2603,OLS lag + holiday + macro
+Aggregate,2012-07-20,46059543.4500,46657268.8323,OLS lag + holiday + macro
+Aggregate,2012-07-27,44097154.9700,45216002.3272,OLS lag + holiday + macro
+Aggregate,2012-08-03,47485899.5600,48756093.2042,OLS lag + holiday + macro
+Aggregate,2012-08-10,47403451.0400,47186006.3256,OLS lag + holiday + macro
+Aggregate,2012-08-17,47354452.0500,47650459.1286,OLS lag + holiday + macro
+Aggregate,2012-08-24,47447323.6000,48104495.7519,OLS lag + holiday + macro
+Aggregate,2012-08-31,47159639.4300,46524702.3368,OLS lag + holiday + macro
+Aggregate,2012-09-07,48330059.3100,49445668.5224,OLS lag + holiday + macro
+Aggregate,2012-09-14,44226038.6500,45322072.6272,OLS lag + holiday + macro
+Aggregate,2012-09-21,44354547.1100,44524000.6075,OLS lag + holiday + macro
+Aggregate,2012-09-28,43734899.4000,44341973.9872,OLS lag + holiday + macro
+Aggregate,2012-10-05,47566639.3100,47587950.6695,OLS lag + holiday + macro
+Aggregate,2012-10-12,46128514.2500,45355505.4862,OLS lag + holiday + macro
+Aggregate,2012-10-19,45122410.5700,46554078.8677,OLS lag + holiday + macro
+Aggregate,2012-10-26,45544116.2900,46679459.1485,OLS lag + holiday + macro
+Store 1,2012-06-15,1630607.0000,1532114.8600,Seasonal naive (52-week)
+Store 1,2012-06-22,1527845.8100,1438830.1500,Seasonal naive (52-week)
+Store 1,2012-06-29,1540421.4900,1488538.0900,Seasonal naive (52-week)
+Store 1,2012-07-06,1769854.1600,1534849.6400,Seasonal naive (52-week)
+Store 1,2012-07-13,1527014.0400,1455119.9700,Seasonal naive (52-week)
+Store 1,2012-07-20,1497954.7600,1396926.8200,Seasonal naive (52-week)
+Store 1,2012-07-27,1439123.7100,1352219.7900,Seasonal naive (52-week)
+Store 1,2012-08-03,1631135.7900,1624383.7500,Seasonal naive (52-week)
+Store 1,2012-08-10,1592409.9700,1525147.0900,Seasonal naive (52-week)
+Store 1,2012-08-17,1597868.0500,1530761.4300,Seasonal naive (52-week)
+Store 1,2012-08-24,1494122.3800,1464693.4600,Seasonal naive (52-week)
+Store 1,2012-08-31,1582083.4000,1550229.2200,Seasonal naive (52-week)
+Store 1,2012-09-07,1661767.3300,1540471.2400,Seasonal naive (52-week)
+Store 1,2012-09-14,1517428.8700,1514259.7800,Seasonal naive (52-week)
+Store 1,2012-09-21,1506126.0600,1380020.2700,Seasonal naive (52-week)
+Store 1,2012-09-28,1437059.2600,1394561.8300,Seasonal naive (52-week)
+Store 1,2012-10-05,1670785.9700,1630989.9500,Seasonal naive (52-week)
+Store 1,2012-10-12,1573072.8100,1493525.9300,Seasonal naive (52-week)
+Store 1,2012-10-19,1508068.7700,1502562.7800,Seasonal naive (52-week)
+Store 1,2012-10-26,1493659.7400,1445249.0900,Seasonal naive (52-week)
+Store 1,2012-06-15,1630607.0000,1589135.2009,OLS lag + holiday + macro
+Store 1,2012-06-22,1527845.8100,1508402.4012,OLS lag + holiday + macro
+Store 1,2012-06-29,1540421.4900,1548377.5522,OLS lag + holiday + macro
+Store 1,2012-07-06,1769854.1600,1582766.4327,OLS lag + holiday + macro
+Store 1,2012-07-13,1527014.0400,1512660.0695,OLS lag + holiday + macro
+Store 1,2012-07-20,1497954.7600,1459230.0648,OLS lag + holiday + macro
+Store 1,2012-07-27,1439123.7100,1416738.2265,OLS lag + holiday + macro
+Store 1,2012-08-03,1631135.7900,1642338.9606,OLS lag + holiday + macro
+Store 1,2012-08-10,1592409.9700,1554068.8247,OLS lag + holiday + macro
+Store 1,2012-08-17,1597868.0500,1556921.0633,OLS lag + holiday + macro
+Store 1,2012-08-24,1494122.3800,1501661.5189,OLS lag + holiday + macro
+Store 1,2012-08-31,1582083.4000,1574560.9492,OLS lag + holiday + macro
+Store 1,2012-09-07,1661767.3300,1612224.4498,OLS lag + holiday + macro
+Store 1,2012-09-14,1517428.8700,1545689.3807,OLS lag + holiday + macro
+Store 1,2012-09-21,1506126.0600,1435941.4391,OLS lag + holiday + macro
+Store 1,2012-09-28,1437059.2600,1452268.2988,OLS lag + holiday + macro
+Store 1,2012-10-05,1670785.9700,1651759.3506,OLS lag + holiday + macro
+Store 1,2012-10-12,1573072.8100,1539503.8616,OLS lag + holiday + macro
+Store 1,2012-10-19,1508068.7700,1544779.0960,OLS lag + holiday + macro
+Store 1,2012-10-26,1493659.7400,1493980.0531,OLS lag + holiday + macro
+Store 2,2012-06-15,1962924.3000,1953771.9900,Seasonal naive (52-week)
+Store 2,2012-06-22,1887733.2100,1790925.8000,Seasonal naive (52-week)
+Store 2,2012-06-29,1881046.1200,1866243.0000,Seasonal naive (52-week)
+Store 2,2012-07-06,2041507.4000,1853161.9900,Seasonal naive (52-week)
+Store 2,2012-07-13,1830075.1300,1785187.2900,Seasonal naive (52-week)
+Store 2,2012-07-20,1819666.4600,1743816.4100,Seasonal naive (52-week)
+Store 2,2012-07-27,1757923.8800,1680693.0600,Seasonal naive (52-week)
+Store 2,2012-08-03,1946104.6400,1876704.2600,Seasonal naive (52-week)
+Store 2,2012-08-10,1866719.9600,1812768.2600,Seasonal naive (52-week)
+Store 2,2012-08-17,1928016.0100,1844094.5900,Seasonal naive (52-week)
+Store 2,2012-08-24,1876788.1500,1821139.9100,Seasonal naive (52-week)
+Store 2,2012-08-31,1947083.3000,1809119.7000,Seasonal naive (52-week)
+Store 2,2012-09-07,1898777.0700,1748000.6500,Seasonal naive (52-week)
+Store 2,2012-09-14,1814806.6300,1691439.5200,Seasonal naive (52-week)
+Store 2,2012-09-21,1829415.6700,1669299.7800,Seasonal naive (52-week)
+Store 2,2012-09-28,1746470.5600,1650394.4400,Seasonal naive (52-week)
+Store 2,2012-10-05,1998321.0400,1837553.4300,Seasonal naive (52-week)
+Store 2,2012-10-12,1900745.1300,1743882.1900,Seasonal naive (52-week)
+Store 2,2012-10-19,1847990.4100,1834680.2500,Seasonal naive (52-week)
+Store 2,2012-10-26,1834458.3500,1769296.2500,Seasonal naive (52-week)
+Store 2,2012-06-15,1962924.3000,1993795.5925,OLS lag + holiday + macro
+Store 2,2012-06-22,1887733.2100,1855141.9132,OLS lag + holiday + macro
+Store 2,2012-06-29,1881046.1200,1917398.0405,OLS lag + holiday + macro
+Store 2,2012-07-06,2041507.4000,1970526.5555,OLS lag + holiday + macro
+Store 2,2012-07-13,1830075.1300,1911260.0920,OLS lag + holiday + macro
+Store 2,2012-07-20,1819666.4600,1874069.8864,OLS lag + holiday + macro
+Store 2,2012-07-27,1757923.8800,1818213.6783,OLS lag + holiday + macro
+Store 2,2012-08-03,1946104.6400,1981528.5575,OLS lag + holiday + macro
+Store 2,2012-08-10,1866719.9600,1925138.0017,OLS lag + holiday + macro
+Store 2,2012-08-17,1928016.0100,1949400.5771,OLS lag + holiday + macro
+Store 2,2012-08-24,1876788.1500,1928368.3787,OLS lag + holiday + macro
+Store 2,2012-08-31,1947083.3000,1916801.6374,OLS lag + holiday + macro
+Store 2,2012-09-07,1898777.0700,1923688.8834,OLS lag + holiday + macro
+Store 2,2012-09-14,1814806.6300,1814419.0027,OLS lag + holiday + macro
+Store 2,2012-09-21,1829415.6700,1794740.8090,OLS lag + holiday + macro
+Store 2,2012-09-28,1746470.5600,1778258.0692,OLS lag + holiday + macro
+Store 2,2012-10-05,1998321.0400,2014728.1271,OLS lag + holiday + macro
+Store 2,2012-10-12,1900745.1300,1934897.1802,OLS lag + holiday + macro
+Store 2,2012-10-19,1847990.4100,2009804.8517,OLS lag + holiday + macro
+Store 2,2012-10-26,1834458.3500,1953550.4544,OLS lag + holiday + macro
+Store 3,2012-06-15,442074.7900,403423.3400,Seasonal naive (52-week)
+Store 3,2012-06-22,419497.9500,385520.7100,Seasonal naive (52-week)
+Store 3,2012-06-29,422965.3300,368962.7200,Seasonal naive (52-week)
+Store 3,2012-07-06,411206.5000,395146.2400,Seasonal naive (52-week)
+Store 3,2012-07-13,416913.1000,373454.3300,Seasonal naive (52-week)
+Store 3,2012-07-20,432424.8500,360617.3700,Seasonal naive (52-week)
+Store 3,2012-07-27,389427.9000,345381.2900,Seasonal naive (52-week)
+Store 3,2012-08-03,419990.2900,409981.2500,Seasonal naive (52-week)
+Store 3,2012-08-10,391811.6000,380376.8500,Seasonal naive (52-week)
+Store 3,2012-08-17,394918.8300,379716.9100,Seasonal naive (52-week)
+Store 3,2012-08-24,412449.6700,366367.5500,Seasonal naive (52-week)
+Store 3,2012-08-31,408838.7300,375988.6900,Seasonal naive (52-week)
+Store 3,2012-09-07,408229.7300,377347.4900,Seasonal naive (52-week)
+Store 3,2012-09-14,407589.1600,375629.5100,Seasonal naive (52-week)
+Store 3,2012-09-21,414392.0900,365248.9400,Seasonal naive (52-week)
+Store 3,2012-09-28,389813.0200,368477.9300,Seasonal naive (52-week)
+Store 3,2012-10-05,443557.6500,403342.4000,Seasonal naive (52-week)
+Store 3,2012-10-12,410804.3900,368282.5700,Seasonal naive (52-week)
+Store 3,2012-10-19,424513.0800,394976.3600,Seasonal naive (52-week)
+Store 3,2012-10-26,405432.7000,389540.6200,Seasonal naive (52-week)
+Store 3,2012-06-15,442074.7900,439094.6783,OLS lag + holiday + macro
+Store 3,2012-06-22,419497.9500,423733.1133,OLS lag + holiday + macro
+Store 3,2012-06-29,422965.3300,409029.5206,OLS lag + holiday + macro
+Store 3,2012-07-06,411206.5000,447002.0773,OLS lag + holiday + macro
+Store 3,2012-07-13,416913.1000,431054.1047,OLS lag + holiday + macro
+Store 3,2012-07-20,432424.8500,423341.6226,OLS lag + holiday + macro
+Store 3,2012-07-27,389427.9000,415028.6194,OLS lag + holiday + macro
+Store 3,2012-08-03,419990.2900,467870.5273,OLS lag + holiday + macro
+Store 3,2012-08-10,391811.6000,447440.9072,OLS lag + holiday + macro
+Store 3,2012-08-17,394918.8300,449500.3581,OLS lag + holiday + macro
+Store 3,2012-08-24,412449.6700,439982.5831,OLS lag + holiday + macro
+Store 3,2012-08-31,408838.7300,447858.8759,OLS lag + holiday + macro
+Store 3,2012-09-07,408229.7300,468489.0525,OLS lag + holiday + macro
+Store 3,2012-09-14,407589.1600,449211.8215,OLS lag + holiday + macro
+Store 3,2012-09-21,414392.0900,439994.4556,OLS lag + holiday + macro
+Store 3,2012-09-28,389813.0200,439774.0889,OLS lag + holiday + macro
+Store 3,2012-10-05,443557.6500,481823.6906,OLS lag + holiday + macro
+Store 3,2012-10-12,410804.3900,452201.5432,OLS lag + holiday + macro
+Store 3,2012-10-19,424513.0800,473813.0009,OLS lag + holiday + macro
+Store 3,2012-10-26,405432.7000,467339.2945,OLS lag + holiday + macro
+Store 4,2012-06-15,2234190.9300,2141210.6200,Seasonal naive (52-week)
+Store 4,2012-06-22,2197299.6500,2008344.9200,Seasonal naive (52-week)
+Store 4,2012-06-29,2128362.9200,2051533.5300,Seasonal naive (52-week)
+Store 4,2012-07-06,2224499.2800,2066541.8600,Seasonal naive (52-week)
+Store 4,2012-07-13,2100252.6100,2049046.9500,Seasonal naive (52-week)
+Store 4,2012-07-20,2175563.6900,2036231.3900,Seasonal naive (52-week)
+Store 4,2012-07-27,2048613.6500,1989674.0700,Seasonal naive (52-week)
+Store 4,2012-08-03,2174514.1300,2160057.3900,Seasonal naive (52-week)
+Store 4,2012-08-10,2193367.6900,2105668.7400,Seasonal naive (52-week)
+Store 4,2012-08-17,2283540.3000,2232892.1000,Seasonal naive (52-week)
+Store 4,2012-08-24,2125241.6800,1988490.2100,Seasonal naive (52-week)
+Store 4,2012-08-31,2081181.3500,2078420.3100,Seasonal naive (52-week)
+Store 4,2012-09-07,2125104.7200,2093139.0100,Seasonal naive (52-week)
+Store 4,2012-09-14,2117854.6000,2075577.3300,Seasonal naive (52-week)
+Store 4,2012-09-21,2119438.5300,2031406.4100,Seasonal naive (52-week)
+Store 4,2012-09-28,2027620.2300,1929486.6300,Seasonal naive (52-week)
+Store 4,2012-10-05,2209835.4300,2166737.6500,Seasonal naive (52-week)
+Store 4,2012-10-12,2133026.0700,2074548.8500,Seasonal naive (52-week)
+Store 4,2012-10-19,2097266.8500,2207742.1300,Seasonal naive (52-week)
+Store 4,2012-10-26,2149594.4600,2151659.5900,Seasonal naive (52-week)
+Store 4,2012-06-15,2234190.9300,2289596.1726,OLS lag + holiday + macro
+Store 4,2012-06-22,2197299.6500,2165334.2381,OLS lag + holiday + macro
+Store 4,2012-06-29,2128362.9200,2204940.5211,OLS lag + holiday + macro
+Store 4,2012-07-06,2224499.2800,2203474.6508,OLS lag + holiday + macro
+Store 4,2012-07-13,2100252.6100,2184206.9577,OLS lag + holiday + macro
+Store 4,2012-07-20,2175563.6900,2172402.2866,OLS lag + holiday + macro
+Store 4,2012-07-27,2048613.6500,2128021.5671,OLS lag + holiday + macro
+Store 4,2012-08-03,2174514.1300,2286513.5469,OLS lag + holiday + macro
+Store 4,2012-08-10,2193367.6900,2234657.3769,OLS lag + holiday + macro
+Store 4,2012-08-17,2283540.3000,2352702.4770,OLS lag + holiday + macro
+Store 4,2012-08-24,2125241.6800,2127474.3142,OLS lag + holiday + macro
+Store 4,2012-08-31,2081181.3500,2212637.7635,OLS lag + holiday + macro
+Store 4,2012-09-07,2125104.7200,2250546.0493,OLS lag + holiday + macro
+Store 4,2012-09-14,2117854.6000,2213804.4095,OLS lag + holiday + macro
+Store 4,2012-09-21,2119438.5300,2174349.9494,OLS lag + holiday + macro
+Store 4,2012-09-28,2027620.2300,2083064.0205,OLS lag + holiday + macro
+Store 4,2012-10-05,2209835.4300,2293128.9448,OLS lag + holiday + macro
+Store 4,2012-10-12,2133026.0700,2209944.0681,OLS lag + holiday + macro
+Store 4,2012-10-19,2097266.8500,2335583.0325,OLS lag + holiday + macro
+Store 4,2012-10-26,2149594.4600,2288374.0669,OLS lag + holiday + macro
+Store 5,2012-06-15,327383.6400,304811.8200,Seasonal naive (52-week)
+Store 5,2012-06-22,325041.6800,302881.6400,Seasonal naive (52-week)
+Store 5,2012-06-29,329658.1000,327093.8900,Seasonal naive (52-week)
+Store 5,2012-07-06,341214.4300,310804.9300,Seasonal naive (52-week)
+Store 5,2012-07-13,316203.6400,283248.6200,Seasonal naive (52-week)
+Store 5,2012-07-20,321205.1200,292539.7300,Seasonal naive (52-week)
+Store 5,2012-07-27,306827.3600,275142.1700,Seasonal naive (52-week)
+Store 5,2012-08-03,324195.1700,317738.5600,Seasonal naive (52-week)
+Store 5,2012-08-10,306759.7000,289886.1600,Seasonal naive (52-week)
+Store 5,2012-08-17,314014.1800,303643.8400,Seasonal naive (52-week)
+Store 5,2012-08-24,320831.3600,310338.1700,Seasonal naive (52-week)
+Store 5,2012-08-31,344642.0100,315645.5300,Seasonal naive (52-week)
+Store 5,2012-09-07,350648.9100,321110.2200,Seasonal naive (52-week)
+Store 5,2012-09-14,299800.6700,278529.7100,Seasonal naive (52-week)
+Store 5,2012-09-21,307306.7600,291024.9800,Seasonal naive (52-week)
+Store 5,2012-09-28,310141.6800,292315.3800,Seasonal naive (52-week)
+Store 5,2012-10-05,343048.2900,309111.4700,Seasonal naive (52-week)
+Store 5,2012-10-12,325345.4100,286117.7200,Seasonal naive (52-week)
+Store 5,2012-10-19,313358.1500,306069.1800,Seasonal naive (52-week)
+Store 5,2012-10-26,319550.7700,307035.1100,Seasonal naive (52-week)
+Store 5,2012-06-15,327383.6400,338835.7098,OLS lag + holiday + macro
+Store 5,2012-06-22,325041.6800,337875.6006,OLS lag + holiday + macro
+Store 5,2012-06-29,329658.1000,358341.1052,OLS lag + holiday + macro
+Store 5,2012-07-06,341214.4300,348384.5420,OLS lag + holiday + macro
+Store 5,2012-07-13,316203.6400,325549.8009,OLS lag + holiday + macro
+Store 5,2012-07-20,321205.1200,332173.9767,OLS lag + holiday + macro
+Store 5,2012-07-27,306827.3600,316542.5455,OLS lag + holiday + macro
+Store 5,2012-08-03,324195.1700,350854.9043,OLS lag + holiday + macro
+Store 5,2012-08-10,306759.7000,326988.6219,OLS lag + holiday + macro
+Store 5,2012-08-17,314014.1800,337228.9904,OLS lag + holiday + macro
+Store 5,2012-08-24,320831.3600,342332.0170,OLS lag + holiday + macro
+Store 5,2012-08-31,344642.0100,346735.2487,OLS lag + holiday + macro
+Store 5,2012-09-07,350648.9100,363406.2364,OLS lag + holiday + macro
+Store 5,2012-09-14,299800.6700,316195.7461,OLS lag + holiday + macro
+Store 5,2012-09-21,307306.7600,326901.7137,OLS lag + holiday + macro
+Store 5,2012-09-28,310141.6800,329314.7758,OLS lag + holiday + macro
+Store 5,2012-10-05,343048.2900,346539.2331,OLS lag + holiday + macro
+Store 5,2012-10-12,325345.4100,328678.4559,OLS lag + holiday + macro
+Store 5,2012-10-19,313358.1500,344965.7089,OLS lag + holiday + macro
+Store 5,2012-10-26,319550.7700,346834.8934,OLS lag + holiday + macro
+Store 6,2012-06-15,1642247.4800,1622150.3300,Seasonal naive (52-week)
+Store 6,2012-06-22,1618272.2500,1543365.9000,Seasonal naive (52-week)
+Store 6,2012-06-29,1648863.4600,1694551.1500,Seasonal naive (52-week)
+Store 6,2012-07-06,1876359.3900,1709373.6200,Seasonal naive (52-week)
+Store 6,2012-07-13,1588142.2600,1526801.2400,Seasonal naive (52-week)
+Store 6,2012-07-20,1574361.9700,1526506.0800,Seasonal naive (52-week)
+Store 6,2012-07-27,1513229.1600,1483991.0500,Seasonal naive (52-week)
+Store 6,2012-08-03,1627274.9300,1601584.5700,Seasonal naive (52-week)
+Store 6,2012-08-10,1588380.7300,1484995.3800,Seasonal naive (52-week)
+Store 6,2012-08-17,1543049.5200,1493544.0400,Seasonal naive (52-week)
+Store 6,2012-08-24,1501095.4900,1420405.4100,Seasonal naive (52-week)
+Store 6,2012-08-31,1577439.8100,1481618.7400,Seasonal naive (52-week)
+Store 6,2012-09-07,1608077.0100,1483574.3800,Seasonal naive (52-week)
+Store 6,2012-09-14,1375166.8600,1351407.7900,Seasonal naive (52-week)
+Store 6,2012-09-21,1425603.6500,1336044.7500,Seasonal naive (52-week)
+Store 6,2012-09-28,1369131.4600,1307551.9200,Seasonal naive (52-week)
+Store 6,2012-10-05,1518177.7100,1481739.2000,Seasonal naive (52-week)
+Store 6,2012-10-12,1459396.8400,1386520.9900,Seasonal naive (52-week)
+Store 6,2012-10-19,1436883.9900,1417922.3700,Seasonal naive (52-week)
+Store 6,2012-10-26,1431426.3400,1419445.1200,Seasonal naive (52-week)
+Store 6,2012-06-15,1642247.4800,1693825.7998,OLS lag + holiday + macro
+Store 6,2012-06-22,1618272.2500,1632625.0285,OLS lag + holiday + macro
+Store 6,2012-06-29,1648863.4600,1764662.6806,OLS lag + holiday + macro
+Store 6,2012-07-06,1876359.3900,1762194.5983,OLS lag + holiday + macro
+Store 6,2012-07-13,1588142.2600,1609784.3524,OLS lag + holiday + macro
+Store 6,2012-07-20,1574361.9700,1607898.9723,OLS lag + holiday + macro
+Store 6,2012-07-27,1513229.1600,1568335.5595,OLS lag + holiday + macro
+Store 6,2012-08-03,1627274.9300,1667695.2157,OLS lag + holiday + macro
+Store 6,2012-08-10,1588380.7300,1567210.9979,OLS lag + holiday + macro
+Store 6,2012-08-17,1543049.5200,1572746.6843,OLS lag + holiday + macro
+Store 6,2012-08-24,1501095.4900,1512456.6172,OLS lag + holiday + macro
+Store 6,2012-08-31,1577439.8100,1566394.0131,OLS lag + holiday + macro
+Store 6,2012-09-07,1608077.0100,1612407.8686,OLS lag + holiday + macro
+Store 6,2012-09-14,1375166.8600,1460513.1148,OLS lag + holiday + macro
+Store 6,2012-09-21,1425603.6500,1452322.8927,OLS lag + holiday + macro
+Store 6,2012-09-28,1369131.4600,1436506.3124,OLS lag + holiday + macro
+Store 6,2012-10-05,1518177.7100,1566746.5614,OLS lag + holiday + macro
+Store 6,2012-10-12,1459396.8400,1492853.5276,OLS lag + holiday + macro
+Store 6,2012-10-19,1436883.9900,1521662.5888,OLS lag + holiday + macro
+Store 6,2012-10-26,1431426.3400,1529617.9202,OLS lag + holiday + macro
+Store 7,2012-06-15,666942.0200,610991.3500,Seasonal naive (52-week)
+Store 7,2012-06-22,687344.6800,640043.9700,Seasonal naive (52-week)
+Store 7,2012-06-29,704335.4100,704344.2100,Seasonal naive (52-week)
+Store 7,2012-07-06,805642.6100,761793.9400,Seasonal naive (52-week)
+Store 7,2012-07-13,694150.8900,642748.2100,Seasonal naive (52-week)
+Store 7,2012-07-20,686345.6900,688043.9600,Seasonal naive (52-week)
+Store 7,2012-07-27,686365.4000,653382.6200,Seasonal naive (52-week)
+Store 7,2012-08-03,680954.8100,695392.8400,Seasonal naive (52-week)
+Store 7,2012-08-10,675926.3000,670670.4600,Seasonal naive (52-week)
+Store 7,2012-08-17,642450.4000,645156.2100,Seasonal naive (52-week)
+Store 7,2012-08-24,609099.3700,629994.4700,Seasonal naive (52-week)
+Store 7,2012-08-31,586467.1600,592355.2400,Seasonal naive (52-week)
+Store 7,2012-09-07,597876.5500,613135.2300,Seasonal naive (52-week)
+Store 7,2012-09-14,541120.2000,558981.4500,Seasonal naive (52-week)
+Store 7,2012-09-21,530842.2500,536144.8100,Seasonal naive (52-week)
+Store 7,2012-09-28,525545.7600,488880.2600,Seasonal naive (52-week)
+Store 7,2012-10-05,505830.5600,525866.3600,Seasonal naive (52-week)
+Store 7,2012-10-12,503463.9300,501959.1900,Seasonal naive (52-week)
+Store 7,2012-10-19,516424.8300,558691.4300,Seasonal naive (52-week)
+Store 7,2012-10-26,495543.2800,527339.5200,Seasonal naive (52-week)
+Store 7,2012-06-15,666942.0200,683318.4812,OLS lag + holiday + macro
+Store 7,2012-06-22,687344.6800,715058.9874,OLS lag + holiday + macro
+Store 7,2012-06-29,704335.4100,780682.7892,OLS lag + holiday + macro
+Store 7,2012-07-06,805642.6100,811639.1222,OLS lag + holiday + macro
+Store 7,2012-07-13,694150.8900,696247.8614,OLS lag + holiday + macro
+Store 7,2012-07-20,686345.6900,743220.6097,OLS lag + holiday + macro
+Store 7,2012-07-27,686365.4000,711411.8474,OLS lag + holiday + macro
+Store 7,2012-08-03,680954.8100,754892.6082,OLS lag + holiday + macro
+Store 7,2012-08-10,675926.3000,732834.8876,OLS lag + holiday + macro
+Store 7,2012-08-17,642450.4000,711941.9453,OLS lag + holiday + macro
+Store 7,2012-08-24,609099.3700,701613.0430,OLS lag + holiday + macro
+Store 7,2012-08-31,586467.1600,668810.1422,OLS lag + holiday + macro
+Store 7,2012-09-07,597876.5500,708629.3586,OLS lag + holiday + macro
+Store 7,2012-09-14,541120.2000,645381.2523,OLS lag + holiday + macro
+Store 7,2012-09-21,530842.2500,621352.1939,OLS lag + holiday + macro
+Store 7,2012-09-28,525545.7600,571747.4200,OLS lag + holiday + macro
+Store 7,2012-10-05,505830.5600,564613.8068,OLS lag + holiday + macro
+Store 7,2012-10-12,503463.9300,537335.8350,OLS lag + holiday + macro
+Store 7,2012-10-19,516424.8300,594462.4898,OLS lag + holiday + macro
+Store 7,2012-10-26,495543.2800,564363.0310,OLS lag + holiday + macro
+Store 8,2012-06-15,916918.7000,922048.4100,Seasonal naive (52-week)
+Store 8,2012-06-22,899449.6500,864881.2400,Seasonal naive (52-week)
+Store 8,2012-06-29,878298.2200,883683.3500,Seasonal naive (52-week)
+Store 8,2012-07-06,936205.5000,861965.1200,Seasonal naive (52-week)
+Store 8,2012-07-13,890488.0100,849925.3700,Seasonal naive (52-week)
+Store 8,2012-07-20,888834.0700,829902.4200,Seasonal naive (52-week)
+Store 8,2012-07-27,838227.5200,807082.1900,Seasonal naive (52-week)
+Store 8,2012-08-03,897076.7300,892393.7700,Seasonal naive (52-week)
+Store 8,2012-08-10,930745.6900,856796.1000,Seasonal naive (52-week)
+Store 8,2012-08-17,896613.1900,895066.5000,Seasonal naive (52-week)
+Store 8,2012-08-24,936373.6500,912542.8200,Seasonal naive (52-week)
+Store 8,2012-08-31,976137.7300,891387.1400,Seasonal naive (52-week)
+Store 8,2012-09-07,932160.3700,848358.0900,Seasonal naive (52-week)
+Store 8,2012-09-14,883569.3800,870971.8200,Seasonal naive (52-week)
+Store 8,2012-09-21,857796.4500,806444.2900,Seasonal naive (52-week)
+Store 8,2012-09-28,884724.4100,809049.3700,Seasonal naive (52-week)
+Store 8,2012-10-05,976436.0200,929976.5500,Seasonal naive (52-week)
+Store 8,2012-10-12,927511.9900,863188.2600,Seasonal naive (52-week)
+Store 8,2012-10-19,900309.7500,905984.4900,Seasonal naive (52-week)
+Store 8,2012-10-26,891671.4400,876712.3100,Seasonal naive (52-week)
+Store 8,2012-06-15,916918.7000,932724.4937,OLS lag + holiday + macro
+Store 8,2012-06-22,899449.6500,885227.0066,OLS lag + holiday + macro
+Store 8,2012-06-29,878298.2200,899989.0447,OLS lag + holiday + macro
+Store 8,2012-07-06,936205.5000,887258.3829,OLS lag + holiday + macro
+Store 8,2012-07-13,890488.0100,876400.8425,OLS lag + holiday + macro
+Store 8,2012-07-20,888834.0700,858687.9253,OLS lag + holiday + macro
+Store 8,2012-07-27,838227.5200,838516.2477,OLS lag + holiday + macro
+Store 8,2012-08-03,897076.7300,907239.4213,OLS lag + holiday + macro
+Store 8,2012-08-10,930745.6900,876683.1222,OLS lag + holiday + macro
+Store 8,2012-08-17,896613.1900,907084.6100,OLS lag + holiday + macro
+Store 8,2012-08-24,936373.6500,920928.2328,OLS lag + holiday + macro
+Store 8,2012-08-31,976137.7300,903265.9055,OLS lag + holiday + macro
+Store 8,2012-09-07,932160.3700,882281.1690,OLS lag + holiday + macro
+Store 8,2012-09-14,883569.3800,885755.6054,OLS lag + holiday + macro
+Store 8,2012-09-21,857796.4500,833067.6975,OLS lag + holiday + macro
+Store 8,2012-09-28,884724.4100,835592.3284,OLS lag + holiday + macro
+Store 8,2012-10-05,976436.0200,940648.7496,OLS lag + holiday + macro
+Store 8,2012-10-12,927511.9900,886191.7317,OLS lag + holiday + macro
+Store 8,2012-10-19,900309.7500,920399.4867,OLS lag + holiday + macro
+Store 8,2012-10-26,891671.4400,895756.0095,OLS lag + holiday + macro
+Store 9,2012-06-15,564606.1000,558671.1400,Seasonal naive (52-week)
+Store 9,2012-06-22,562173.1200,538745.9300,Seasonal naive (52-week)
+Store 9,2012-06-29,544770.7000,537064.0300,Seasonal naive (52-week)
+Store 9,2012-07-06,578790.3600,535983.1300,Seasonal naive (52-week)
+Store 9,2012-07-13,536537.6400,512834.0400,Seasonal naive (52-week)
+Store 9,2012-07-20,513991.5700,491449.9400,Seasonal naive (52-week)
+Store 9,2012-07-27,495951.0000,471449.9800,Seasonal naive (52-week)
+Store 9,2012-08-03,533887.5400,554879.6700,Seasonal naive (52-week)
+Store 9,2012-08-10,538713.4700,520284.7900,Seasonal naive (52-week)
+Store 9,2012-08-17,535153.4700,540819.4400,Seasonal naive (52-week)
+Store 9,2012-08-24,572887.7800,542663.5300,Seasonal naive (52-week)
+Store 9,2012-08-31,576879.1500,544643.3300,Seasonal naive (52-week)
+Store 9,2012-09-07,565812.2900,528784.8600,Seasonal naive (52-week)
+Store 9,2012-09-14,523427.3500,500274.0300,Seasonal naive (52-week)
+Store 9,2012-09-21,533756.8800,506743.7800,Seasonal naive (52-week)
+Store 9,2012-09-28,516361.0600,508567.0400,Seasonal naive (52-week)
+Store 9,2012-10-05,606755.3000,553836.9800,Seasonal naive (52-week)
+Store 9,2012-10-12,558464.8000,529515.6600,Seasonal naive (52-week)
+Store 9,2012-10-19,542009.4600,557075.2100,Seasonal naive (52-week)
+Store 9,2012-10-26,549731.4900,548527.4900,Seasonal naive (52-week)
+Store 9,2012-06-15,564606.1000,599196.3875,OLS lag + holiday + macro
+Store 9,2012-06-22,562173.1200,582179.5998,OLS lag + holiday + macro
+Store 9,2012-06-29,544770.7000,581513.3381,OLS lag + holiday + macro
+Store 9,2012-07-06,578790.3600,572543.4917,OLS lag + holiday + macro
+Store 9,2012-07-13,536537.6400,551803.9331,OLS lag + holiday + macro
+Store 9,2012-07-20,513991.5700,532088.5773,OLS lag + holiday + macro
+Store 9,2012-07-27,495951.0000,513139.0035,OLS lag + holiday + macro
+Store 9,2012-08-03,533887.5400,587027.0655,OLS lag + holiday + macro
+Store 9,2012-08-10,538713.4700,555329.2626,OLS lag + holiday + macro
+Store 9,2012-08-17,535153.4700,573152.9501,OLS lag + holiday + macro
+Store 9,2012-08-24,572887.7800,575109.4481,OLS lag + holiday + macro
+Store 9,2012-08-31,576879.1500,577537.0075,OLS lag + holiday + macro
+Store 9,2012-09-07,565812.2900,577603.0924,OLS lag + holiday + macro
+Store 9,2012-09-14,523427.3500,539053.1409,OLS lag + holiday + macro
+Store 9,2012-09-21,533756.8800,546134.3396,OLS lag + holiday + macro
+Store 9,2012-09-28,516361.0600,549755.7002,OLS lag + holiday + macro
+Store 9,2012-10-05,606755.3000,581017.1301,OLS lag + holiday + macro
+Store 9,2012-10-12,558464.8000,560976.1453,OLS lag + holiday + macro
+Store 9,2012-10-19,542009.4600,585700.7717,OLS lag + holiday + macro
+Store 9,2012-10-26,549731.4900,579069.0409,OLS lag + holiday + macro
+Store 10,2012-06-15,1811562.8800,1817934.7600,Seasonal naive (52-week)
+Store 10,2012-06-22,1755334.1800,1711813.1300,Seasonal naive (52-week)
+Store 10,2012-06-29,1707481.9000,1751369.7500,Seasonal naive (52-week)
+Store 10,2012-07-06,1805999.7900,1699708.3800,Seasonal naive (52-week)
+Store 10,2012-07-13,1765571.9100,1775068.4000,Seasonal naive (52-week)
+Store 10,2012-07-20,1869967.0300,1774342.6100,Seasonal naive (52-week)
+Store 10,2012-07-27,1817603.6600,1745841.3300,Seasonal naive (52-week)
+Store 10,2012-08-03,1939440.0900,1886299.9800,Seasonal naive (52-week)
+Store 10,2012-08-10,1880436.9400,1917397.6300,Seasonal naive (52-week)
+Store 10,2012-08-17,1827797.4000,1954849.6800,Seasonal naive (52-week)
+Store 10,2012-08-24,1764984.1500,1728399.0700,Seasonal naive (52-week)
+Store 10,2012-08-31,1650285.5400,1758587.3500,Seasonal naive (52-week)
+Store 10,2012-09-07,1708283.2800,1670579.8200,Seasonal naive (52-week)
+Store 10,2012-09-14,1640168.9900,1650894.3000,Seasonal naive (52-week)
+Store 10,2012-09-21,1671857.5700,1685910.5300,Seasonal naive (52-week)
+Store 10,2012-09-28,1694862.4100,1627707.3100,Seasonal naive (52-week)
+Store 10,2012-10-05,1758971.3800,1788227.6000,Seasonal naive (52-week)
+Store 10,2012-10-12,1713889.1100,1704753.0200,Seasonal naive (52-week)
+Store 10,2012-10-19,1734834.8200,1745928.5600,Seasonal naive (52-week)
+Store 10,2012-10-26,1744349.0500,1771792.9700,Seasonal naive (52-week)
+Store 10,2012-06-15,1811562.8800,1887972.6465,OLS lag + holiday + macro
+Store 10,2012-06-22,1755334.1800,1791250.7765,OLS lag + holiday + macro
+Store 10,2012-06-29,1707481.9000,1818654.0712,OLS lag + holiday + macro
+Store 10,2012-07-06,1805999.7900,1779648.9778,OLS lag + holiday + macro
+Store 10,2012-07-13,1765571.9100,1853626.4990,OLS lag + holiday + macro
+Store 10,2012-07-20,1869967.0300,1843329.3963,OLS lag + holiday + macro
+Store 10,2012-07-27,1817603.6600,1834681.3109,OLS lag + holiday + macro
+Store 10,2012-08-03,1939440.0900,1942144.9122,OLS lag + holiday + macro
+Store 10,2012-08-10,1880436.9400,1987494.9002,OLS lag + holiday + macro
+Store 10,2012-08-17,1827797.4000,2035187.4197,OLS lag + holiday + macro
+Store 10,2012-08-24,1764984.1500,1844705.3794,OLS lag + holiday + macro
+Store 10,2012-08-31,1650285.5400,1856181.5182,OLS lag + holiday + macro
+Store 10,2012-09-07,1708283.2800,1917953.9981,OLS lag + holiday + macro
+Store 10,2012-09-14,1640168.9900,1769108.5911,OLS lag + holiday + macro
+Store 10,2012-09-21,1671857.5700,1812258.9371,OLS lag + holiday + macro
+Store 10,2012-09-28,1694862.4100,1749736.2913,OLS lag + holiday + macro
+Store 10,2012-10-05,1758971.3800,1919697.9489,OLS lag + holiday + macro
+Store 10,2012-10-12,1713889.1100,1875643.1734,OLS lag + holiday + macro
+Store 10,2012-10-19,1734834.8200,1909058.1846,OLS lag + holiday + macro
+Store 10,2012-10-26,1744349.0500,1918795.8912,OLS lag + holiday + macro
+Store 11,2012-06-15,1417875.4200,1337506.7400,Seasonal naive (52-week)
+Store 11,2012-06-22,1355680.3000,1254587.8400,Seasonal naive (52-week)
+Store 11,2012-06-29,1297028.6000,1297472.0600,Seasonal naive (52-week)
+Store 11,2012-07-06,1461129.9400,1334627.9600,Seasonal naive (52-week)
+Store 11,2012-07-13,1320239.5100,1266546.7300,Seasonal naive (52-week)
+Store 11,2012-07-20,1344483.8100,1290576.4400,Seasonal naive (52-week)
+Store 11,2012-07-27,1272395.0200,1212938.6700,Seasonal naive (52-week)
+Store 11,2012-08-03,1399341.0700,1403198.9400,Seasonal naive (52-week)
+Store 11,2012-08-10,1388973.6500,1354188.4300,Seasonal naive (52-week)
+Store 11,2012-08-17,1421307.2000,1484169.7400,Seasonal naive (52-week)
+Store 11,2012-08-24,1409515.7300,1304706.7500,Seasonal naive (52-week)
+Store 11,2012-08-31,1372872.3500,1297792.4100,Seasonal naive (52-week)
+Store 11,2012-09-07,1304584.4000,1249439.9500,Seasonal naive (52-week)
+Store 11,2012-09-14,1267675.0500,1270816.0100,Seasonal naive (52-week)
+Store 11,2012-09-21,1326132.9800,1235775.1500,Seasonal naive (52-week)
+Store 11,2012-09-28,1227430.7300,1190515.8300,Seasonal naive (52-week)
+Store 11,2012-10-05,1422794.2600,1346271.0600,Seasonal naive (52-week)
+Store 11,2012-10-12,1311965.0900,1286388.9600,Seasonal naive (52-week)
+Store 11,2012-10-19,1232073.1800,1325107.5300,Seasonal naive (52-week)
+Store 11,2012-10-26,1200729.4500,1310684.1000,Seasonal naive (52-week)
+Store 11,2012-06-15,1417875.4200,1415652.2980,OLS lag + holiday + macro
+Store 11,2012-06-22,1355680.3000,1353759.8803,OLS lag + holiday + macro
+Store 11,2012-06-29,1297028.6000,1391962.9927,OLS lag + holiday + macro
+Store 11,2012-07-06,1461129.9400,1394166.5426,OLS lag + holiday + macro
+Store 11,2012-07-13,1320239.5100,1339679.6485,OLS lag + holiday + macro
+Store 11,2012-07-20,1344483.8100,1355659.6658,OLS lag + holiday + macro
+Store 11,2012-07-27,1272395.0200,1289017.1520,OLS lag + holiday + macro
+Store 11,2012-08-03,1399341.0700,1438837.8334,OLS lag + holiday + macro
+Store 11,2012-08-10,1388973.6500,1395883.0534,OLS lag + holiday + macro
+Store 11,2012-08-17,1421307.2000,1496090.2463,OLS lag + holiday + macro
+Store 11,2012-08-24,1409515.7300,1354838.4693,OLS lag + holiday + macro
+Store 11,2012-08-31,1372872.3500,1351622.7882,OLS lag + holiday + macro
+Store 11,2012-09-07,1304584.4000,1351708.9578,OLS lag + holiday + macro
+Store 11,2012-09-14,1267675.0500,1332601.6919,OLS lag + holiday + macro
+Store 11,2012-09-21,1326132.9800,1309607.8292,OLS lag + holiday + macro
+Store 11,2012-09-28,1227430.7300,1281891.8716,OLS lag + holiday + macro
+Store 11,2012-10-05,1422794.2600,1384031.8290,OLS lag + holiday + macro
+Store 11,2012-10-12,1311965.0900,1342553.6816,OLS lag + holiday + macro
+Store 11,2012-10-19,1232073.1800,1374520.5606,OLS lag + holiday + macro
+Store 11,2012-10-26,1200729.4500,1368460.4111,OLS lag + holiday + macro
+Store 12,2012-06-15,1019555.5100,986504.9300,Seasonal naive (52-week)
+Store 12,2012-06-22,981386.2500,997282.7500,Seasonal naive (52-week)
+Store 12,2012-06-29,943124.7400,961993.3400,Seasonal naive (52-week)
+Store 12,2012-07-06,1014898.7800,943717.3800,Seasonal naive (52-week)
+Store 12,2012-07-13,960312.7500,936001.9800,Seasonal naive (52-week)
+Store 12,2012-07-20,941550.3400,922231.9200,Seasonal naive (52-week)
+Store 12,2012-07-27,916967.9200,890547.0700,Seasonal naive (52-week)
+Store 12,2012-08-03,958667.2300,988712.5200,Seasonal naive (52-week)
+Store 12,2012-08-10,984689.9000,955913.6800,Seasonal naive (52-week)
+Store 12,2012-08-17,1005003.1200,966817.2400,Seasonal naive (52-week)
+Store 12,2012-08-24,1048101.3900,1017593.4700,Seasonal naive (52-week)
+Store 12,2012-08-31,1061943.4900,1052051.4500,Seasonal naive (52-week)
+Store 12,2012-09-07,955146.0400,922850.5700,Seasonal naive (52-week)
+Store 12,2012-09-14,885892.3700,889290.2300,Seasonal naive (52-week)
+Store 12,2012-09-21,922735.3700,871692.7400,Seasonal naive (52-week)
+Store 12,2012-09-28,880415.6700,866401.4500,Seasonal naive (52-week)
+Store 12,2012-10-05,979825.9200,951244.6600,Seasonal naive (52-week)
+Store 12,2012-10-12,934917.4700,927600.0100,Seasonal naive (52-week)
+Store 12,2012-10-19,960945.4300,938604.5800,Seasonal naive (52-week)
+Store 12,2012-10-26,974697.6000,990926.3800,Seasonal naive (52-week)
+Store 12,2012-06-15,1019555.5100,1024920.2373,OLS lag + holiday + macro
+Store 12,2012-06-22,981386.2500,1038348.7810,OLS lag + holiday + macro
+Store 12,2012-06-29,943124.7400,1015058.7750,OLS lag + holiday + macro
+Store 12,2012-07-06,1014898.7800,1001527.9333,OLS lag + holiday + macro
+Store 12,2012-07-13,960312.7500,993888.4954,OLS lag + holiday + macro
+Store 12,2012-07-20,941550.3400,982363.1305,OLS lag + holiday + macro
+Store 12,2012-07-27,916967.9200,953553.9886,OLS lag + holiday + macro
+Store 12,2012-08-03,958667.2300,1033587.7330,OLS lag + holiday + macro
+Store 12,2012-08-10,984689.9000,1003323.0782,OLS lag + holiday + macro
+Store 12,2012-08-17,1005003.1200,1000053.8847,OLS lag + holiday + macro
+Store 12,2012-08-24,1048101.3900,1039566.8887,OLS lag + holiday + macro
+Store 12,2012-08-31,1061943.4900,1066889.0390,OLS lag + holiday + macro
+Store 12,2012-09-07,955146.0400,1014553.7773,OLS lag + holiday + macro
+Store 12,2012-09-14,885892.3700,936075.9465,OLS lag + holiday + macro
+Store 12,2012-09-21,922735.3700,923288.9923,OLS lag + holiday + macro
+Store 12,2012-09-28,880415.6700,930906.4874,OLS lag + holiday + macro
+Store 12,2012-10-05,979825.9200,998497.7257,OLS lag + holiday + macro
+Store 12,2012-10-12,934917.4700,945583.5679,OLS lag + holiday + macro
+Store 12,2012-10-19,960945.4300,957414.3370,OLS lag + holiday + macro
+Store 12,2012-10-26,974697.6000,1011757.5350,OLS lag + holiday + macro
+Store 13,2012-06-15,2152229.1100,2086433.4900,Seasonal naive (52-week)
+Store 13,2012-06-22,2094373.0000,2009163.0800,Seasonal naive (52-week)
+Store 13,2012-06-29,2037663.7100,2048035.7400,Seasonal naive (52-week)
+Store 13,2012-07-06,2184980.3500,2021699.3800,Seasonal naive (52-week)
+Store 13,2012-07-13,2002750.9900,1956813.3100,Seasonal naive (52-week)
+Store 13,2012-07-20,2053089.3200,1987089.3600,Seasonal naive (52-week)
+Store 13,2012-07-27,1914430.5300,1880785.6900,Seasonal naive (52-week)
+Store 13,2012-08-03,2044148.2300,2076231.8000,Seasonal naive (52-week)
+Store 13,2012-08-10,2041019.9200,1970341.3800,Seasonal naive (52-week)
+Store 13,2012-08-17,2095769.1800,2090340.9800,Seasonal naive (52-week)
+Store 13,2012-08-24,2059458.2500,2035244.5400,Seasonal naive (52-week)
+Store 13,2012-08-31,2073855.4200,1953628.8200,Seasonal naive (52-week)
+Store 13,2012-09-07,2165796.3100,1872921.3100,Seasonal naive (52-week)
+Store 13,2012-09-14,1919917.0300,1923223.8200,Seasonal naive (52-week)
+Store 13,2012-09-21,1938379.6600,1847430.9600,Seasonal naive (52-week)
+Store 13,2012-09-28,1927664.1100,1835662.6900,Seasonal naive (52-week)
+Store 13,2012-10-05,2041918.7400,2067232.5600,Seasonal naive (52-week)
+Store 13,2012-10-12,1999079.4400,1929659.0700,Seasonal naive (52-week)
+Store 13,2012-10-19,2018010.1500,1973544.2700,Seasonal naive (52-week)
+Store 13,2012-10-26,2035189.6600,1948733.8100,Seasonal naive (52-week)
+Store 13,2012-06-15,2152229.1100,2241222.4570,OLS lag + holiday + macro
+Store 13,2012-06-22,2094373.0000,2177987.9994,OLS lag + holiday + macro
+Store 13,2012-06-29,2037663.7100,2212138.5048,OLS lag + holiday + macro
+Store 13,2012-07-06,2184980.3500,2216145.4473,OLS lag + holiday + macro
+Store 13,2012-07-13,2002750.9900,2162328.0882,OLS lag + holiday + macro
+Store 13,2012-07-20,2053089.3200,2186294.2379,OLS lag + holiday + macro
+Store 13,2012-07-27,1914430.5300,2093853.3813,OLS lag + holiday + macro
+Store 13,2012-08-03,2044148.2300,2261657.5464,OLS lag + holiday + macro
+Store 13,2012-08-10,2041019.9200,2170857.3264,OLS lag + holiday + macro
+Store 13,2012-08-17,2095769.1800,2277126.6745,OLS lag + holiday + macro
+Store 13,2012-08-24,2059458.2500,2231255.5562,OLS lag + holiday + macro
+Store 13,2012-08-31,2073855.4200,2162871.6232,OLS lag + holiday + macro
+Store 13,2012-09-07,2165796.3100,2153166.1874,OLS lag + holiday + macro
+Store 13,2012-09-14,1919917.0300,2144317.0243,OLS lag + holiday + macro
+Store 13,2012-09-21,1938379.6600,2084460.7944,OLS lag + holiday + macro
+Store 13,2012-09-28,1927664.1100,2074148.8324,OLS lag + holiday + macro
+Store 13,2012-10-05,2041918.7400,2292186.7432,OLS lag + holiday + macro
+Store 13,2012-10-12,1999079.4400,2171728.9945,OLS lag + holiday + macro
+Store 13,2012-10-19,2018010.1500,2207548.0074,OLS lag + holiday + macro
+Store 13,2012-10-26,2035189.6600,2183096.2960,OLS lag + holiday + macro
+Store 14,2012-06-15,1905733.6800,2082083.3400,Seasonal naive (52-week)
+Store 14,2012-06-22,1660228.8800,2069523.5200,Seasonal naive (52-week)
+Store 14,2012-06-29,1591835.0200,2074668.1900,Seasonal naive (52-week)
+Store 14,2012-07-06,1862128.9500,2063401.0600,Seasonal naive (52-week)
+Store 14,2012-07-13,1544422.3500,1953544.7600,Seasonal naive (52-week)
+Store 14,2012-07-20,1553250.1600,1882070.8800,Seasonal naive (52-week)
+Store 14,2012-07-27,1479514.6600,1871021.0100,Seasonal naive (52-week)
+Store 14,2012-08-03,1656886.4600,2066020.6900,Seasonal naive (52-week)
+Store 14,2012-08-10,1648570.0300,1928773.8200,Seasonal naive (52-week)
+Store 14,2012-08-17,1660433.3000,1896873.9900,Seasonal naive (52-week)
+Store 14,2012-08-24,1621841.3300,2273470.6200,Seasonal naive (52-week)
+Store 14,2012-08-31,1613342.1900,1750891.4700,Seasonal naive (52-week)
+Store 14,2012-09-07,1904512.3400,2202742.9000,Seasonal naive (52-week)
+Store 14,2012-09-14,1554794.2200,1864637.8900,Seasonal naive (52-week)
+Store 14,2012-09-21,1565352.4600,1871555.6400,Seasonal naive (52-week)
+Store 14,2012-09-28,1522512.2000,1809989.2900,Seasonal naive (52-week)
+Store 14,2012-10-05,1687592.1600,2078796.7600,Seasonal naive (52-week)
+Store 14,2012-10-12,1639585.6100,1890870.7500,Seasonal naive (52-week)
+Store 14,2012-10-19,1590274.7200,2009004.5900,Seasonal naive (52-week)
+Store 14,2012-10-26,1704357.6200,2056846.1200,Seasonal naive (52-week)
+Store 14,2012-06-15,1905733.6800,2060074.2742,OLS lag + holiday + macro
+Store 14,2012-06-22,1660228.8800,2054439.7688,OLS lag + holiday + macro
+Store 14,2012-06-29,1591835.0200,2060850.3786,OLS lag + holiday + macro
+Store 14,2012-07-06,1862128.9500,2073505.8895,OLS lag + holiday + macro
+Store 14,2012-07-13,1544422.3500,1993915.4857,OLS lag + holiday + macro
+Store 14,2012-07-20,1553250.1600,1938201.0073,OLS lag + holiday + macro
+Store 14,2012-07-27,1479514.6600,1920021.9719,OLS lag + holiday + macro
+Store 14,2012-08-03,1656886.4600,2046176.2249,OLS lag + holiday + macro
+Store 14,2012-08-10,1648570.0300,1944330.9533,OLS lag + holiday + macro
+Store 14,2012-08-17,1660433.3000,1915866.5874,OLS lag + holiday + macro
+Store 14,2012-08-24,1621841.3300,2169399.0221,OLS lag + holiday + macro
+Store 14,2012-08-31,1613342.1900,1819159.5887,OLS lag + holiday + macro
+Store 14,2012-09-07,1904512.3400,2299678.5853,OLS lag + holiday + macro
+Store 14,2012-09-14,1554794.2200,1895310.0958,OLS lag + holiday + macro
+Store 14,2012-09-21,1565352.4600,1898037.2913,OLS lag + holiday + macro
+Store 14,2012-09-28,1522512.2000,1865748.5711,OLS lag + holiday + macro
+Store 14,2012-10-05,1687592.1600,2049858.3599,OLS lag + holiday + macro
+Store 14,2012-10-12,1639585.6100,1928120.0990,OLS lag + holiday + macro
+Store 14,2012-10-19,1590274.7200,2006184.5793,OLS lag + holiday + macro
+Store 14,2012-10-26,1704357.6200,2040199.0250,OLS lag + holiday + macro
+Store 15,2012-06-15,636737.6500,639928.8500,Seasonal naive (52-week)
+Store 15,2012-06-22,687085.6000,656594.9500,Seasonal naive (52-week)
+Store 15,2012-06-29,624099.4800,674669.1600,Seasonal naive (52-week)
+Store 15,2012-07-06,678024.7500,635118.4800,Seasonal naive (52-week)
+Store 15,2012-07-13,591335.5000,624114.5600,Seasonal naive (52-week)
+Store 15,2012-07-20,592369.2200,607475.4400,Seasonal naive (52-week)
+Store 15,2012-07-27,571190.8300,577511.0200,Seasonal naive (52-week)
+Store 15,2012-08-03,590739.6200,607961.2100,Seasonal naive (52-week)
+Store 15,2012-08-10,590453.6300,590836.3700,Seasonal naive (52-week)
+Store 15,2012-08-17,579738.2000,599488.9800,Seasonal naive (52-week)
+Store 15,2012-08-24,606210.7700,605413.1700,Seasonal naive (52-week)
+Store 15,2012-08-31,610185.3200,649159.6800,Seasonal naive (52-week)
+Store 15,2012-09-07,587259.8200,607593.5100,Seasonal naive (52-week)
+Store 15,2012-09-14,527509.7600,545052.3400,Seasonal naive (52-week)
+Store 15,2012-09-21,533161.6400,545570.8600,Seasonal naive (52-week)
+Store 15,2012-09-28,553901.9700,521297.3100,Seasonal naive (52-week)
+Store 15,2012-10-05,573498.6400,579068.8800,Seasonal naive (52-week)
+Store 15,2012-10-12,551799.6300,537300.9400,Seasonal naive (52-week)
+Store 15,2012-10-19,555652.7700,603318.8900,Seasonal naive (52-week)
+Store 15,2012-10-26,558473.6000,589842.6900,Seasonal naive (52-week)
+Store 15,2012-06-15,636737.6500,613176.3286,OLS lag + holiday + macro
+Store 15,2012-06-22,687085.6000,626409.3373,OLS lag + holiday + macro
+Store 15,2012-06-29,624099.4800,640849.5098,OLS lag + holiday + macro
+Store 15,2012-07-06,678024.7500,605059.7143,OLS lag + holiday + macro
+Store 15,2012-07-13,591335.5000,598237.0598,OLS lag + holiday + macro
+Store 15,2012-07-20,592369.2200,586762.1988,OLS lag + holiday + macro
+Store 15,2012-07-27,571190.8300,565544.6381,OLS lag + holiday + macro
+Store 15,2012-08-03,590739.6200,589984.1856,OLS lag + holiday + macro
+Store 15,2012-08-10,590453.6300,578145.9255,OLS lag + holiday + macro
+Store 15,2012-08-17,579738.2000,587327.1710,OLS lag + holiday + macro
+Store 15,2012-08-24,606210.7700,593786.1058,OLS lag + holiday + macro
+Store 15,2012-08-31,610185.3200,629483.4564,OLS lag + holiday + macro
+Store 15,2012-09-07,587259.8200,631551.9829,OLS lag + holiday + macro
+Store 15,2012-09-14,527509.7600,552480.4676,OLS lag + holiday + macro
+Store 15,2012-09-21,533161.6400,555753.6675,OLS lag + holiday + macro
+Store 15,2012-09-28,553901.9700,537752.8903,OLS lag + holiday + macro
+Store 15,2012-10-05,573498.6400,611966.0234,OLS lag + holiday + macro
+Store 15,2012-10-12,551799.6300,581444.5149,OLS lag + holiday + macro
+Store 15,2012-10-19,555652.7700,632808.2559,OLS lag + holiday + macro
+Store 15,2012-10-26,558473.6000,621826.7999,OLS lag + holiday + macro
+Store 16,2012-06-15,570045.7900,581546.2300,Seasonal naive (52-week)
+Store 16,2012-06-22,581745.7200,569105.0300,Seasonal naive (52-week)
+Store 16,2012-06-29,570162.2800,608737.5600,Seasonal naive (52-week)
+Store 16,2012-07-06,641763.5300,634634.6600,Seasonal naive (52-week)
+Store 16,2012-07-13,569005.0600,586841.7700,Seasonal naive (52-week)
+Store 16,2012-07-20,565297.5400,581758.2200,Seasonal naive (52-week)
+Store 16,2012-07-27,539337.8700,582381.9500,Seasonal naive (52-week)
+Store 16,2012-08-03,584000.7100,592981.3300,Seasonal naive (52-week)
+Store 16,2012-08-10,554036.8400,563884.4700,Seasonal naive (52-week)
+Store 16,2012-08-17,521896.6000,554630.4200,Seasonal naive (52-week)
+Store 16,2012-08-24,551152.1500,557312.0100,Seasonal naive (52-week)
+Store 16,2012-08-31,551837.3100,580805.3300,Seasonal naive (52-week)
+Store 16,2012-09-07,537138.5800,574622.5600,Seasonal naive (52-week)
+Store 16,2012-09-14,526525.1600,539081.0900,Seasonal naive (52-week)
+Store 16,2012-09-21,509942.5600,504856.9700,Seasonal naive (52-week)
+Store 16,2012-09-28,469607.7300,450075.3100,Seasonal naive (52-week)
+Store 16,2012-10-05,471281.6800,482926.9300,Seasonal naive (52-week)
+Store 16,2012-10-12,491817.1900,498241.0600,Seasonal naive (52-week)
+Store 16,2012-10-19,577198.9700,560104.1600,Seasonal naive (52-week)
+Store 16,2012-10-26,475770.1400,505918.2100,Seasonal naive (52-week)
+Store 16,2012-06-15,570045.7900,612141.5434,OLS lag + holiday + macro
+Store 16,2012-06-22,581745.7200,601645.0514,OLS lag + holiday + macro
+Store 16,2012-06-29,570162.2800,637903.6267,OLS lag + holiday + macro
+Store 16,2012-07-06,641763.5300,658150.7015,OLS lag + holiday + macro
+Store 16,2012-07-13,569005.0600,614620.3153,OLS lag + holiday + macro
+Store 16,2012-07-20,565297.5400,610208.2383,OLS lag + holiday + macro
+Store 16,2012-07-27,539337.8700,611220.0534,OLS lag + holiday + macro
+Store 16,2012-08-03,584000.7100,620924.9279,OLS lag + holiday + macro
+Store 16,2012-08-10,554036.8400,594700.4196,OLS lag + holiday + macro
+Store 16,2012-08-17,521896.6000,587566.0174,OLS lag + holiday + macro
+Store 16,2012-08-24,551152.1500,591038.0140,OLS lag + holiday + macro
+Store 16,2012-08-31,551837.3100,613300.2968,OLS lag + holiday + macro
+Store 16,2012-09-07,537138.5800,638481.2361,OLS lag + holiday + macro
+Store 16,2012-09-14,526525.1600,578325.1981,OLS lag + holiday + macro
+Store 16,2012-09-21,509942.5600,548917.9135,OLS lag + holiday + macro
+Store 16,2012-09-28,469607.7300,499416.9289,OLS lag + holiday + macro
+Store 16,2012-10-05,471281.6800,522813.0407,OLS lag + holiday + macro
+Store 16,2012-10-12,491817.1900,536718.5273,OLS lag + holiday + macro
+Store 16,2012-10-19,577198.9700,593684.4572,OLS lag + holiday + macro
+Store 16,2012-10-26,475770.1400,543753.7229,OLS lag + holiday + macro
+Store 17,2012-06-15,964169.6700,894686.6700,Seasonal naive (52-week)
+Store 17,2012-06-22,981210.5700,920719.9800,Seasonal naive (52-week)
+Store 17,2012-06-29,982322.2400,940554.3400,Seasonal naive (52-week)
+Store 17,2012-07-06,1046782.5200,915064.2200,Seasonal naive (52-week)
+Store 17,2012-07-13,960746.0400,902727.7600,Seasonal naive (52-week)
+Store 17,2012-07-20,944698.7000,899044.3400,Seasonal naive (52-week)
+Store 17,2012-07-27,907493.2400,861894.7700,Seasonal naive (52-week)
+Store 17,2012-08-03,877813.3300,866184.9200,Seasonal naive (52-week)
+Store 17,2012-08-10,849074.0400,800819.7900,Seasonal naive (52-week)
+Store 17,2012-08-17,844928.1700,797523.0400,Seasonal naive (52-week)
+Store 17,2012-08-24,924299.7800,837390.7900,Seasonal naive (52-week)
+Store 17,2012-08-31,865924.2000,847380.0700,Seasonal naive (52-week)
+Store 17,2012-09-07,1255633.2900,1161900.1800,Seasonal naive (52-week)
+Store 17,2012-09-14,1071040.2200,1051116.9500,Seasonal naive (52-week)
+Store 17,2012-09-21,938303.2800,895535.3100,Seasonal naive (52-week)
+Store 17,2012-09-28,972716.2400,868191.0500,Seasonal naive (52-week)
+Store 17,2012-10-05,952609.1700,918006.9000,Seasonal naive (52-week)
+Store 17,2012-10-12,919878.3400,884042.6300,Seasonal naive (52-week)
+Store 17,2012-10-19,957356.8400,877380.2200,Seasonal naive (52-week)
+Store 17,2012-10-26,943465.2900,936508.4300,Seasonal naive (52-week)
+Store 17,2012-06-15,964169.6700,989046.4441,OLS lag + holiday + macro
+Store 17,2012-06-22,981210.5700,1012667.6429,OLS lag + holiday + macro
+Store 17,2012-06-29,982322.2400,1030221.1114,OLS lag + holiday + macro
+Store 17,2012-07-06,1046782.5200,1011856.2601,OLS lag + holiday + macro
+Store 17,2012-07-13,960746.0400,1001828.6050,OLS lag + holiday + macro
+Store 17,2012-07-20,944698.7000,999078.4271,OLS lag + holiday + macro
+Store 17,2012-07-27,907493.2400,967602.7317,OLS lag + holiday + macro
+Store 17,2012-08-03,877813.3300,972040.9532,OLS lag + holiday + macro
+Store 17,2012-08-10,849074.0400,916330.7408,OLS lag + holiday + macro
+Store 17,2012-08-17,844928.1700,915241.3610,OLS lag + holiday + macro
+Store 17,2012-08-24,924299.7800,951655.0755,OLS lag + holiday + macro
+Store 17,2012-08-31,865924.2000,962186.8478,OLS lag + holiday + macro
+Store 17,2012-09-07,1255633.2900,1270178.1098,OLS lag + holiday + macro
+Store 17,2012-09-14,1071040.2200,1143752.3344,OLS lag + holiday + macro
+Store 17,2012-09-21,938303.2800,1010947.2381,OLS lag + holiday + macro
+Store 17,2012-09-28,972716.2400,988299.1985,OLS lag + holiday + macro
+Store 17,2012-10-05,952609.1700,1037255.7506,OLS lag + holiday + macro
+Store 17,2012-10-12,919878.3400,1008522.5803,OLS lag + holiday + macro
+Store 17,2012-10-19,957356.8400,1003531.9485,OLS lag + holiday + macro
+Store 17,2012-10-26,943465.2900,1055545.6851,OLS lag + holiday + macro
+Store 18,2012-06-15,1057425.8300,1045859.3900,Seasonal naive (52-week)
+Store 18,2012-06-22,1080357.8900,1056478.6500,Seasonal naive (52-week)
+Store 18,2012-06-29,1097006.3000,1087051.2600,Seasonal naive (52-week)
+Store 18,2012-07-06,1158247.3100,1048802.6200,Seasonal naive (52-week)
+Store 18,2012-07-13,1024784.9200,974916.1300,Seasonal naive (52-week)
+Store 18,2012-07-20,1033543.5600,991262.4600,Seasonal naive (52-week)
+Store 18,2012-07-27,924506.2600,954148.6400,Seasonal naive (52-week)
+Store 18,2012-08-03,1052066.5800,1002806.3900,Seasonal naive (52-week)
+Store 18,2012-08-10,967304.0700,928470.8300,Seasonal naive (52-week)
+Store 18,2012-08-17,1048134.2400,932679.7900,Seasonal naive (52-week)
+Store 18,2012-08-24,1145840.9100,1147906.4600,Seasonal naive (52-week)
+Store 18,2012-08-31,1117097.2300,540922.9400,Seasonal naive (52-week)
+Store 18,2012-09-07,1083521.2400,951549.6100,Seasonal naive (52-week)
+Store 18,2012-09-14,960476.1000,845715.3700,Seasonal naive (52-week)
+Store 18,2012-09-21,971386.6500,853073.1700,Seasonal naive (52-week)
+Store 18,2012-09-28,1002856.2000,847348.0800,Seasonal naive (52-week)
+Store 18,2012-10-05,1092204.7900,1019741.1000,Seasonal naive (52-week)
+Store 18,2012-10-12,1074079.0000,953533.9500,Seasonal naive (52-week)
+Store 18,2012-10-19,1048706.7500,1048212.6200,Seasonal naive (52-week)
+Store 18,2012-10-26,1127516.2500,1106642.6300,Seasonal naive (52-week)
+Store 18,2012-06-15,1057425.8300,1099922.1651,OLS lag + holiday + macro
+Store 18,2012-06-22,1080357.8900,1113284.7906,OLS lag + holiday + macro
+Store 18,2012-06-29,1097006.3000,1142970.2395,OLS lag + holiday + macro
+Store 18,2012-07-06,1158247.3100,1087283.8687,OLS lag + holiday + macro
+Store 18,2012-07-13,1024784.9200,1030754.2819,OLS lag + holiday + macro
+Store 18,2012-07-20,1033543.5600,1054084.7299,OLS lag + holiday + macro
+Store 18,2012-07-27,924506.2600,1033259.7212,OLS lag + holiday + macro
+Store 18,2012-08-03,1052066.5800,1083515.1995,OLS lag + holiday + macro
+Store 18,2012-08-10,967304.0700,1032359.3265,OLS lag + holiday + macro
+Store 18,2012-08-17,1048134.2400,1038543.6359,OLS lag + holiday + macro
+Store 18,2012-08-24,1145840.9100,1212565.1152,OLS lag + holiday + macro
+Store 18,2012-08-31,1117097.2300,713457.1377,OLS lag + holiday + macro
+Store 18,2012-09-07,1083521.2400,1112030.2154,OLS lag + holiday + macro
+Store 18,2012-09-14,960476.1000,958404.9307,OLS lag + holiday + macro
+Store 18,2012-09-21,971386.6500,962836.0633,OLS lag + holiday + macro
+Store 18,2012-09-28,1002856.2000,957498.5088,OLS lag + holiday + macro
+Store 18,2012-10-05,1092204.7900,1134135.8773,OLS lag + holiday + macro
+Store 18,2012-10-12,1074079.0000,1078910.1687,OLS lag + holiday + macro
+Store 18,2012-10-19,1048706.7500,1171821.7038,OLS lag + holiday + macro
+Store 18,2012-10-26,1127516.2500,1238213.3517,OLS lag + holiday + macro
+Store 19,2012-06-15,1440263.1500,1418973.6200,Seasonal naive (52-week)
+Store 19,2012-06-22,1468350.3600,1440785.7000,Seasonal naive (52-week)
+Store 19,2012-06-29,1379652.6500,1462731.9300,Seasonal naive (52-week)
+Store 19,2012-07-06,1557120.4400,1465489.7500,Seasonal naive (52-week)
+Store 19,2012-07-13,1321741.3500,1391580.4100,Seasonal naive (52-week)
+Store 19,2012-07-20,1317672.9200,1377119.4500,Seasonal naive (52-week)
+Store 19,2012-07-27,1248915.4300,1298775.8000,Seasonal naive (52-week)
+Store 19,2012-08-03,1342123.7800,1408968.5500,Seasonal naive (52-week)
+Store 19,2012-08-10,1408907.8900,1360969.4500,Seasonal naive (52-week)
+Store 19,2012-08-17,1375101.2600,1391792.6900,Seasonal naive (52-week)
+Store 19,2012-08-24,1544653.3700,1547729.2400,Seasonal naive (52-week)
+Store 19,2012-08-31,1542719.8700,1609951.0200,Seasonal naive (52-week)
+Store 19,2012-09-07,1497073.8200,1566712.7900,Seasonal naive (52-week)
+Store 19,2012-09-14,1370653.4100,1365633.5300,Seasonal naive (52-week)
+Store 19,2012-09-21,1338572.2900,1300375.7600,Seasonal naive (52-week)
+Store 19,2012-09-28,1338299.0200,1330757.2200,Seasonal naive (52-week)
+Store 19,2012-10-05,1408016.1000,1461718.8700,Seasonal naive (52-week)
+Store 19,2012-10-12,1352809.5000,1318905.5300,Seasonal naive (52-week)
+Store 19,2012-10-19,1321102.3500,1374863.1000,Seasonal naive (52-week)
+Store 19,2012-10-26,1322117.9600,1396612.3600,Seasonal naive (52-week)
+Store 19,2012-06-15,1440263.1500,1425392.4467,OLS lag + holiday + macro
+Store 19,2012-06-22,1468350.3600,1447887.6594,OLS lag + holiday + macro
+Store 19,2012-06-29,1379652.6500,1469996.5045,OLS lag + holiday + macro
+Store 19,2012-07-06,1557120.4400,1467043.7033,OLS lag + holiday + macro
+Store 19,2012-07-13,1321741.3500,1407425.6660,OLS lag + holiday + macro
+Store 19,2012-07-20,1317672.9200,1393005.0397,OLS lag + holiday + macro
+Store 19,2012-07-27,1248915.4300,1325230.9056,OLS lag + holiday + macro
+Store 19,2012-08-03,1342123.7800,1412517.6784,OLS lag + holiday + macro
+Store 19,2012-08-10,1408907.8900,1371326.5999,OLS lag + holiday + macro
+Store 19,2012-08-17,1375101.2600,1392304.8358,OLS lag + holiday + macro
+Store 19,2012-08-24,1544653.3700,1518400.0178,OLS lag + holiday + macro
+Store 19,2012-08-31,1542719.8700,1570118.3482,OLS lag + holiday + macro
+Store 19,2012-09-07,1497073.8200,1600379.9694,OLS lag + holiday + macro
+Store 19,2012-09-14,1370653.4100,1379542.8258,OLS lag + holiday + macro
+Store 19,2012-09-21,1338572.2900,1324671.7097,OLS lag + holiday + macro
+Store 19,2012-09-28,1338299.0200,1354752.9391,OLS lag + holiday + macro
+Store 19,2012-10-05,1408016.1000,1499861.5283,OLS lag + holiday + macro
+Store 19,2012-10-12,1352809.5000,1387595.8145,OLS lag + holiday + macro
+Store 19,2012-10-19,1321102.3500,1431784.8481,OLS lag + holiday + macro
+Store 19,2012-10-26,1322117.9600,1450475.0999,OLS lag + holiday + macro
+Store 20,2012-06-15,2165160.2900,2065191.2700,Seasonal naive (52-week)
+Store 20,2012-06-22,2060588.6900,1950826.3200,Seasonal naive (52-week)
+Store 20,2012-06-29,2055952.6100,2053165.4100,Seasonal naive (52-week)
+Store 20,2012-07-06,2358055.3000,2123787.7900,Seasonal naive (52-week)
+Store 20,2012-07-13,2134680.1200,2039875.7500,Seasonal naive (52-week)
+Store 20,2012-07-20,1970170.2900,1950904.8400,Seasonal naive (52-week)
+Store 20,2012-07-27,1911559.1000,1858440.9200,Seasonal naive (52-week)
+Store 20,2012-08-03,2094515.7100,2189353.6300,Seasonal naive (52-week)
+Store 20,2012-08-10,2144245.3900,2052246.4000,Seasonal naive (52-week)
+Store 20,2012-08-17,2045061.2200,1990017.9300,Seasonal naive (52-week)
+Store 20,2012-08-24,2005341.4300,1933577.2000,Seasonal naive (52-week)
+Store 20,2012-08-31,2062481.5600,2141765.9800,Seasonal naive (52-week)
+Store 20,2012-09-07,2080529.0600,2050542.5600,Seasonal naive (52-week)
+Store 20,2012-09-14,2047949.9800,1979009.4600,Seasonal naive (52-week)
+Store 20,2012-09-21,2028587.2400,1888119.7000,Seasonal naive (52-week)
+Store 20,2012-09-28,2008350.5800,1945808.2600,Seasonal naive (52-week)
+Store 20,2012-10-05,2246411.8900,2135982.7900,Seasonal naive (52-week)
+Store 20,2012-10-12,2162951.3600,2010107.6800,Seasonal naive (52-week)
+Store 20,2012-10-19,1999363.4900,2104241.9000,Seasonal naive (52-week)
+Store 20,2012-10-26,2031650.5500,2065421.5200,Seasonal naive (52-week)
+Store 20,2012-06-15,2165160.2900,2139183.8164,OLS lag + holiday + macro
+Store 20,2012-06-22,2060588.6900,2056429.9857,OLS lag + holiday + macro
+Store 20,2012-06-29,2055952.6100,2136275.9611,OLS lag + holiday + macro
+Store 20,2012-07-06,2358055.3000,2174527.8596,OLS lag + holiday + macro
+Store 20,2012-07-13,2134680.1200,2110262.0493,OLS lag + holiday + macro
+Store 20,2012-07-20,1970170.2900,2042228.3338,OLS lag + holiday + macro
+Store 20,2012-07-27,1911559.1000,1970069.2856,OLS lag + holiday + macro
+Store 20,2012-08-03,2094515.7100,2218472.8650,OLS lag + holiday + macro
+Store 20,2012-08-10,2144245.3900,2113335.7034,OLS lag + holiday + macro
+Store 20,2012-08-17,2045061.2200,2063928.6046,OLS lag + holiday + macro
+Store 20,2012-08-24,2005341.4300,2021502.5664,OLS lag + holiday + macro
+Store 20,2012-08-31,2062481.5600,2177283.1954,OLS lag + holiday + macro
+Store 20,2012-09-07,2080529.0600,2241683.3191,OLS lag + holiday + macro
+Store 20,2012-09-14,2047949.9800,2053931.1831,OLS lag + holiday + macro
+Store 20,2012-09-21,2028587.2400,1983265.8221,OLS lag + holiday + macro
+Store 20,2012-09-28,2008350.5800,2029505.3753,OLS lag + holiday + macro
+Store 20,2012-10-05,2246411.8900,2172351.3895,OLS lag + holiday + macro
+Store 20,2012-10-12,2162951.3600,2078585.9478,OLS lag + holiday + macro
+Store 20,2012-10-19,1999363.4900,2151112.5879,OLS lag + holiday + macro
+Store 20,2012-10-26,2031650.5500,2126168.3872,OLS lag + holiday + macro
+Store 21,2012-06-15,727049.0400,823220.4300,Seasonal naive (52-week)
+Store 21,2012-06-22,735870.0000,771298.9800,Seasonal naive (52-week)
+Store 21,2012-06-29,716341.3900,784639.1200,Seasonal naive (52-week)
+Store 21,2012-07-06,693013.5900,734099.4000,Seasonal naive (52-week)
+Store 21,2012-07-13,668132.3600,728311.1500,Seasonal naive (52-week)
+Store 21,2012-07-20,691200.3300,784490.6700,Seasonal naive (52-week)
+Store 21,2012-07-27,677789.1400,751167.1200,Seasonal naive (52-week)
+Store 21,2012-08-03,693785.8500,783614.8900,Seasonal naive (52-week)
+Store 21,2012-08-10,700272.0100,776933.3700,Seasonal naive (52-week)
+Store 21,2012-08-17,751963.8100,855546.5000,Seasonal naive (52-week)
+Store 21,2012-08-24,802003.6100,821127.5300,Seasonal naive (52-week)
+Store 21,2012-08-31,763867.5900,705557.8000,Seasonal naive (52-week)
+Store 21,2012-09-07,642827.2900,653989.6500,Seasonal naive (52-week)
+Store 21,2012-09-14,628494.6300,653525.8400,Seasonal naive (52-week)
+Store 21,2012-09-21,667151.4600,681913.2900,Seasonal naive (52-week)
+Store 21,2012-09-28,647097.6500,651970.4800,Seasonal naive (52-week)
+Store 21,2012-10-05,651768.9100,663452.4600,Seasonal naive (52-week)
+Store 21,2012-10-12,653043.4400,671379.4400,Seasonal naive (52-week)
+Store 21,2012-10-19,641368.1400,729036.0600,Seasonal naive (52-week)
+Store 21,2012-10-26,675202.8700,738812.0000,Seasonal naive (52-week)
+Store 21,2012-06-15,727049.0400,759985.3689,OLS lag + holiday + macro
+Store 21,2012-06-22,735870.0000,720600.1732,OLS lag + holiday + macro
+Store 21,2012-06-29,716341.3900,729635.6586,OLS lag + holiday + macro
+Store 21,2012-07-06,693013.5900,642446.8759,OLS lag + holiday + macro
+Store 21,2012-07-13,668132.3600,636983.2889,OLS lag + holiday + macro
+Store 21,2012-07-20,691200.3300,676228.3356,OLS lag + holiday + macro
+Store 21,2012-07-27,677789.1400,648983.3398,OLS lag + holiday + macro
+Store 21,2012-08-03,693785.8500,670799.7576,OLS lag + holiday + macro
+Store 21,2012-08-10,700272.0100,663371.0704,OLS lag + holiday + macro
+Store 21,2012-08-17,751963.8100,721704.1010,OLS lag + holiday + macro
+Store 21,2012-08-24,802003.6100,698259.2289,OLS lag + holiday + macro
+Store 21,2012-08-31,763867.5900,614774.6026,OLS lag + holiday + macro
+Store 21,2012-09-07,642827.2900,616730.1317,OLS lag + holiday + macro
+Store 21,2012-09-14,628494.6300,580747.5921,OLS lag + holiday + macro
+Store 21,2012-09-21,667151.4600,606379.2465,OLS lag + holiday + macro
+Store 21,2012-09-28,647097.6500,588987.2347,OLS lag + holiday + macro
+Store 21,2012-10-05,651768.9100,543064.0774,OLS lag + holiday + macro
+Store 21,2012-10-12,653043.4400,553601.8420,OLS lag + holiday + macro
+Store 21,2012-10-19,641368.1400,595445.0475,OLS lag + holiday + macro
+Store 21,2012-10-26,675202.8700,601168.8216,OLS lag + holiday + macro
+Store 22,2012-06-15,1061219.1900,1042454.6100,Seasonal naive (52-week)
+Store 22,2012-06-22,1112449.3000,1012584.2000,Seasonal naive (52-week)
+Store 22,2012-06-29,1053881.7800,1077491.6800,Seasonal naive (52-week)
+Store 22,2012-07-06,1097786.1400,1017050.6500,Seasonal naive (52-week)
+Store 22,2012-07-13,971361.3800,961953.5700,Seasonal naive (52-week)
+Store 22,2012-07-20,991969.3700,964683.8000,Seasonal naive (52-week)
+Store 22,2012-07-27,925731.2100,944958.6900,Seasonal naive (52-week)
+Store 22,2012-08-03,1007257.8300,983232.9600,Seasonal naive (52-week)
+Store 22,2012-08-10,973812.7900,991779.2000,Seasonal naive (52-week)
+Store 22,2012-08-17,981273.2600,973004.9100,Seasonal naive (52-week)
+Store 22,2012-08-24,1060906.7500,1181815.3100,Seasonal naive (52-week)
+Store 22,2012-08-31,1022270.8600,912762.7600,Seasonal naive (52-week)
+Store 22,2012-09-07,996628.8000,1004434.5400,Seasonal naive (52-week)
+Store 22,2012-09-14,918049.2800,937420.6500,Seasonal naive (52-week)
+Store 22,2012-09-21,921612.5300,899834.7500,Seasonal naive (52-week)
+Store 22,2012-09-28,976479.5100,953314.1600,Seasonal naive (52-week)
+Store 22,2012-10-05,1009887.3600,993436.6700,Seasonal naive (52-week)
+Store 22,2012-10-12,1004039.8400,944337.3200,Seasonal naive (52-week)
+Store 22,2012-10-19,978027.9500,981567.2200,Seasonal naive (52-week)
+Store 22,2012-10-26,1094422.6900,1099351.6800,Seasonal naive (52-week)
+Store 22,2012-06-15,1061219.1900,1046011.1551,OLS lag + holiday + macro
+Store 22,2012-06-22,1112449.3000,1021823.9027,OLS lag + holiday + macro
+Store 22,2012-06-29,1053881.7800,1074657.1106,OLS lag + holiday + macro
+Store 22,2012-07-06,1097786.1400,1022048.7833,OLS lag + holiday + macro
+Store 22,2012-07-13,971361.3800,977479.8661,OLS lag + holiday + macro
+Store 22,2012-07-20,991969.3700,979979.9251,OLS lag + holiday + macro
+Store 22,2012-07-27,925731.2100,964296.7991,OLS lag + holiday + macro
+Store 22,2012-08-03,1007257.8300,995600.7493,OLS lag + holiday + macro
+Store 22,2012-08-10,973812.7900,1002865.1875,OLS lag + holiday + macro
+Store 22,2012-08-17,981273.2600,987871.2958,OLS lag + holiday + macro
+Store 22,2012-08-24,1060906.7500,1157726.6803,OLS lag + holiday + macro
+Store 22,2012-08-31,1022270.8600,939229.4480,OLS lag + holiday + macro
+Store 22,2012-09-07,996628.8000,1082487.2339,OLS lag + holiday + macro
+Store 22,2012-09-14,918049.2800,959670.8603,OLS lag + holiday + macro
+Store 22,2012-09-21,921612.5300,929360.7985,OLS lag + holiday + macro
+Store 22,2012-09-28,976479.5100,972889.1448,OLS lag + holiday + macro
+Store 22,2012-10-05,1009887.3600,1014860.1763,OLS lag + holiday + macro
+Store 22,2012-10-12,1004039.8400,975093.2368,OLS lag + holiday + macro
+Store 22,2012-10-19,978027.9500,1005547.4895,OLS lag + holiday + macro
+Store 22,2012-10-26,1094422.6900,1101397.9861,OLS lag + holiday + macro
+Store 23,2012-06-15,1543667.6800,1470520.8300,Seasonal naive (52-week)
+Store 23,2012-06-22,1522042.5700,1434036.1800,Seasonal naive (52-week)
+Store 23,2012-06-29,1451782.1600,1492507.4400,Seasonal naive (52-week)
+Store 23,2012-07-06,1545370.1600,1379488.0500,Seasonal naive (52-week)
+Store 23,2012-07-13,1384921.6300,1360520.5600,Seasonal naive (52-week)
+Store 23,2012-07-20,1381339.2300,1362144.0000,Seasonal naive (52-week)
+Store 23,2012-07-27,1322932.3600,1319767.5500,Seasonal naive (52-week)
+Store 23,2012-08-03,1416926.3100,1416344.6800,Seasonal naive (52-week)
+Store 23,2012-08-10,1436311.7600,1380952.0500,Seasonal naive (52-week)
+Store 23,2012-08-17,1510131.4500,1453416.5300,Seasonal naive (52-week)
+Store 23,2012-08-24,1702220.9600,1637266.2900,Seasonal naive (52-week)
+Store 23,2012-08-31,1577468.7800,1464295.6900,Seasonal naive (52-week)
+Store 23,2012-09-07,1427162.2600,1423289.9000,Seasonal naive (52-week)
+Store 23,2012-09-14,1279041.6400,1253329.1700,Seasonal naive (52-week)
+Store 23,2012-09-21,1338627.5500,1289082.8100,Seasonal naive (52-week)
+Store 23,2012-09-28,1319035.0600,1275597.8500,Seasonal naive (52-week)
+Store 23,2012-10-05,1464616.5900,1463501.9900,Seasonal naive (52-week)
+Store 23,2012-10-12,1412925.2500,1257778.3400,Seasonal naive (52-week)
+Store 23,2012-10-19,1363155.7700,1441032.5900,Seasonal naive (52-week)
+Store 23,2012-10-26,1347454.5900,1407191.9600,Seasonal naive (52-week)
+Store 23,2012-06-15,1543667.6800,1503228.0716,OLS lag + holiday + macro
+Store 23,2012-06-22,1522042.5700,1476856.3677,OLS lag + holiday + macro
+Store 23,2012-06-29,1451782.1600,1526080.9365,OLS lag + holiday + macro
+Store 23,2012-07-06,1545370.1600,1437646.4463,OLS lag + holiday + macro
+Store 23,2012-07-13,1384921.6300,1416979.2251,OLS lag + holiday + macro
+Store 23,2012-07-20,1381339.2300,1398907.4806,OLS lag + holiday + macro
+Store 23,2012-07-27,1322932.3600,1341190.0236,OLS lag + holiday + macro
+Store 23,2012-08-03,1416926.3100,1404520.2009,OLS lag + holiday + macro
+Store 23,2012-08-10,1436311.7600,1354206.7825,OLS lag + holiday + macro
+Store 23,2012-08-17,1510131.4500,1403196.4728,OLS lag + holiday + macro
+Store 23,2012-08-24,1702220.9600,1554180.7720,OLS lag + holiday + macro
+Store 23,2012-08-31,1577468.7800,1422866.1687,OLS lag + holiday + macro
+Store 23,2012-09-07,1427162.2600,1415608.7321,OLS lag + holiday + macro
+Store 23,2012-09-14,1279041.6400,1258724.0736,OLS lag + holiday + macro
+Store 23,2012-09-21,1338627.5500,1286127.9528,OLS lag + holiday + macro
+Store 23,2012-09-28,1319035.0600,1285620.2318,OLS lag + holiday + macro
+Store 23,2012-10-05,1464616.5900,1440611.6434,OLS lag + holiday + macro
+Store 23,2012-10-12,1412925.2500,1282321.6660,OLS lag + holiday + macro
+Store 23,2012-10-19,1363155.7700,1409206.3116,OLS lag + holiday + macro
+Store 23,2012-10-26,1347454.5900,1363787.5561,OLS lag + holiday + macro
+Store 24,2012-06-15,1364445.9800,1320359.2300,Seasonal naive (52-week)
+Store 24,2012-06-22,1434709.6300,1304850.6700,Seasonal naive (52-week)
+Store 24,2012-06-29,1428869.9000,1445596.6100,Seasonal naive (52-week)
+Store 24,2012-07-06,1645097.7500,1567340.0700,Seasonal naive (52-week)
+Store 24,2012-07-13,1405475.7800,1356938.9500,Seasonal naive (52-week)
+Store 24,2012-07-20,1394299.0000,1357672.2400,Seasonal naive (52-week)
+Store 24,2012-07-27,1307339.1400,1310973.0600,Seasonal naive (52-week)
+Store 24,2012-08-03,1440374.1300,1417616.8100,Seasonal naive (52-week)
+Store 24,2012-08-10,1497054.8100,1402818.0100,Seasonal naive (52-week)
+Store 24,2012-08-17,1397970.5400,1352039.8800,Seasonal naive (52-week)
+Store 24,2012-08-24,1303726.5400,1402372.0900,Seasonal naive (52-week)
+Store 24,2012-08-31,1344558.9200,1196105.4400,Seasonal naive (52-week)
+Store 24,2012-09-07,1477134.7500,1527455.1900,Seasonal naive (52-week)
+Store 24,2012-09-14,1242909.5300,1227535.9700,Seasonal naive (52-week)
+Store 24,2012-09-21,1261158.4700,1232376.4900,Seasonal naive (52-week)
+Store 24,2012-09-28,1259278.3600,1246242.6100,Seasonal naive (52-week)
+Store 24,2012-10-05,1416720.5400,1405914.3900,Seasonal naive (52-week)
+Store 24,2012-10-12,1416301.1700,1333315.0300,Seasonal naive (52-week)
+Store 24,2012-10-19,1255414.8400,1283563.4300,Seasonal naive (52-week)
+Store 24,2012-10-26,1307182.2900,1307142.7500,Seasonal naive (52-week)
+Store 24,2012-06-15,1364445.9800,1346817.3268,OLS lag + holiday + macro
+Store 24,2012-06-22,1434709.6300,1338718.5350,OLS lag + holiday + macro
+Store 24,2012-06-29,1428869.9000,1445165.3680,OLS lag + holiday + macro
+Store 24,2012-07-06,1645097.7500,1538051.5792,OLS lag + holiday + macro
+Store 24,2012-07-13,1405475.7800,1382440.0920,OLS lag + holiday + macro
+Store 24,2012-07-20,1394299.0000,1379473.1319,OLS lag + holiday + macro
+Store 24,2012-07-27,1307339.1400,1339860.4091,OLS lag + holiday + macro
+Store 24,2012-08-03,1440374.1300,1416500.7269,OLS lag + holiday + macro
+Store 24,2012-08-10,1497054.8100,1402073.2475,OLS lag + holiday + macro
+Store 24,2012-08-17,1397970.5400,1361953.3732,OLS lag + holiday + macro
+Store 24,2012-08-24,1303726.5400,1400997.6145,OLS lag + holiday + macro
+Store 24,2012-08-31,1344558.9200,1251552.6613,OLS lag + holiday + macro
+Store 24,2012-09-07,1477134.7500,1571023.3658,OLS lag + holiday + macro
+Store 24,2012-09-14,1242909.5300,1278909.9218,OLS lag + holiday + macro
+Store 24,2012-09-21,1261158.4700,1280923.5389,OLS lag + holiday + macro
+Store 24,2012-09-28,1259278.3600,1295857.0653,OLS lag + holiday + macro
+Store 24,2012-10-05,1416720.5400,1431660.6319,OLS lag + holiday + macro
+Store 24,2012-10-12,1416301.1700,1379871.7155,OLS lag + holiday + macro
+Store 24,2012-10-19,1255414.8400,1340771.6888,OLS lag + holiday + macro
+Store 24,2012-10-26,1307182.2900,1356388.1301,OLS lag + holiday + macro
+Store 25,2012-06-15,753860.8900,717373.4300,Seasonal naive (52-week)
+Store 25,2012-06-22,721601.9000,699270.1000,Seasonal naive (52-week)
+Store 25,2012-06-29,718890.8100,706206.8600,Seasonal naive (52-week)
+Store 25,2012-07-06,753385.5500,698529.6400,Seasonal naive (52-week)
+Store 25,2012-07-13,714093.9500,680510.2300,Seasonal naive (52-week)
+Store 25,2012-07-20,685676.5800,670854.9600,Seasonal naive (52-week)
+Store 25,2012-07-27,659109.5300,668390.8200,Seasonal naive (52-week)
+Store 25,2012-08-03,709724.6000,679706.0100,Seasonal naive (52-week)
+Store 25,2012-08-10,710496.9700,667130.4800,Seasonal naive (52-week)
+Store 25,2012-08-17,728467.7200,688958.7500,Seasonal naive (52-week)
+Store 25,2012-08-24,756527.6400,726422.5500,Seasonal naive (52-week)
+Store 25,2012-08-31,714828.7300,699779.0000,Seasonal naive (52-week)
+Store 25,2012-09-07,671482.9000,673248.4800,Seasonal naive (52-week)
+Store 25,2012-09-14,657241.6300,628720.4600,Seasonal naive (52-week)
+Store 25,2012-09-21,664745.2000,620885.9300,Seasonal naive (52-week)
+Store 25,2012-09-28,683300.8400,639160.2400,Seasonal naive (52-week)
+Store 25,2012-10-05,699536.7300,671522.8700,Seasonal naive (52-week)
+Store 25,2012-10-12,697317.4100,646915.4700,Seasonal naive (52-week)
+Store 25,2012-10-19,685531.8500,690675.5000,Seasonal naive (52-week)
+Store 25,2012-10-26,688940.9400,724443.9700,Seasonal naive (52-week)
+Store 25,2012-06-15,753860.8900,743768.5297,OLS lag + holiday + macro
+Store 25,2012-06-22,721601.9000,729642.3922,OLS lag + holiday + macro
+Store 25,2012-06-29,718890.8100,737202.3797,OLS lag + holiday + macro
+Store 25,2012-07-06,753385.5500,716744.9951,OLS lag + holiday + macro
+Store 25,2012-07-13,714093.9500,703038.3407,OLS lag + holiday + macro
+Store 25,2012-07-20,685676.5800,696991.0283,OLS lag + holiday + macro
+Store 25,2012-07-27,659109.5300,697293.5929,OLS lag + holiday + macro
+Store 25,2012-08-03,709724.6000,709290.0873,OLS lag + holiday + macro
+Store 25,2012-08-10,710496.9700,700792.9141,OLS lag + holiday + macro
+Store 25,2012-08-17,728467.7200,721293.4380,OLS lag + holiday + macro
+Store 25,2012-08-24,756527.6400,754498.1450,OLS lag + holiday + macro
+Store 25,2012-08-31,714828.7300,732185.2168,OLS lag + holiday + macro
+Store 25,2012-09-07,671482.9000,747039.8561,OLS lag + holiday + macro
+Store 25,2012-09-14,657241.6300,672114.1170,OLS lag + holiday + macro
+Store 25,2012-09-21,664745.2000,665589.6863,OLS lag + holiday + macro
+Store 25,2012-09-28,683300.8400,681247.1209,OLS lag + holiday + macro
+Store 25,2012-10-05,699536.7300,707782.0928,OLS lag + holiday + macro
+Store 25,2012-10-12,697317.4100,686476.8643,OLS lag + holiday + macro
+Store 25,2012-10-19,685531.8500,726138.8150,OLS lag + holiday + macro
+Store 25,2012-10-26,688940.9400,757273.5104,OLS lag + holiday + macro
+Store 26,2012-06-15,1029248.2200,981646.4600,Seasonal naive (52-week)
+Store 26,2012-06-22,1056282.9100,997474.9300,Seasonal naive (52-week)
+Store 26,2012-06-29,1051190.4400,1070119.0900,Seasonal naive (52-week)
+Store 26,2012-07-06,1180470.8000,1133807.0300,Seasonal naive (52-week)
+Store 26,2012-07-13,1063149.7800,1021534.7000,Seasonal naive (52-week)
+Store 26,2012-07-20,1049625.9000,1017867.8000,Seasonal naive (52-week)
+Store 26,2012-07-27,1031745.1400,1005360.5000,Seasonal naive (52-week)
+Store 26,2012-08-03,1090915.0900,1107552.4300,Seasonal naive (52-week)
+Store 26,2012-08-10,1121476.5100,1087644.5000,Seasonal naive (52-week)
+Store 26,2012-08-17,1068292.5600,1021766.7500,Seasonal naive (52-week)
+Store 26,2012-08-24,1022704.2000,1064617.6200,Seasonal naive (52-week)
+Store 26,2012-08-31,1053495.5100,1040143.1400,Seasonal naive (52-week)
+Store 26,2012-09-07,1081874.0300,1069710.9700,Seasonal naive (52-week)
+Store 26,2012-09-14,986131.9400,951569.8400,Seasonal naive (52-week)
+Store 26,2012-09-21,961084.0800,923644.6000,Seasonal naive (52-week)
+Store 26,2012-09-28,964726.3700,959339.5100,Seasonal naive (52-week)
+Store 26,2012-10-05,1095504.2600,1130022.9900,Seasonal naive (52-week)
+Store 26,2012-10-12,1044639.6900,987886.0800,Seasonal naive (52-week)
+Store 26,2012-10-19,975578.0200,974907.2800,Seasonal naive (52-week)
+Store 26,2012-10-26,958619.8000,972256.9800,Seasonal naive (52-week)
+Store 26,2012-06-15,1029248.2200,1013234.0008,OLS lag + holiday + macro
+Store 26,2012-06-22,1056282.9100,1028279.4575,OLS lag + holiday + macro
+Store 26,2012-06-29,1051190.4400,1090003.7907,OLS lag + holiday + macro
+Store 26,2012-07-06,1180470.8000,1139072.6086,OLS lag + holiday + macro
+Store 26,2012-07-13,1063149.7800,1044170.3819,OLS lag + holiday + macro
+Store 26,2012-07-20,1049625.9000,1032246.7816,OLS lag + holiday + macro
+Store 26,2012-07-27,1031745.1400,1010619.2221,OLS lag + holiday + macro
+Store 26,2012-08-03,1090915.0900,1088882.2949,OLS lag + holiday + macro
+Store 26,2012-08-10,1121476.5100,1062140.1560,OLS lag + holiday + macro
+Store 26,2012-08-17,1068292.5600,1003527.4589,OLS lag + holiday + macro
+Store 26,2012-08-24,1022704.2000,1040660.2174,OLS lag + holiday + macro
+Store 26,2012-08-31,1053495.5100,1023727.3147,OLS lag + holiday + macro
+Store 26,2012-09-07,1081874.0300,1083251.8531,OLS lag + holiday + macro
+Store 26,2012-09-14,986131.9400,952272.1798,OLS lag + holiday + macro
+Store 26,2012-09-21,961084.0800,928392.6583,OLS lag + holiday + macro
+Store 26,2012-09-28,964726.3700,963026.5349,OLS lag + holiday + macro
+Store 26,2012-10-05,1095504.2600,1091731.6566,OLS lag + holiday + macro
+Store 26,2012-10-12,1044639.6900,977593.0814,OLS lag + holiday + macro
+Store 26,2012-10-19,975578.0200,958700.9171,OLS lag + holiday + macro
+Store 26,2012-10-26,958619.8000,949277.5183,OLS lag + holiday + macro
+Store 27,2012-06-15,1773500.5600,1814740.0900,Seasonal naive (52-week)
+Store 27,2012-06-22,1837884.7900,1811455.1500,Seasonal naive (52-week)
+Store 27,2012-06-29,1842555.3200,1949983.9300,Seasonal naive (52-week)
+Store 27,2012-07-06,2062224.9200,2000055.2700,Seasonal naive (52-week)
+Store 27,2012-07-13,1755889.5300,1762155.7900,Seasonal naive (52-week)
+Store 27,2012-07-20,1730913.6600,1754879.4500,Seasonal naive (52-week)
+Store 27,2012-07-27,1625883.7100,1744879.0600,Seasonal naive (52-week)
+Store 27,2012-08-03,1705810.8400,1747289.5300,Seasonal naive (52-week)
+Store 27,2012-08-10,1720537.2600,1758437.9600,Seasonal naive (52-week)
+Store 27,2012-08-17,1735339.5900,1781905.2400,Seasonal naive (52-week)
+Store 27,2012-08-24,1780443.3600,2034400.7800,Seasonal naive (52-week)
+Store 27,2012-08-31,1731935.4300,1511717.5300,Seasonal naive (52-week)
+Store 27,2012-09-07,1840955.2300,1911470.8400,Seasonal naive (52-week)
+Store 27,2012-09-14,1519604.5000,1613773.9000,Seasonal naive (52-week)
+Store 27,2012-09-21,1557485.7500,1606208.6800,Seasonal naive (52-week)
+Store 27,2012-09-28,1540687.6300,1599626.2600,Seasonal naive (52-week)
+Store 27,2012-10-05,1591816.8800,1672339.2700,Seasonal naive (52-week)
+Store 27,2012-10-12,1660081.2900,1682652.5100,Seasonal naive (52-week)
+Store 27,2012-10-19,1620374.2400,1689591.4400,Seasonal naive (52-week)
+Store 27,2012-10-26,1703047.7400,1710372.4000,Seasonal naive (52-week)
+Store 27,2012-06-15,1773500.5600,1742289.1803,OLS lag + holiday + macro
+Store 27,2012-06-22,1837884.7900,1743679.3401,OLS lag + holiday + macro
+Store 27,2012-06-29,1842555.3200,1842909.9164,OLS lag + holiday + macro
+Store 27,2012-07-06,2062224.9200,1880966.0055,OLS lag + holiday + macro
+Store 27,2012-07-13,1755889.5300,1714212.6476,OLS lag + holiday + macro
+Store 27,2012-07-20,1730913.6600,1705430.9654,OLS lag + holiday + macro
+Store 27,2012-07-27,1625883.7100,1692443.3255,OLS lag + holiday + macro
+Store 27,2012-08-03,1705810.8400,1692642.6175,OLS lag + holiday + macro
+Store 27,2012-08-10,1720537.2600,1696581.3101,OLS lag + holiday + macro
+Store 27,2012-08-17,1735339.5900,1708566.9408,OLS lag + holiday + macro
+Store 27,2012-08-24,1780443.3600,1884505.9554,OLS lag + holiday + macro
+Store 27,2012-08-31,1731935.4300,1523355.7898,OLS lag + holiday + macro
+Store 27,2012-09-07,1840955.2300,1888782.8068,OLS lag + holiday + macro
+Store 27,2012-09-14,1519604.5000,1596186.2406,OLS lag + holiday + macro
+Store 27,2012-09-21,1557485.7500,1587359.6124,OLS lag + holiday + macro
+Store 27,2012-09-28,1540687.6300,1587454.8587,OLS lag + holiday + macro
+Store 27,2012-10-05,1591816.8800,1672901.8800,OLS lag + holiday + macro
+Store 27,2012-10-12,1660081.2900,1680588.7385,OLS lag + holiday + macro
+Store 27,2012-10-19,1620374.2400,1683654.6311,OLS lag + holiday + macro
+Store 27,2012-10-26,1703047.7400,1697875.3481,OLS lag + holiday + macro
+Store 28,2012-06-15,1229760.9700,1268503.4900,Seasonal naive (52-week)
+Store 28,2012-06-22,1180671.5500,1208809.3400,Seasonal naive (52-week)
+Store 28,2012-06-29,1129031.9800,1319054.5700,Seasonal naive (52-week)
+Store 28,2012-07-06,1500863.5400,1459655.8500,Seasonal naive (52-week)
+Store 28,2012-07-13,1179915.0400,1197373.1300,Seasonal naive (52-week)
+Store 28,2012-07-20,1149427.4800,1165870.5400,Seasonal naive (52-week)
+Store 28,2012-07-27,1135035.0900,1114530.2900,Seasonal naive (52-week)
+Store 28,2012-08-03,1376520.1000,1523870.8900,Seasonal naive (52-week)
+Store 28,2012-08-10,1269113.4100,1218764.9400,Seasonal naive (52-week)
+Store 28,2012-08-17,1184198.4100,1200019.7400,Seasonal naive (52-week)
+Store 28,2012-08-24,1199309.5900,1166479.5100,Seasonal naive (52-week)
+Store 28,2012-08-31,1227118.7500,1468871.4900,Seasonal naive (52-week)
+Store 28,2012-09-07,1469693.9900,1310087.0000,Seasonal naive (52-week)
+Store 28,2012-09-14,1124660.7700,1159212.1000,Seasonal naive (52-week)
+Store 28,2012-09-21,1135340.1900,1109105.9200,Seasonal naive (52-week)
+Store 28,2012-09-28,1129508.6100,1120731.7600,Seasonal naive (52-week)
+Store 28,2012-10-05,1462941.0300,1557314.5800,Seasonal naive (52-week)
+Store 28,2012-10-12,1205536.7100,1220984.9400,Seasonal naive (52-week)
+Store 28,2012-10-19,1143724.4800,1203172.0500,Seasonal naive (52-week)
+Store 28,2012-10-26,1213860.6100,1242746.0600,Seasonal naive (52-week)
+Store 28,2012-06-15,1229760.9700,1252209.4321,OLS lag + holiday + macro
+Store 28,2012-06-22,1180671.5500,1208939.9972,OLS lag + holiday + macro
+Store 28,2012-06-29,1129031.9800,1298496.2865,OLS lag + holiday + macro
+Store 28,2012-07-06,1500863.5400,1437630.1533,OLS lag + holiday + macro
+Store 28,2012-07-13,1179915.0400,1229548.4726,OLS lag + holiday + macro
+Store 28,2012-07-20,1149427.4800,1201976.0030,OLS lag + holiday + macro
+Store 28,2012-07-27,1135035.0900,1155638.1601,OLS lag + holiday + macro
+Store 28,2012-08-03,1376520.1000,1471681.8330,OLS lag + holiday + macro
+Store 28,2012-08-10,1269113.4100,1227454.3601,OLS lag + holiday + macro
+Store 28,2012-08-17,1184198.4100,1195540.0451,OLS lag + holiday + macro
+Store 28,2012-08-24,1199309.5900,1164787.7828,OLS lag + holiday + macro
+Store 28,2012-08-31,1227118.7500,1396368.7003,OLS lag + holiday + macro
+Store 28,2012-09-07,1469693.9900,1347878.5909,OLS lag + holiday + macro
+Store 28,2012-09-14,1124660.7700,1151676.6455,OLS lag + holiday + macro
+Store 28,2012-09-21,1135340.1900,1111854.3702,OLS lag + holiday + macro
+Store 28,2012-09-28,1129508.6100,1132647.5546,OLS lag + holiday + macro
+Store 28,2012-10-05,1462941.0300,1499864.3918,OLS lag + holiday + macro
+Store 28,2012-10-12,1205536.7100,1194908.9360,OLS lag + holiday + macro
+Store 28,2012-10-19,1143724.4800,1181908.1260,OLS lag + holiday + macro
+Store 28,2012-10-26,1213860.6100,1224438.2987,OLS lag + holiday + macro
+Store 29,2012-06-15,552338.7600,536914.1700,Seasonal naive (52-week)
+Store 29,2012-06-22,581854.5000,545368.1700,Seasonal naive (52-week)
+Store 29,2012-06-29,555954.1300,567114.6000,Seasonal naive (52-week)
+Store 29,2012-07-06,578832.4100,547586.0700,Seasonal naive (52-week)
+Store 29,2012-07-13,514709.7600,505246.1500,Seasonal naive (52-week)
+Store 29,2012-07-20,506705.3600,507335.7500,Seasonal naive (52-week)
+Store 29,2012-07-27,475158.2400,474653.0600,Seasonal naive (52-week)
+Store 29,2012-08-03,504754.7400,503486.3700,Seasonal naive (52-week)
+Store 29,2012-08-10,518628.4200,471311.5000,Seasonal naive (52-week)
+Store 29,2012-08-17,416881.6600,498056.0000,Seasonal naive (52-week)
+Store 29,2012-08-24,615026.1500,608294.9800,Seasonal naive (52-week)
+Store 29,2012-08-31,545844.9100,497085.9100,Seasonal naive (52-week)
+Store 29,2012-09-07,540811.8500,505406.7200,Seasonal naive (52-week)
+Store 29,2012-09-14,475127.1800,474129.3500,Seasonal naive (52-week)
+Store 29,2012-09-21,489079.2300,475696.3700,Seasonal naive (52-week)
+Store 29,2012-09-28,489674.2300,446516.2600,Seasonal naive (52-week)
+Store 29,2012-10-05,520632.8000,514993.0000,Seasonal naive (52-week)
+Store 29,2012-10-12,513737.0000,475776.4500,Seasonal naive (52-week)
+Store 29,2012-10-19,516909.2400,505068.2200,Seasonal naive (52-week)
+Store 29,2012-10-26,534970.6800,515119.6400,Seasonal naive (52-week)
+Store 29,2012-06-15,552338.7600,539417.2199,OLS lag + holiday + macro
+Store 29,2012-06-22,581854.5000,545257.1399,OLS lag + holiday + macro
+Store 29,2012-06-29,555954.1300,561167.1543,OLS lag + holiday + macro
+Store 29,2012-07-06,578832.4100,545775.5746,OLS lag + holiday + macro
+Store 29,2012-07-13,514709.7600,514884.4844,OLS lag + holiday + macro
+Store 29,2012-07-20,506705.3600,518654.6782,OLS lag + holiday + macro
+Store 29,2012-07-27,475158.2400,497058.2921,OLS lag + holiday + macro
+Store 29,2012-08-03,504754.7400,519931.0389,OLS lag + holiday + macro
+Store 29,2012-08-10,518628.4200,498366.4094,OLS lag + holiday + macro
+Store 29,2012-08-17,416881.6600,520445.8433,OLS lag + holiday + macro
+Store 29,2012-08-24,615026.1500,604303.0342,OLS lag + holiday + macro
+Store 29,2012-08-31,545844.9100,520587.9825,OLS lag + holiday + macro
+Store 29,2012-09-07,540811.8500,567571.9558,OLS lag + holiday + macro
+Store 29,2012-09-14,475127.1800,505395.2726,OLS lag + holiday + macro
+Store 29,2012-09-21,489079.2300,508057.4034,OLS lag + holiday + macro
+Store 29,2012-09-28,489674.2300,485330.7585,OLS lag + holiday + macro
+Store 29,2012-10-05,520632.8000,537667.4478,OLS lag + holiday + macro
+Store 29,2012-10-12,513737.0000,508195.3719,OLS lag + holiday + macro
+Store 29,2012-10-19,516909.2400,531337.5244,OLS lag + holiday + macro
+Store 29,2012-10-26,534970.6800,539108.4787,OLS lag + holiday + macro
+Store 30,2012-06-15,438523.2400,435481.0300,Seasonal naive (52-week)
+Store 30,2012-06-22,428554.6300,422715.7400,Seasonal naive (52-week)
+Store 30,2012-06-29,423192.4000,428782.3800,Seasonal naive (52-week)
+Store 30,2012-07-06,440553.4200,419764.3700,Seasonal naive (52-week)
+Store 30,2012-07-13,417640.3400,420515.6300,Seasonal naive (52-week)
+Store 30,2012-07-20,427491.0400,423441.7600,Seasonal naive (52-week)
+Store 30,2012-07-27,424581.1700,414245.9600,Seasonal naive (52-week)
+Store 30,2012-08-03,425136.5500,431798.6400,Seasonal naive (52-week)
+Store 30,2012-08-10,430878.2800,412224.6700,Seasonal naive (52-week)
+Store 30,2012-08-17,423351.1500,414450.6100,Seasonal naive (52-week)
+Store 30,2012-08-24,425296.6500,387944.8300,Seasonal naive (52-week)
+Store 30,2012-08-31,439132.5000,369722.3200,Seasonal naive (52-week)
+Store 30,2012-09-07,433565.7700,370897.8200,Seasonal naive (52-week)
+Store 30,2012-09-14,437773.3100,382914.6600,Seasonal naive (52-week)
+Store 30,2012-09-21,443891.6400,391837.5600,Seasonal naive (52-week)
+Store 30,2012-09-28,425410.0400,387001.1300,Seasonal naive (52-week)
+Store 30,2012-10-05,446751.4500,417528.2600,Seasonal naive (52-week)
+Store 30,2012-10-12,434593.2600,410711.9900,Seasonal naive (52-week)
+Store 30,2012-10-19,437537.2900,428958.5300,Seasonal naive (52-week)
+Store 30,2012-10-26,439424.5000,426151.8800,Seasonal naive (52-week)
+Store 30,2012-06-15,438523.2400,427679.4966,OLS lag + holiday + macro
+Store 30,2012-06-22,428554.6300,420638.9852,OLS lag + holiday + macro
+Store 30,2012-06-29,423192.4000,421274.0629,OLS lag + holiday + macro
+Store 30,2012-07-06,440553.4200,444647.3956,OLS lag + holiday + macro
+Store 30,2012-07-13,417640.3400,442996.3854,OLS lag + holiday + macro
+Store 30,2012-07-20,427491.0400,442024.5455,OLS lag + holiday + macro
+Store 30,2012-07-27,424581.1700,436066.2564,OLS lag + holiday + macro
+Store 30,2012-08-03,425136.5500,441104.8908,OLS lag + holiday + macro
+Store 30,2012-08-10,430878.2800,430953.3081,OLS lag + holiday + macro
+Store 30,2012-08-17,423351.1500,430044.9342,OLS lag + holiday + macro
+Store 30,2012-08-24,425296.6500,417777.2985,OLS lag + holiday + macro
+Store 30,2012-08-31,439132.5000,408921.2314,OLS lag + holiday + macro
+Store 30,2012-09-07,433565.7700,401344.4510,OLS lag + holiday + macro
+Store 30,2012-09-14,437773.3100,411382.5048,OLS lag + holiday + macro
+Store 30,2012-09-21,443891.6400,413936.2204,OLS lag + holiday + macro
+Store 30,2012-09-28,425410.0400,410977.8839,OLS lag + holiday + macro
+Store 30,2012-10-05,446751.4500,457375.0667,OLS lag + holiday + macro
+Store 30,2012-10-12,434593.2600,453557.0216,OLS lag + holiday + macro
+Store 30,2012-10-19,437537.2900,459092.7176,OLS lag + holiday + macro
+Store 30,2012-10-26,439424.5000,456043.9729,OLS lag + holiday + macro
+Store 31,2012-06-15,1431003.4300,1491039.1400,Seasonal naive (52-week)
+Store 31,2012-06-22,1394065.7600,1375962.4600,Seasonal naive (52-week)
+Store 31,2012-06-29,1349202.2500,1371889.2700,Seasonal naive (52-week)
+Store 31,2012-07-06,1458059.4200,1423144.4700,Seasonal naive (52-week)
+Store 31,2012-07-13,1374301.3400,1415473.9100,Seasonal naive (52-week)
+Store 31,2012-07-20,1392395.2000,1401944.8000,Seasonal naive (52-week)
+Store 31,2012-07-27,1303732.3600,1308122.1500,Seasonal naive (52-week)
+Store 31,2012-08-03,1390174.6300,1428993.3300,Seasonal naive (52-week)
+Store 31,2012-08-10,1386472.5900,1443311.4900,Seasonal naive (52-week)
+Store 31,2012-08-17,1410181.7000,1487542.5300,Seasonal naive (52-week)
+Store 31,2012-08-24,1379783.2100,1417267.0700,Seasonal naive (52-week)
+Store 31,2012-08-31,1373651.4900,1385769.0300,Seasonal naive (52-week)
+Store 31,2012-09-07,1358111.6200,1376670.2700,Seasonal naive (52-week)
+Store 31,2012-09-14,1327705.4400,1363460.8600,Seasonal naive (52-week)
+Store 31,2012-09-21,1373064.8700,1347607.7400,Seasonal naive (52-week)
+Store 31,2012-09-28,1279080.5800,1285534.7400,Seasonal naive (52-week)
+Store 31,2012-10-05,1363365.0500,1427383.2400,Seasonal naive (52-week)
+Store 31,2012-10-12,1401113.4200,1378340.1800,Seasonal naive (52-week)
+Store 31,2012-10-19,1378730.4500,1409310.4000,Seasonal naive (52-week)
+Store 31,2012-10-26,1340232.5500,1346862.7200,Seasonal naive (52-week)
+Store 31,2012-06-15,1431003.4300,1508363.4725,OLS lag + holiday + macro
+Store 31,2012-06-22,1394065.7600,1421454.6141,OLS lag + holiday + macro
+Store 31,2012-06-29,1349202.2500,1421688.8833,OLS lag + holiday + macro
+Store 31,2012-07-06,1458059.4200,1425586.6553,OLS lag + holiday + macro
+Store 31,2012-07-13,1374301.3400,1420702.5669,OLS lag + holiday + macro
+Store 31,2012-07-20,1392395.2000,1410565.1078,OLS lag + holiday + macro
+Store 31,2012-07-27,1303732.3600,1336574.9508,OLS lag + holiday + macro
+Store 31,2012-08-03,1390174.6300,1432706.0944,OLS lag + holiday + macro
+Store 31,2012-08-10,1386472.5900,1443775.8096,OLS lag + holiday + macro
+Store 31,2012-08-17,1410181.7000,1478234.4332,OLS lag + holiday + macro
+Store 31,2012-08-24,1379783.2100,1423869.8850,OLS lag + holiday + macro
+Store 31,2012-08-31,1373651.4900,1400632.7903,OLS lag + holiday + macro
+Store 31,2012-09-07,1358111.6200,1414816.7575,OLS lag + holiday + macro
+Store 31,2012-09-14,1327705.4400,1384862.9829,OLS lag + holiday + macro
+Store 31,2012-09-21,1373064.8700,1374219.8840,OLS lag + holiday + macro
+Store 31,2012-09-28,1279080.5800,1328960.2749,OLS lag + holiday + macro
+Store 31,2012-10-05,1363365.0500,1395059.7499,OLS lag + holiday + macro
+Store 31,2012-10-12,1401113.4200,1358979.6261,OLS lag + holiday + macro
+Store 31,2012-10-19,1378730.4500,1385245.4381,OLS lag + holiday + macro
+Store 31,2012-10-26,1340232.5500,1340556.2241,OLS lag + holiday + macro
+Store 32,2012-06-15,1234759.5400,1192031.3800,Seasonal naive (52-week)
+Store 32,2012-06-22,1196880.1100,1163869.5200,Seasonal naive (52-week)
+Store 32,2012-06-29,1178211.8100,1199845.2900,Seasonal naive (52-week)
+Store 32,2012-07-06,1214183.9700,1110244.5200,Seasonal naive (52-week)
+Store 32,2012-07-13,1141184.6600,1144254.2600,Seasonal naive (52-week)
+Store 32,2012-07-20,1167829.3300,1185674.4800,Seasonal naive (52-week)
+Store 32,2012-07-27,1144901.5200,1169988.6200,Seasonal naive (52-week)
+Store 32,2012-08-03,1183571.3500,1201694.1400,Seasonal naive (52-week)
+Store 32,2012-08-10,1227469.2000,1206795.7400,Seasonal naive (52-week)
+Store 32,2012-08-17,1261306.3700,1221318.1700,Seasonal naive (52-week)
+Store 32,2012-08-24,1272809.1100,1183740.9100,Seasonal naive (52-week)
+Store 32,2012-08-31,1183979.2700,1152117.5000,Seasonal naive (52-week)
+Store 32,2012-09-07,1126685.9500,1128237.3000,Seasonal naive (52-week)
+Store 32,2012-09-14,1156377.4700,1142499.2500,Seasonal naive (52-week)
+Store 32,2012-09-21,1159119.6000,1116140.2900,Seasonal naive (52-week)
+Store 32,2012-09-28,1157111.1500,1088943.9800,Seasonal naive (52-week)
+Store 32,2012-10-05,1202775.2400,1149448.0200,Seasonal naive (52-week)
+Store 32,2012-10-12,1176681.3100,1175420.2600,Seasonal naive (52-week)
+Store 32,2012-10-19,1199292.0600,1151258.7400,Seasonal naive (52-week)
+Store 32,2012-10-26,1219979.2900,1185391.9600,Seasonal naive (52-week)
+Store 32,2012-06-15,1234759.5400,1218780.5653,OLS lag + holiday + macro
+Store 32,2012-06-22,1196880.1100,1194738.1106,OLS lag + holiday + macro
+Store 32,2012-06-29,1178211.8100,1225911.5113,OLS lag + holiday + macro
+Store 32,2012-07-06,1214183.9700,1111193.6833,OLS lag + holiday + macro
+Store 32,2012-07-13,1141184.6600,1140889.3005,OLS lag + holiday + macro
+Store 32,2012-07-20,1167829.3300,1177384.4633,OLS lag + holiday + macro
+Store 32,2012-07-27,1144901.5200,1163691.4628,OLS lag + holiday + macro
+Store 32,2012-08-03,1183571.3500,1191174.7484,OLS lag + holiday + macro
+Store 32,2012-08-10,1227469.2000,1195772.3941,OLS lag + holiday + macro
+Store 32,2012-08-17,1261306.3700,1209555.1275,OLS lag + holiday + macro
+Store 32,2012-08-24,1272809.1100,1175956.2138,OLS lag + holiday + macro
+Store 32,2012-08-31,1183979.2700,1147190.9186,OLS lag + holiday + macro
+Store 32,2012-09-07,1126685.9500,1142711.5487,OLS lag + holiday + macro
+Store 32,2012-09-14,1156377.4700,1141139.4615,OLS lag + holiday + macro
+Store 32,2012-09-21,1159119.6000,1126224.4521,OLS lag + holiday + macro
+Store 32,2012-09-28,1157111.1500,1108170.2497,OLS lag + holiday + macro
+Store 32,2012-10-05,1202775.2400,1116865.7408,OLS lag + holiday + macro
+Store 32,2012-10-12,1176681.3100,1144635.7525,OLS lag + holiday + macro
+Store 32,2012-10-19,1199292.0600,1124722.2216,OLS lag + holiday + macro
+Store 32,2012-10-26,1219979.2900,1154258.4967,OLS lag + holiday + macro
+Store 33,2012-06-15,290444.3100,238172.6600,Seasonal naive (52-week)
+Store 33,2012-06-22,261666.2900,238433.5300,Seasonal naive (52-week)
+Store 33,2012-06-29,244338.3100,226702.3600,Seasonal naive (52-week)
+Store 33,2012-07-06,273690.3700,262717.7100,Seasonal naive (52-week)
+Store 33,2012-07-13,287033.6400,265003.4700,Seasonal naive (52-week)
+Store 33,2012-07-20,253205.8900,238915.0500,Seasonal naive (52-week)
+Store 33,2012-07-27,249134.3200,224806.9600,Seasonal naive (52-week)
+Store 33,2012-08-03,258533.1200,242456.3900,Seasonal naive (52-week)
+Store 33,2012-08-10,297753.4900,274721.8500,Seasonal naive (52-week)
+Store 33,2012-08-17,270097.7600,242771.3700,Seasonal naive (52-week)
+Store 33,2012-08-24,247672.5600,237095.8200,Seasonal naive (52-week)
+Store 33,2012-08-31,237129.8100,239198.3600,Seasonal naive (52-week)
+Store 33,2012-09-07,286428.7800,281842.2800,Seasonal naive (52-week)
+Store 33,2012-09-14,277417.5300,262407.5700,Seasonal naive (52-week)
+Store 33,2012-09-21,252709.5800,234793.1200,Seasonal naive (52-week)
+Store 33,2012-09-28,242813.5100,229731.9800,Seasonal naive (52-week)
+Store 33,2012-10-05,265444.9000,262159.1300,Seasonal naive (52-week)
+Store 33,2012-10-12,291781.1500,272487.3300,Seasonal naive (52-week)
+Store 33,2012-10-19,254412.3400,233543.0800,Seasonal naive (52-week)
+Store 33,2012-10-26,253731.1300,231319.9600,Seasonal naive (52-week)
+Store 33,2012-06-15,290444.3100,274637.5364,OLS lag + holiday + macro
+Store 33,2012-06-22,261666.2900,277072.8556,OLS lag + holiday + macro
+Store 33,2012-06-29,244338.3100,271564.1448,OLS lag + holiday + macro
+Store 33,2012-07-06,273690.3700,298917.9535,OLS lag + holiday + macro
+Store 33,2012-07-13,287033.6400,302357.3374,OLS lag + holiday + macro
+Store 33,2012-07-20,253205.8900,286406.7003,OLS lag + holiday + macro
+Store 33,2012-07-27,249134.3200,277837.6589,OLS lag + holiday + macro
+Store 33,2012-08-03,258533.1200,290993.2421,OLS lag + holiday + macro
+Store 33,2012-08-10,297753.4900,313141.8075,OLS lag + holiday + macro
+Store 33,2012-08-17,270097.7600,292437.5038,OLS lag + holiday + macro
+Store 33,2012-08-24,247672.5600,289222.1155,OLS lag + holiday + macro
+Store 33,2012-08-31,237129.8100,291573.5979,OLS lag + holiday + macro
+Store 33,2012-09-07,286428.7800,325032.2076,OLS lag + holiday + macro
+Store 33,2012-09-14,277417.5300,308165.5677,OLS lag + holiday + macro
+Store 33,2012-09-21,252709.5800,290432.9008,OLS lag + holiday + macro
+Store 33,2012-09-28,242813.5100,288249.5737,OLS lag + holiday + macro
+Store 33,2012-10-05,265444.9000,311413.4899,OLS lag + holiday + macro
+Store 33,2012-10-12,291781.1500,318545.5244,OLS lag + holiday + macro
+Store 33,2012-10-19,254412.3400,293468.4229,OLS lag + holiday + macro
+Store 33,2012-10-26,253731.1300,292977.0913,OLS lag + holiday + macro
+Store 34,2012-06-15,982345.5100,968258.0900,Seasonal naive (52-week)
+Store 34,2012-06-22,1000285.1000,923795.0400,Seasonal naive (52-week)
+Store 34,2012-06-29,942970.6300,911106.2200,Seasonal naive (52-week)
+Store 34,2012-07-06,1007867.6800,926934.5700,Seasonal naive (52-week)
+Store 34,2012-07-13,954677.7500,903882.9600,Seasonal naive (52-week)
+Store 34,2012-07-20,950929.5900,913236.6200,Seasonal naive (52-week)
+Store 34,2012-07-27,917883.7900,851461.9000,Seasonal naive (52-week)
+Store 34,2012-08-03,973250.4100,942236.4500,Seasonal naive (52-week)
+Store 34,2012-08-10,1004523.5900,956251.1800,Seasonal naive (52-week)
+Store 34,2012-08-17,1013820.8600,960418.5400,Seasonal naive (52-week)
+Store 34,2012-08-24,926250.2100,871404.6000,Seasonal naive (52-week)
+Store 34,2012-08-31,933487.7100,926455.6400,Seasonal naive (52-week)
+Store 34,2012-09-07,976415.5600,930506.1400,Seasonal naive (52-week)
+Store 34,2012-09-14,955211.7000,927249.6100,Seasonal naive (52-week)
+Store 34,2012-09-21,943047.7800,902852.7300,Seasonal naive (52-week)
+Store 34,2012-09-28,928629.3100,871847.8500,Seasonal naive (52-week)
+Store 34,2012-10-05,968896.6800,954069.4500,Seasonal naive (52-week)
+Store 34,2012-10-12,948613.3900,911788.7900,Seasonal naive (52-week)
+Store 34,2012-10-19,963516.2800,953693.2300,Seasonal naive (52-week)
+Store 34,2012-10-26,956987.8100,958063.8700,Seasonal naive (52-week)
+Store 34,2012-06-15,982345.5100,979784.2024,OLS lag + holiday + macro
+Store 34,2012-06-22,1000285.1000,938205.9706,OLS lag + holiday + macro
+Store 34,2012-06-29,942970.6300,924745.5066,OLS lag + holiday + macro
+Store 34,2012-07-06,1007867.6800,953670.0009,OLS lag + holiday + macro
+Store 34,2012-07-13,954677.7500,931002.5559,OLS lag + holiday + macro
+Store 34,2012-07-20,950929.5900,937918.6119,OLS lag + holiday + macro
+Store 34,2012-07-27,917883.7900,881895.5076,OLS lag + holiday + macro
+Store 34,2012-08-03,973250.4100,960843.1797,OLS lag + holiday + macro
+Store 34,2012-08-10,1004523.5900,971859.1289,OLS lag + holiday + macro
+Store 34,2012-08-17,1013820.8600,974450.1470,OLS lag + holiday + macro
+Store 34,2012-08-24,926250.2100,894828.0796,OLS lag + holiday + macro
+Store 34,2012-08-31,933487.7100,942652.1495,OLS lag + holiday + macro
+Store 34,2012-09-07,976415.5600,970473.0947,OLS lag + holiday + macro
+Store 34,2012-09-14,955211.7000,941577.4471,OLS lag + holiday + macro
+Store 34,2012-09-21,943047.7800,918887.5958,OLS lag + holiday + macro
+Store 34,2012-09-28,928629.3100,890378.2047,OLS lag + holiday + macro
+Store 34,2012-10-05,968896.6800,988414.7342,OLS lag + holiday + macro
+Store 34,2012-10-12,948613.3900,949916.9203,OLS lag + holiday + macro
+Store 34,2012-10-19,963516.2800,986029.3578,OLS lag + holiday + macro
+Store 34,2012-10-26,956987.8100,989002.8654,OLS lag + holiday + macro
+Store 35,2012-06-15,848289.4100,828594.8600,Seasonal naive (52-week)
+Store 35,2012-06-22,911696.0000,849397.5700,Seasonal naive (52-week)
+Store 35,2012-06-29,892133.4100,874453.8800,Seasonal naive (52-week)
+Store 35,2012-07-06,985479.6400,827717.8500,Seasonal naive (52-week)
+Store 35,2012-07-13,825763.4800,813845.5000,Seasonal naive (52-week)
+Store 35,2012-07-20,841224.7400,820188.4200,Seasonal naive (52-week)
+Store 35,2012-07-27,808030.1500,770820.2700,Seasonal naive (52-week)
+Store 35,2012-08-03,866216.3600,826820.7100,Seasonal naive (52-week)
+Store 35,2012-08-10,888368.8000,819911.8900,Seasonal naive (52-week)
+Store 35,2012-08-17,887979.4700,820288.3500,Seasonal naive (52-week)
+Store 35,2012-08-24,895274.7200,897037.2500,Seasonal naive (52-week)
+Store 35,2012-08-31,931278.9700,813486.5500,Seasonal naive (52-week)
+Store 35,2012-09-07,984833.3500,922440.6400,Seasonal naive (52-week)
+Store 35,2012-09-14,821568.6400,738792.1100,Seasonal naive (52-week)
+Store 35,2012-09-21,772302.9400,705802.4500,Seasonal naive (52-week)
+Store 35,2012-09-28,814099.8600,749676.9500,Seasonal naive (52-week)
+Store 35,2012-10-05,866064.4000,791637.5300,Seasonal naive (52-week)
+Store 35,2012-10-12,873643.1400,772859.2500,Seasonal naive (52-week)
+Store 35,2012-10-19,829284.6700,811328.4000,Seasonal naive (52-week)
+Store 35,2012-10-26,865137.6000,808821.5000,Seasonal naive (52-week)
+Store 35,2012-06-15,848289.4100,879518.0679,OLS lag + holiday + macro
+Store 35,2012-06-22,911696.0000,906826.0232,OLS lag + holiday + macro
+Store 35,2012-06-29,892133.4100,937401.5490,OLS lag + holiday + macro
+Store 35,2012-07-06,985479.6400,921559.1562,OLS lag + holiday + macro
+Store 35,2012-07-13,825763.4800,909081.0341,OLS lag + holiday + macro
+Store 35,2012-07-20,841224.7400,909218.1803,OLS lag + holiday + macro
+Store 35,2012-07-27,808030.1500,865088.5385,OLS lag + holiday + macro
+Store 35,2012-08-03,866216.3600,905418.9197,OLS lag + holiday + macro
+Store 35,2012-08-10,888368.8000,892711.9362,OLS lag + holiday + macro
+Store 35,2012-08-17,887979.4700,885176.0578,OLS lag + holiday + macro
+Store 35,2012-08-24,895274.7200,941598.7450,OLS lag + holiday + macro
+Store 35,2012-08-31,931278.9700,885282.6115,OLS lag + holiday + macro
+Store 35,2012-09-07,984833.3500,1114526.8149,OLS lag + holiday + macro
+Store 35,2012-09-14,821568.6400,834821.7792,OLS lag + holiday + macro
+Store 35,2012-09-21,772302.9400,804879.7682,OLS lag + holiday + macro
+Store 35,2012-09-28,814099.8600,848207.0420,OLS lag + holiday + macro
+Store 35,2012-10-05,866064.4000,922151.5436,OLS lag + holiday + macro
+Store 35,2012-10-12,873643.1400,913370.0962,OLS lag + holiday + macro
+Store 35,2012-10-19,829284.6700,945049.1495,OLS lag + holiday + macro
+Store 35,2012-10-26,865137.6000,955473.3566,OLS lag + holiday + macro
+Store 36,2012-06-15,333146.8800,394645.2500,Seasonal naive (52-week)
+Store 36,2012-06-22,306411.0100,360009.9400,Seasonal naive (52-week)
+Store 36,2012-06-29,291530.4300,354270.7700,Seasonal naive (52-week)
+Store 36,2012-07-06,306578.8900,377464.6200,Seasonal naive (52-week)
+Store 36,2012-07-13,298337.4100,385631.4800,Seasonal naive (52-week)
+Store 36,2012-07-20,303289.5500,361311.4100,Seasonal naive (52-week)
+Store 36,2012-07-27,279643.4300,354361.0800,Seasonal naive (52-week)
+Store 36,2012-08-03,304989.9700,381017.7500,Seasonal naive (52-week)
+Store 36,2012-08-10,298947.5100,380188.6900,Seasonal naive (52-week)
+Store 36,2012-08-17,314607.2200,373267.5800,Seasonal naive (52-week)
+Store 36,2012-08-24,282545.5500,344964.2000,Seasonal naive (52-week)
+Store 36,2012-08-31,282647.4800,350276.2900,Seasonal naive (52-week)
+Store 36,2012-09-07,293728.5700,352960.6400,Seasonal naive (52-week)
+Store 36,2012-09-14,301893.6300,343108.1200,Seasonal naive (52-week)
+Store 36,2012-09-21,293804.4500,322405.1300,Seasonal naive (52-week)
+Store 36,2012-09-28,270677.9800,314910.3700,Seasonal naive (52-week)
+Store 36,2012-10-05,277137.8600,346137.8700,Seasonal naive (52-week)
+Store 36,2012-10-12,300236.8500,342076.9900,Seasonal naive (52-week)
+Store 36,2012-10-19,287360.0500,328633.3400,Seasonal naive (52-week)
+Store 36,2012-10-26,272489.4100,306193.8100,Seasonal naive (52-week)
+Store 36,2012-06-15,333146.8800,298086.3782,OLS lag + holiday + macro
+Store 36,2012-06-22,306411.0100,285032.5152,OLS lag + holiday + macro
+Store 36,2012-06-29,291530.4300,279345.2388,OLS lag + holiday + macro
+Store 36,2012-07-06,306578.8900,308678.9138,OLS lag + holiday + macro
+Store 36,2012-07-13,298337.4100,309199.6120,OLS lag + holiday + macro
+Store 36,2012-07-20,303289.5500,301743.6107,OLS lag + holiday + macro
+Store 36,2012-07-27,279643.4300,300023.5585,OLS lag + holiday + macro
+Store 36,2012-08-03,304989.9700,306013.6874,OLS lag + holiday + macro
+Store 36,2012-08-10,298947.5100,305914.7881,OLS lag + holiday + macro
+Store 36,2012-08-17,314607.2200,303401.2963,OLS lag + holiday + macro
+Store 36,2012-08-24,282545.5500,292592.5026,OLS lag + holiday + macro
+Store 36,2012-08-31,282647.4800,292036.2102,OLS lag + holiday + macro
+Store 36,2012-09-07,293728.5700,295271.5988,OLS lag + holiday + macro
+Store 36,2012-09-14,301893.6300,286170.6609,OLS lag + holiday + macro
+Store 36,2012-09-21,293804.4500,277318.3300,OLS lag + holiday + macro
+Store 36,2012-09-28,270677.9800,270689.2233,OLS lag + holiday + macro
+Store 36,2012-10-05,277137.8600,302886.3077,OLS lag + holiday + macro
+Store 36,2012-10-12,300236.8500,297554.6538,OLS lag + holiday + macro
+Store 36,2012-10-19,287360.0500,291466.6444,OLS lag + holiday + macro
+Store 36,2012-10-26,272489.4100,281416.1812,OLS lag + holiday + macro
+Store 37,2012-06-15,508573.1600,525132.3600,Seasonal naive (52-week)
+Store 37,2012-06-22,484032.7500,509276.2200,Seasonal naive (52-week)
+Store 37,2012-06-29,508309.8100,517021.3000,Seasonal naive (52-week)
+Store 37,2012-07-06,519498.3200,489059.9300,Seasonal naive (52-week)
+Store 37,2012-07-13,506005.4700,498749.6200,Seasonal naive (52-week)
+Store 37,2012-07-20,503744.5600,505543.5300,Seasonal naive (52-week)
+Store 37,2012-07-27,514489.1700,504974.9500,Seasonal naive (52-week)
+Store 37,2012-08-03,521959.2800,510787.4600,Seasonal naive (52-week)
+Store 37,2012-08-10,500964.5900,502504.3900,Seasonal naive (52-week)
+Store 37,2012-08-17,509633.7100,506897.9800,Seasonal naive (52-week)
+Store 37,2012-08-24,522665.0400,527947.2100,Seasonal naive (52-week)
+Store 37,2012-08-31,538344.1000,530367.8300,Seasonal naive (52-week)
+Store 37,2012-09-07,526838.1400,506273.7400,Seasonal naive (52-week)
+Store 37,2012-09-14,514651.7400,513341.9400,Seasonal naive (52-week)
+Store 37,2012-09-21,521320.9800,516556.9400,Seasonal naive (52-week)
+Store 37,2012-09-28,527953.1400,516402.1000,Seasonal naive (52-week)
+Store 37,2012-10-05,546122.3700,522816.8500,Seasonal naive (52-week)
+Store 37,2012-10-12,521810.7500,513636.0100,Seasonal naive (52-week)
+Store 37,2012-10-19,551969.1000,522784.3300,Seasonal naive (52-week)
+Store 37,2012-10-26,534738.4300,517355.4400,Seasonal naive (52-week)
+Store 37,2012-06-15,508573.1600,536011.1865,OLS lag + holiday + macro
+Store 37,2012-06-22,484032.7500,525203.4635,OLS lag + holiday + macro
+Store 37,2012-06-29,508309.8100,531666.3051,OLS lag + holiday + macro
+Store 37,2012-07-06,519498.3200,515880.1066,OLS lag + holiday + macro
+Store 37,2012-07-13,506005.4700,522447.7776,OLS lag + holiday + macro
+Store 37,2012-07-20,503744.5600,526600.6274,OLS lag + holiday + macro
+Store 37,2012-07-27,514489.1700,524825.1837,OLS lag + holiday + macro
+Store 37,2012-08-03,521959.2800,528926.3544,OLS lag + holiday + macro
+Store 37,2012-08-10,500964.5900,521845.9589,OLS lag + holiday + macro
+Store 37,2012-08-17,509633.7100,523797.8662,OLS lag + holiday + macro
+Store 37,2012-08-24,522665.0400,538106.9196,OLS lag + holiday + macro
+Store 37,2012-08-31,538344.1000,539388.0390,OLS lag + holiday + macro
+Store 37,2012-09-07,526838.1400,502686.5543,OLS lag + holiday + macro
+Store 37,2012-09-14,514651.7400,525477.0713,OLS lag + holiday + macro
+Store 37,2012-09-21,521320.9800,527407.9970,OLS lag + holiday + macro
+Store 37,2012-09-28,527953.1400,527763.6050,OLS lag + holiday + macro
+Store 37,2012-10-05,546122.3700,536678.1284,OLS lag + holiday + macro
+Store 37,2012-10-12,521810.7500,529930.8223,OLS lag + holiday + macro
+Store 37,2012-10-19,551969.1000,536623.8374,OLS lag + holiday + macro
+Store 37,2012-10-26,534738.4300,534003.8630,OLS lag + holiday + macro
+Store 38,2012-06-15,430222.0700,356797.0000,Seasonal naive (52-week)
+Store 38,2012-06-22,405938.3500,354078.9500,Seasonal naive (52-week)
+Store 38,2012-06-29,404634.3600,387334.0400,Seasonal naive (52-week)
+Store 38,2012-07-06,471086.2200,399699.1700,Seasonal naive (52-week)
+Store 38,2012-07-13,416036.7500,367181.7100,Seasonal naive (52-week)
+Store 38,2012-07-20,441683.7400,365562.6700,Seasonal naive (52-week)
+Store 38,2012-07-27,407186.4700,355131.3300,Seasonal naive (52-week)
+Store 38,2012-08-03,469311.1700,437631.4400,Seasonal naive (52-week)
+Store 38,2012-08-10,436690.1300,387844.0500,Seasonal naive (52-week)
+Store 38,2012-08-17,411866.4600,362224.7000,Seasonal naive (52-week)
+Store 38,2012-08-24,397428.2200,365672.5500,Seasonal naive (52-week)
+Store 38,2012-08-31,424904.9500,416953.5100,Seasonal naive (52-week)
+Store 38,2012-09-07,490274.8200,397771.6800,Seasonal naive (52-week)
+Store 38,2012-09-14,430944.3900,408188.8800,Seasonal naive (52-week)
+Store 38,2012-09-21,409600.9800,394665.2800,Seasonal naive (52-week)
+Store 38,2012-09-28,398468.0800,366819.8400,Seasonal naive (52-week)
+Store 38,2012-10-05,458479.0100,449516.2900,Seasonal naive (52-week)
+Store 38,2012-10-12,437320.6600,400430.7800,Seasonal naive (52-week)
+Store 38,2012-10-19,428806.4600,402709.1700,Seasonal naive (52-week)
+Store 38,2012-10-26,417290.3800,378539.1700,Seasonal naive (52-week)
+Store 38,2012-06-15,430222.0700,432487.5499,OLS lag + holiday + macro
+Store 38,2012-06-22,405938.3500,432698.1330,OLS lag + holiday + macro
+Store 38,2012-06-29,404634.3600,468571.5446,OLS lag + holiday + macro
+Store 38,2012-07-06,471086.2200,495687.9375,OLS lag + holiday + macro
+Store 38,2012-07-13,416036.7500,465067.3984,OLS lag + holiday + macro
+Store 38,2012-07-20,441683.7400,463759.6498,OLS lag + holiday + macro
+Store 38,2012-07-27,407186.4700,453110.8678,OLS lag + holiday + macro
+Store 38,2012-08-03,469311.1700,535051.9056,OLS lag + holiday + macro
+Store 38,2012-08-10,436690.1300,485416.1098,OLS lag + holiday + macro
+Store 38,2012-08-17,411866.4600,457260.0831,OLS lag + holiday + macro
+Store 38,2012-08-24,397428.2200,459905.0367,OLS lag + holiday + macro
+Store 38,2012-08-31,424904.9500,510019.0099,OLS lag + holiday + macro
+Store 38,2012-09-07,490274.8200,490883.6122,OLS lag + holiday + macro
+Store 38,2012-09-14,430944.3900,500920.3737,OLS lag + holiday + macro
+Store 38,2012-09-21,409600.9800,487909.9905,OLS lag + holiday + macro
+Store 38,2012-09-28,398468.0800,463174.7443,OLS lag + holiday + macro
+Store 38,2012-10-05,458479.0100,557831.7750,OLS lag + holiday + macro
+Store 38,2012-10-12,437320.6600,501548.2605,OLS lag + holiday + macro
+Store 38,2012-10-19,428806.4600,504238.6881,OLS lag + holiday + macro
+Store 38,2012-10-26,417290.3800,482865.9024,OLS lag + holiday + macro
+Store 39,2012-06-15,1587499.8200,1451392.6700,Seasonal naive (52-week)
+Store 39,2012-06-22,1532316.7900,1363167.9500,Seasonal naive (52-week)
+Store 39,2012-06-29,1492388.9800,1429829.3600,Seasonal naive (52-week)
+Store 39,2012-07-06,1659221.9900,1414564.5300,Seasonal naive (52-week)
+Store 39,2012-07-13,1471261.7600,1380257.1200,Seasonal naive (52-week)
+Store 39,2012-07-20,1582168.2700,1416005.5900,Seasonal naive (52-week)
+Store 39,2012-07-27,1487797.5400,1426418.5300,Seasonal naive (52-week)
+Store 39,2012-08-03,1608277.7400,1518790.8900,Seasonal naive (52-week)
+Store 39,2012-08-10,1641867.9200,1514055.9700,Seasonal naive (52-week)
+Store 39,2012-08-17,1720221.9100,1629066.9000,Seasonal naive (52-week)
+Store 39,2012-08-24,1724669.7500,1573898.6300,Seasonal naive (52-week)
+Store 39,2012-08-31,1710923.9400,1465089.8500,Seasonal naive (52-week)
+Store 39,2012-09-07,1609811.7500,1429345.8600,Seasonal naive (52-week)
+Store 39,2012-09-14,1447614.0800,1372500.6300,Seasonal naive (52-week)
+Store 39,2012-09-21,1555672.5100,1338657.9500,Seasonal naive (52-week)
+Store 39,2012-09-28,1495607.0700,1311775.8300,Seasonal naive (52-week)
+Store 39,2012-10-05,1574408.6700,1443884.3900,Seasonal naive (52-week)
+Store 39,2012-10-12,1494417.0700,1384721.8400,Seasonal naive (52-week)
+Store 39,2012-10-19,1577486.3300,1465283.2900,Seasonal naive (52-week)
+Store 39,2012-10-26,1569502.0000,1472663.1000,Seasonal naive (52-week)
+Store 39,2012-06-15,1587499.8200,1650647.1541,OLS lag + holiday + macro
+Store 39,2012-06-22,1532316.7900,1582621.2414,OLS lag + holiday + macro
+Store 39,2012-06-29,1492388.9800,1648308.5224,OLS lag + holiday + macro
+Store 39,2012-07-06,1659221.9900,1588779.6794,OLS lag + holiday + macro
+Store 39,2012-07-13,1471261.7600,1561044.1732,OLS lag + holiday + macro
+Store 39,2012-07-20,1582168.2700,1590607.8417,OLS lag + holiday + macro
+Store 39,2012-07-27,1487797.5400,1595279.0770,OLS lag + holiday + macro
+Store 39,2012-08-03,1608277.7400,1676853.1609,OLS lag + holiday + macro
+Store 39,2012-08-10,1641867.9200,1670022.2312,OLS lag + holiday + macro
+Store 39,2012-08-17,1720221.9100,1767412.2857,OLS lag + holiday + macro
+Store 39,2012-08-24,1724669.7500,1722390.8107,OLS lag + holiday + macro
+Store 39,2012-08-31,1710923.9400,1633819.8173,OLS lag + holiday + macro
+Store 39,2012-09-07,1609811.7500,1633457.9812,OLS lag + holiday + macro
+Store 39,2012-09-14,1447614.0800,1560671.3335,OLS lag + holiday + macro
+Store 39,2012-09-21,1555672.5100,1538906.6181,OLS lag + holiday + macro
+Store 39,2012-09-28,1495607.0700,1527689.5542,OLS lag + holiday + macro
+Store 39,2012-10-05,1574408.6700,1592926.7898,OLS lag + holiday + macro
+Store 39,2012-10-12,1494417.0700,1551022.4411,OLS lag + holiday + macro
+Store 39,2012-10-19,1577486.3300,1624612.4700,OLS lag + holiday + macro
+Store 39,2012-10-26,1569502.0000,1641208.8050,OLS lag + holiday + macro
+Store 40,2012-06-15,977950.2800,971422.6700,Seasonal naive (52-week)
+Store 40,2012-06-22,1033552.1800,977103.6400,Seasonal naive (52-week)
+Store 40,2012-06-29,988764.8400,1048866.3000,Seasonal naive (52-week)
+Store 40,2012-07-06,1182901.5600,1107366.0600,Seasonal naive (52-week)
+Store 40,2012-07-13,979848.7100,953252.1400,Seasonal naive (52-week)
+Store 40,2012-07-20,968502.3800,980642.1000,Seasonal naive (52-week)
+Store 40,2012-07-27,954396.8500,929096.9000,Seasonal naive (52-week)
+Store 40,2012-08-03,1068346.7600,1063818.2000,Seasonal naive (52-week)
+Store 40,2012-08-10,1007906.4300,955506.9500,Seasonal naive (52-week)
+Store 40,2012-08-17,969387.4800,943237.1200,Seasonal naive (52-week)
+Store 40,2012-08-24,945318.4700,969611.3000,Seasonal naive (52-week)
+Store 40,2012-08-31,987264.6700,957298.2600,Seasonal naive (52-week)
+Store 40,2012-09-07,1088248.4000,1021391.9900,Seasonal naive (52-week)
+Store 40,2012-09-14,901709.8200,890661.7900,Seasonal naive (52-week)
+Store 40,2012-09-21,899768.4000,876583.9800,Seasonal naive (52-week)
+Store 40,2012-09-28,919595.4400,912857.1000,Seasonal naive (52-week)
+Store 40,2012-10-05,1069112.0000,1070389.9800,Seasonal naive (52-week)
+Store 40,2012-10-12,982523.2600,936751.6800,Seasonal naive (52-week)
+Store 40,2012-10-19,918170.5000,942319.6500,Seasonal naive (52-week)
+Store 40,2012-10-26,921264.5200,941675.9500,Seasonal naive (52-week)
+Store 40,2012-06-15,977950.2800,997193.2429,OLS lag + holiday + macro
+Store 40,2012-06-22,1033552.1800,1003197.8201,OLS lag + holiday + macro
+Store 40,2012-06-29,988764.8400,1066679.0322,OLS lag + holiday + macro
+Store 40,2012-07-06,1182901.5600,1115929.1441,OLS lag + holiday + macro
+Store 40,2012-07-13,979848.7100,979367.7905,OLS lag + holiday + macro
+Store 40,2012-07-20,968502.3800,997590.3622,OLS lag + holiday + macro
+Store 40,2012-07-27,954396.8500,945215.1435,OLS lag + holiday + macro
+Store 40,2012-08-03,1068346.7600,1059208.9425,OLS lag + holiday + macro
+Store 40,2012-08-10,1007906.4300,958128.0490,OLS lag + holiday + macro
+Store 40,2012-08-17,969387.4800,943456.4268,OLS lag + holiday + macro
+Store 40,2012-08-24,945318.4700,965798.3623,OLS lag + holiday + macro
+Store 40,2012-08-31,987264.6700,955489.3471,OLS lag + holiday + macro
+Store 40,2012-09-07,1088248.4000,1044941.7801,OLS lag + holiday + macro
+Store 40,2012-09-14,901709.8200,894554.2255,OLS lag + holiday + macro
+Store 40,2012-09-21,899768.4000,879837.2257,OLS lag + holiday + macro
+Store 40,2012-09-28,919595.4400,913617.3218,OLS lag + holiday + macro
+Store 40,2012-10-05,1069112.0000,1051720.1921,OLS lag + holiday + macro
+Store 40,2012-10-12,982523.2600,935740.0682,OLS lag + holiday + macro
+Store 40,2012-10-19,918170.5000,936692.7670,OLS lag + holiday + macro
+Store 40,2012-10-26,921264.5200,933648.5281,OLS lag + holiday + macro
+Store 41,2012-06-15,1384584.5900,1289151.8400,Seasonal naive (52-week)
+Store 41,2012-06-22,1386407.1700,1244381.9800,Seasonal naive (52-week)
+Store 41,2012-06-29,1355600.0100,1333347.7800,Seasonal naive (52-week)
+Store 41,2012-07-06,1456300.8900,1338862.5800,Seasonal naive (52-week)
+Store 41,2012-07-13,1332594.0700,1245772.7000,Seasonal naive (52-week)
+Store 41,2012-07-20,1347175.9300,1292830.9300,Seasonal naive (52-week)
+Store 41,2012-07-27,1344723.9700,1248330.1000,Seasonal naive (52-week)
+Store 41,2012-08-03,1439607.3500,1402233.6900,Seasonal naive (52-week)
+Store 41,2012-08-10,1504545.9400,1356689.8800,Seasonal naive (52-week)
+Store 41,2012-08-17,1560590.0500,1412959.9700,Seasonal naive (52-week)
+Store 41,2012-08-24,1464462.8500,1328740.7100,Seasonal naive (52-week)
+Store 41,2012-08-31,1360517.5200,1283849.3800,Seasonal naive (52-week)
+Store 41,2012-09-07,1392143.8200,1280958.9700,Seasonal naive (52-week)
+Store 41,2012-09-14,1306644.2500,1197019.3900,Seasonal naive (52-week)
+Store 41,2012-09-21,1276609.3600,1173059.7900,Seasonal naive (52-week)
+Store 41,2012-09-28,1307928.0100,1160619.6100,Seasonal naive (52-week)
+Store 41,2012-10-05,1400160.9500,1277882.7700,Seasonal naive (52-week)
+Store 41,2012-10-12,1409544.9700,1247130.2200,Seasonal naive (52-week)
+Store 41,2012-10-19,1326197.2400,1214944.2900,Seasonal naive (52-week)
+Store 41,2012-10-26,1316542.5900,1274463.0200,Seasonal naive (52-week)
+Store 41,2012-06-15,1384584.5900,1381000.6381,OLS lag + holiday + macro
+Store 41,2012-06-22,1386407.1700,1342170.9383,OLS lag + holiday + macro
+Store 41,2012-06-29,1355600.0100,1422210.0919,OLS lag + holiday + macro
+Store 41,2012-07-06,1456300.8900,1415752.4412,OLS lag + holiday + macro
+Store 41,2012-07-13,1332594.0700,1333016.8055,OLS lag + holiday + macro
+Store 41,2012-07-20,1347175.9300,1375753.9697,OLS lag + holiday + macro
+Store 41,2012-07-27,1344723.9700,1336754.5423,OLS lag + holiday + macro
+Store 41,2012-08-03,1439607.3500,1474892.0523,OLS lag + holiday + macro
+Store 41,2012-08-10,1504545.9400,1434899.9719,OLS lag + holiday + macro
+Store 41,2012-08-17,1560590.0500,1486911.7170,OLS lag + holiday + macro
+Store 41,2012-08-24,1464462.8500,1412929.6969,OLS lag + holiday + macro
+Store 41,2012-08-31,1360517.5200,1373916.7525,OLS lag + holiday + macro
+Store 41,2012-09-07,1392143.8200,1404001.9712,OLS lag + holiday + macro
+Store 41,2012-09-14,1306644.2500,1300029.0845,OLS lag + holiday + macro
+Store 41,2012-09-21,1276609.3600,1280705.6209,OLS lag + holiday + macro
+Store 41,2012-09-28,1307928.0100,1270473.0385,OLS lag + holiday + macro
+Store 41,2012-10-05,1400160.9500,1351586.0390,OLS lag + holiday + macro
+Store 41,2012-10-12,1409544.9700,1324328.8636,OLS lag + holiday + macro
+Store 41,2012-10-19,1326197.2400,1296301.8205,OLS lag + holiday + macro
+Store 41,2012-10-26,1316542.5900,1349596.3486,OLS lag + holiday + macro
+Store 42,2012-06-15,606309.1300,546675.6500,Seasonal naive (52-week)
+Store 42,2012-06-22,540031.2900,501780.6600,Seasonal naive (52-week)
+Store 42,2012-06-29,507403.7700,506343.8300,Seasonal naive (52-week)
+Store 42,2012-07-06,618702.0900,593234.2700,Seasonal naive (52-week)
+Store 42,2012-07-13,628099.0800,591703.8200,Seasonal naive (52-week)
+Store 42,2012-07-20,530318.3900,511316.2900,Seasonal naive (52-week)
+Store 42,2012-07-27,516352.2100,479256.8000,Seasonal naive (52-week)
+Store 42,2012-08-03,573084.7100,572603.3300,Seasonal naive (52-week)
+Store 42,2012-08-10,576620.3100,603147.2600,Seasonal naive (52-week)
+Store 42,2012-08-17,575997.7800,526641.2300,Seasonal naive (52-week)
+Store 42,2012-08-24,535537.0300,503720.9800,Seasonal naive (52-week)
+Store 42,2012-08-31,504760.5700,537124.7600,Seasonal naive (52-week)
+Store 42,2012-09-07,617405.3500,608390.9400,Seasonal naive (52-week)
+Store 42,2012-09-14,586737.6600,576837.0900,Seasonal naive (52-week)
+Store 42,2012-09-21,527165.7000,528486.4500,Seasonal naive (52-week)
+Store 42,2012-09-28,505978.4600,510243.7900,Seasonal naive (52-week)
+Store 42,2012-10-05,593162.5300,649111.2300,Seasonal naive (52-week)
+Store 42,2012-10-12,612379.9000,613531.1100,Seasonal naive (52-week)
+Store 42,2012-10-19,541406.9800,537276.4100,Seasonal naive (52-week)
+Store 42,2012-10-26,514756.0800,515599.7000,Seasonal naive (52-week)
+Store 42,2012-06-15,606309.1300,570952.7262,OLS lag + holiday + macro
+Store 42,2012-06-22,540031.2900,526343.7858,OLS lag + holiday + macro
+Store 42,2012-06-29,507403.7700,530832.1855,OLS lag + holiday + macro
+Store 42,2012-07-06,618702.0900,627006.4651,OLS lag + holiday + macro
+Store 42,2012-07-13,628099.0800,623938.8615,OLS lag + holiday + macro
+Store 42,2012-07-20,530318.3900,544348.9210,OLS lag + holiday + macro
+Store 42,2012-07-27,516352.2100,510238.6975,OLS lag + holiday + macro
+Store 42,2012-08-03,573084.7100,603180.1805,OLS lag + holiday + macro
+Store 42,2012-08-10,576620.3100,630850.2354,OLS lag + holiday + macro
+Store 42,2012-08-17,575997.7800,552646.8598,OLS lag + holiday + macro
+Store 42,2012-08-24,535537.0300,528668.6472,OLS lag + holiday + macro
+Store 42,2012-08-31,504760.5700,562240.7462,OLS lag + holiday + macro
+Store 42,2012-09-07,617405.3500,640258.6713,OLS lag + holiday + macro
+Store 42,2012-09-14,586737.6600,599287.1700,OLS lag + holiday + macro
+Store 42,2012-09-21,527165.7000,549234.8881,OLS lag + holiday + macro
+Store 42,2012-09-28,505978.4600,531487.2541,OLS lag + holiday + macro
+Store 42,2012-10-05,593162.5300,677178.0833,OLS lag + holiday + macro
+Store 42,2012-10-12,612379.9000,638416.6768,OLS lag + holiday + macro
+Store 42,2012-10-19,541406.9800,562107.4512,OLS lag + holiday + macro
+Store 42,2012-10-26,514756.0800,540903.3183,OLS lag + holiday + macro
+Store 43,2012-06-15,634815.1000,665781.7400,Seasonal naive (52-week)
+Store 43,2012-06-22,613270.7900,604925.0800,Seasonal naive (52-week)
+Store 43,2012-06-29,593128.1300,586781.7800,Seasonal naive (52-week)
+Store 43,2012-07-06,645618.5900,651147.8300,Seasonal naive (52-week)
+Store 43,2012-07-13,627634.0400,631827.3800,Seasonal naive (52-week)
+Store 43,2012-07-20,596554.0500,597354.3900,Seasonal naive (52-week)
+Store 43,2012-07-27,572447.5200,533917.5200,Seasonal naive (52-week)
+Store 43,2012-08-03,614378.9400,605956.5900,Seasonal naive (52-week)
+Store 43,2012-08-10,643558.7800,595626.5600,Seasonal naive (52-week)
+Store 43,2012-08-17,640210.8500,663396.3200,Seasonal naive (52-week)
+Store 43,2012-08-24,598234.6400,561573.0800,Seasonal naive (52-week)
+Store 43,2012-08-31,593141.2900,594224.9000,Seasonal naive (52-week)
+Store 43,2012-09-07,663814.1800,649128.2300,Seasonal naive (52-week)
+Store 43,2012-09-14,625196.9400,618877.1300,Seasonal naive (52-week)
+Store 43,2012-09-21,601990.0200,586108.1300,Seasonal naive (52-week)
+Store 43,2012-09-28,577792.3200,555183.7200,Seasonal naive (52-week)
+Store 43,2012-10-05,642614.8900,642828.6200,Seasonal naive (52-week)
+Store 43,2012-10-12,619369.7200,590984.5600,Seasonal naive (52-week)
+Store 43,2012-10-19,623919.2300,594625.9600,Seasonal naive (52-week)
+Store 43,2012-10-26,587603.5500,572516.5700,Seasonal naive (52-week)
+Store 43,2012-06-15,634815.1000,648899.1204,OLS lag + holiday + macro
+Store 43,2012-06-22,613270.7900,607534.9658,OLS lag + holiday + macro
+Store 43,2012-06-29,593128.1300,594587.6551,OLS lag + holiday + macro
+Store 43,2012-07-06,645618.5900,645312.7955,OLS lag + holiday + macro
+Store 43,2012-07-13,627634.0400,629212.3735,OLS lag + holiday + macro
+Store 43,2012-07-20,596554.0500,601670.4032,OLS lag + holiday + macro
+Store 43,2012-07-27,572447.5200,553998.4993,OLS lag + holiday + macro
+Store 43,2012-08-03,614378.9400,597654.5436,OLS lag + holiday + macro
+Store 43,2012-08-10,643558.7800,585390.0270,OLS lag + holiday + macro
+Store 43,2012-08-17,640210.8500,626541.7217,OLS lag + holiday + macro
+Store 43,2012-08-24,598234.6400,558562.6896,OLS lag + holiday + macro
+Store 43,2012-08-31,593141.2900,579783.3674,OLS lag + holiday + macro
+Store 43,2012-09-07,663814.1800,616453.3047,OLS lag + holiday + macro
+Store 43,2012-09-14,625196.9400,594631.5789,OLS lag + holiday + macro
+Store 43,2012-09-21,601990.0200,575130.3934,OLS lag + holiday + macro
+Store 43,2012-09-28,577792.3200,558418.8429,OLS lag + holiday + macro
+Store 43,2012-10-05,642614.8900,634041.4276,OLS lag + holiday + macro
+Store 43,2012-10-12,619369.7200,602539.7115,OLS lag + holiday + macro
+Store 43,2012-10-19,623919.2300,602813.1515,OLS lag + holiday + macro
+Store 43,2012-10-26,587603.5500,587588.8804,OLS lag + holiday + macro
+Store 44,2012-06-15,338400.8200,300255.8700,Seasonal naive (52-week)
+Store 44,2012-06-22,336241.0000,296765.5900,Seasonal naive (52-week)
+Store 44,2012-06-29,338386.0800,315273.0800,Seasonal naive (52-week)
+Store 44,2012-07-06,358461.5800,295339.0100,Seasonal naive (52-week)
+Store 44,2012-07-13,336479.4900,289201.2100,Seasonal naive (52-week)
+Store 44,2012-07-20,337819.1600,303108.8100,Seasonal naive (52-week)
+Store 44,2012-07-27,319855.2600,279677.0000,Seasonal naive (52-week)
+Store 44,2012-08-03,342385.3800,298080.4500,Seasonal naive (52-week)
+Store 44,2012-08-10,333594.8100,290399.6600,Seasonal naive (52-week)
+Store 44,2012-08-17,327389.5100,290909.6900,Seasonal naive (52-week)
+Store 44,2012-08-24,337985.7400,324174.7900,Seasonal naive (52-week)
+Store 44,2012-08-31,339490.6900,309543.5200,Seasonal naive (52-week)
+Store 44,2012-09-07,338737.3300,295811.2500,Seasonal naive (52-week)
+Store 44,2012-09-14,347726.6700,303974.2800,Seasonal naive (52-week)
+Store 44,2012-09-21,336017.6000,307409.1300,Seasonal naive (52-week)
+Store 44,2012-09-28,355307.9400,299757.7500,Seasonal naive (52-week)
+Store 44,2012-10-05,337390.4400,312577.3600,Seasonal naive (52-week)
+Store 44,2012-10-12,337796.1300,293031.7800,Seasonal naive (52-week)
+Store 44,2012-10-19,323766.7700,305969.8100,Seasonal naive (52-week)
+Store 44,2012-10-26,361067.0700,306336.0700,Seasonal naive (52-week)
+Store 44,2012-06-15,338400.8200,328542.4304,OLS lag + holiday + macro
+Store 44,2012-06-22,336241.0000,326177.9843,OLS lag + holiday + macro
+Store 44,2012-06-29,338386.0800,339245.1090,OLS lag + holiday + macro
+Store 44,2012-07-06,358461.5800,326898.3210,OLS lag + holiday + macro
+Store 44,2012-07-13,336479.4900,322770.4619,OLS lag + holiday + macro
+Store 44,2012-07-20,337819.1600,332782.2594,OLS lag + holiday + macro
+Store 44,2012-07-27,319855.2600,316796.6176,OLS lag + holiday + macro
+Store 44,2012-08-03,342385.3800,329863.3558,OLS lag + holiday + macro
+Store 44,2012-08-10,333594.8100,324732.1937,OLS lag + holiday + macro
+Store 44,2012-08-17,327389.5100,325169.1614,OLS lag + holiday + macro
+Store 44,2012-08-24,337985.7400,348374.9245,OLS lag + holiday + macro
+Store 44,2012-08-31,339490.6900,338327.7630,OLS lag + holiday + macro
+Store 44,2012-09-07,338737.3300,322167.6352,OLS lag + holiday + macro
+Store 44,2012-09-14,347726.6700,334475.4019,OLS lag + holiday + macro
+Store 44,2012-09-21,336017.6000,336768.0722,OLS lag + holiday + macro
+Store 44,2012-09-28,355307.9400,331699.5715,OLS lag + holiday + macro
+Store 44,2012-10-05,337390.4400,341997.0369,OLS lag + holiday + macro
+Store 44,2012-10-12,337796.1300,328759.0522,OLS lag + holiday + macro
+Store 44,2012-10-19,323766.7700,338083.6144,OLS lag + holiday + macro
+Store 44,2012-10-26,361067.0700,338737.7227,OLS lag + holiday + macro
+Store 45,2012-06-15,821498.1800,811153.6700,Seasonal naive (52-week)
+Store 45,2012-06-22,822569.1600,762861.7800,Seasonal naive (52-week)
+Store 45,2012-06-29,773367.7100,791495.2500,Seasonal naive (52-week)
+Store 45,2012-07-06,843361.1000,768718.1100,Seasonal naive (52-week)
+Store 45,2012-07-13,749817.0800,748435.2000,Seasonal naive (52-week)
+Store 45,2012-07-20,737613.6500,741625.2500,Seasonal naive (52-week)
+Store 45,2012-07-27,711671.5800,704680.9700,Seasonal naive (52-week)
+Store 45,2012-08-03,725729.5100,765996.9200,Seasonal naive (52-week)
+Store 45,2012-08-10,733037.3200,724180.8900,Seasonal naive (52-week)
+Store 45,2012-08-17,722496.9300,712362.7200,Seasonal naive (52-week)
+Store 45,2012-08-24,718232.2600,833979.0100,Seasonal naive (52-week)
+Store 45,2012-08-31,734297.8700,726482.3900,Seasonal naive (52-week)
+Store 45,2012-09-07,766512.6600,746129.5600,Seasonal naive (52-week)
+Store 45,2012-09-14,702238.2700,711367.5600,Seasonal naive (52-week)
+Store 45,2012-09-21,723086.2000,714106.4200,Seasonal naive (52-week)
+Store 45,2012-09-28,713173.9500,698986.3400,Seasonal naive (52-week)
+Store 45,2012-10-05,733455.0700,753447.0500,Seasonal naive (52-week)
+Store 45,2012-10-12,734464.3600,720946.9900,Seasonal naive (52-week)
+Store 45,2012-10-19,718125.5300,771686.4000,Seasonal naive (52-week)
+Store 45,2012-10-26,760281.4300,781694.5700,Seasonal naive (52-week)
+Store 45,2012-06-15,821498.1800,823998.0562,OLS lag + holiday + macro
+Store 45,2012-06-22,822569.1600,786387.7737,OLS lag + holiday + macro
+Store 45,2012-06-29,773367.7100,807508.2310,OLS lag + holiday + macro
+Store 45,2012-07-06,843361.1000,784106.9206,OLS lag + holiday + macro
+Store 45,2012-07-13,749817.0800,769083.0743,OLS lag + holiday + macro
+Store 45,2012-07-20,737613.6500,763923.8595,OLS lag + holiday + macro
+Store 45,2012-07-27,711671.5800,736162.0461,OLS lag + holiday + macro
+Store 45,2012-08-03,725729.5100,782610.9770,OLS lag + holiday + macro
+Store 45,2012-08-10,733037.3200,750990.4859,OLS lag + holiday + macro
+Store 45,2012-08-17,722496.9300,743185.0831,OLS lag + holiday + macro
+Store 45,2012-08-24,718232.2600,837159.0607,OLS lag + holiday + macro
+Store 45,2012-08-31,734297.8700,756211.1095,OLS lag + holiday + macro
+Store 45,2012-09-07,766512.6600,847777.3758,OLS lag + holiday + macro
+Store 45,2012-09-14,702238.2700,747210.3950,OLS lag + holiday + macro
+Store 45,2012-09-21,723086.2000,751537.3955,OLS lag + holiday + macro
+Store 45,2012-09-28,713173.9500,740720.3656,OLS lag + holiday + macro
+Store 45,2012-10-05,733455.0700,784189.0057,OLS lag + holiday + macro
+Store 45,2012-10-12,734464.3600,760740.4257,OLS lag + holiday + macro
+Store 45,2012-10-19,718125.5300,798728.3011,OLS lag + holiday + macro
+Store 45,2012-10-26,760281.4300,804695.1826,OLS lag + holiday + macro
