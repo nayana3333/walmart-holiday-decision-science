@@ -1,0 +1,5 @@
+holiday_type,occurrence_weeks,avg_store_sales,lift_vs_regular_pct
+Thanksgiving,2,1471273.0,41.3
+Super Bowl,3,1079128.0,3.6
+Labor Day,3,1042427.0,0.1
+Post-Christmas flagged week,2,960833.0,-7.7

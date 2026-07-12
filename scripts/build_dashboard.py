@@ -1,0 +1,10 @@
+import json, os, logging
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+D = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(D,"dashboard_data.json"), encoding="utf-8") as f: data = json.load(f)
+with open(os.path.join(D,"template.html"), encoding="utf-8") as f: tpl = f.read()
+with open(os.path.join(D,"chart.umd.js"), encoding="utf-8") as f: chartjs = f.read()
+out = tpl.replace("__DASHBOARD_DATA__", json.dumps(data)).replace("__CHARTJS_INLINE__", chartjs)
+outpath = os.path.join(D,"..","dashboard","Walmart_Dashboard.html")
+with open(outpath,"w",encoding="utf-8") as f: f.write(out)
+logging.info("Built: %d bytes -> %s", len(out), outpath)

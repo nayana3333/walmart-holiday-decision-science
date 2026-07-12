@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<title>Walmart Holiday Markdown &amp; Store Optimization</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script>__CHARTJS_INLINE__</script>
+<style>
+:root{--bg:#EEF1F4;--surface:#FFF;--ink:#0B1D33;--ink-soft:#51606F;--teal:#0E7C7B;--teal-soft:#E3F1F0;--amber:#C97F0A;--amber-soft:#FBF0DD;--red:#B23B3B;--red-soft:#FBE9E7;--line:#DAE0E6;}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'IBM Plex Sans',sans-serif}
+h1,h2,h3{font-family:'Zilla Slab',serif;margin:0}.mono{font-family:'IBM Plex Mono',monospace}
+header.top{background:#0B1D33;color:#fff;padding:22px 32px 0}
+.top-row{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.brand{display:flex;align-items:baseline;gap:12px}.brand .mark{width:10px;height:10px;background:var(--amber);border-radius:2px;display:inline-block}
+.brand h1{font-size:22px;font-weight:600}.brand .sub{color:#9FB2C4;font-size:12.5px;font-family:'IBM Plex Mono',monospace}
+.asof{color:#9FB2C4;font-size:12px;font-family:'IBM Plex Mono',monospace}
+nav.tabs{display:flex;gap:2px;margin-top:18px;overflow-x:auto}
+nav.tabs button{background:transparent;border:none;color:#B7C4D1;font-size:13.5px;font-weight:500;padding:12px 16px;cursor:pointer;white-space:nowrap;border-bottom:2px solid transparent}
+nav.tabs button.active{color:#fff;border-bottom:2px solid var(--amber)}
+.ticker{background:#08182B;color:#fff;display:flex;flex-wrap:wrap;border-top:1px solid #1B3350}
+.ticker .cell{flex:1 1 160px;padding:14px 20px;border-right:1px solid #1B3350}
+.ticker .label{font-size:10.5px;letter-spacing:.9px;text-transform:uppercase;color:#7C93AC;margin-bottom:4px}
+.ticker .value{font-family:'IBM Plex Mono',monospace;font-size:21px;font-weight:600}
+.ticker .delta{font-family:'IBM Plex Mono',monospace;font-size:11.5px;margin-top:2px}
+.delta.pos{color:#6FD3AE}.delta.neg{color:#F0938A}
+main{max-width:1240px;margin:0 auto;padding:28px 32px 64px}
+.page{display:none}.page.active{display:block}
+.grid{display:grid;gap:18px}.grid-2{grid-template-columns:1.3fr 1fr}
+@media(max-width:900px){.grid-2{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:6px;padding:20px 22px}
+.card h3{font-size:15px;font-weight:600;margin-bottom:4px}.card .desc{font-size:12.5px;color:var(--ink-soft);margin-bottom:14px}
+.section-title{font-size:19px;margin:34px 0 4px}.section-title:first-child{margin-top:0}
+.section-sub{font-size:13px;color:var(--ink-soft);margin-bottom:16px}
+table{width:100%;border-collapse:collapse;font-size:12.8px}
+th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--ink-soft);padding:8px 10px;border-bottom:1px solid var(--line);position:sticky;top:0;background:#fff}
+td{padding:8px 10px;border-bottom:1px solid #EEF1F4;font-family:'IBM Plex Mono',monospace;font-size:12px}
+td.txt{font-family:'IBM Plex Sans',sans-serif;font-size:12.5px}tr:hover td{background:#F7F9FA}
+.tablewrap{max-height:420px;overflow:auto;border:1px solid var(--line);border-radius:6px}
+.tag{display:inline-block;padding:3px 8px;border-radius:20px;font-size:10.8px;font-weight:600}
+.tag.expand{background:var(--teal-soft);color:var(--teal)}.tag.review{background:var(--red-soft);color:var(--red)}.tag.maintain{background:#EEF1F4;color:var(--ink-soft)}
+.filters{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.filters button{border:1px solid var(--line);background:#fff;color:var(--ink-soft);font-size:12px;padding:6px 12px;border-radius:20px;cursor:pointer}
+.filters button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+footer{text-align:center;padding:26px;color:var(--ink-soft);font-size:11.5px}
+canvas{max-width:100%}
+</style></head><body>
+<header class="top">
+  <div class="top-row">
+    <div class="brand"><span class="mark"></span><h1>Walmart Holiday Markdown &amp; Store Optimization</h1><span class="sub">DECISION SCIENCE / RETAIL — REAL KAGGLE DATA</span></div>
+    <div class="asof">45 STORES &middot; 143 WEEKS &middot; 2010&ndash;2012 &middot; SOURCE: Walmart.csv</div>
+  </div>
+  <nav class="tabs">
+    <button data-page="exec" class="active">Executive KPI</button>
+    <button data-page="holiday">Holiday Impact</button>
+    <button data-page="types">Holiday Type Breakdown</button>
+    <button data-page="econ">Economic Sensitivity</button>
+    <button data-page="forecast">Forecast &amp; Model Evaluation</button>
+    <button data-page="stores">Store Recommendations</button>
+  </nav>
+  <div class="ticker" id="tickerStrip"></div>
+</header>
+<main>
+  <section class="page active" id="page-exec">
+    <h2 class="section-title">Executive Overview</h2>
+    <p class="section-sub">Note: this dataset has no product-level price/discount field, so this project analyzes holiday-markdown impact and macroeconomic sensitivity per store instead of SKU-level pricing.</p>
+    <div class="grid grid-2">
+      <div class="card"><h3>Weekly Total Sales Trend</h3><div class="desc">All 45 stores combined, holiday weeks highlighted.</div><canvas id="chartTrend" height="230"></canvas></div>
+      <div class="card"><h3>Store Recommendation Mix</h3><div class="desc">Action recommended per store from the segmentation model.</div><canvas id="chartActionMix" height="230"></canvas></div>
+    </div>
+  </section>
+
+  <section class="page" id="page-holiday">
+    <h2 class="section-title">Holiday Markdown Impact</h2>
+    <p class="section-sub">Average weekly sales on Holiday_Flag weeks (Super Bowl, Labor Day, Thanksgiving, Christmas) vs. regular weeks, per store.</p>
+    <div class="card" style="margin-bottom:18px"><h3>Holiday Lift % by Store</h3><canvas id="chartHolidayLift" height="300"></canvas></div>
+    <div class="tablewrap"><table><thead><tr><th>Store</th><th>Avg Regular Sales</th><th>Avg Holiday Sales</th><th>Lift %</th><th>Rank</th></tr></thead><tbody id="holidayTableBody"></tbody></table></div>
+    <h2 class="section-title">Statistical Confidence</h2>
+    <p class="section-sub">Bootstrap 95% intervals and two-sided tests. Filled bars meet the nominal 5% screen; none survive Bonferroni or FDR correction across 45 stores. Each store has just 10 flagged weeks.</p>
+    <div class="card"><h3>Holiday Lift with 95% Confidence Interval</h3><canvas id="chartConfidence" height="320"></canvas></div>
+    <div class="tablewrap" style="margin-top:18px"><table><thead><tr><th>Scope</th><th>Test</th><th>Lift</th><th>95% CI</th><th>p-value</th><th>Conclusion</th></tr></thead><tbody id="statsTableBody"></tbody></table></div>
+  </section>
+
+  <section class="page" id="page-types">
+    <h2 class="section-title">Holiday Type Breakdown</h2>
+    <p class="section-sub">Directional comparison only: each holiday occurs just 2–3 times. The December flag is the week after Christmas, which can understate Christmas-period lift.</p>
+    <div class="grid grid-2"><div class="card"><h3>Average Store Sales by Flagged Week</h3><canvas id="chartTypes" height="260"></canvas></div>
+    <div class="card"><h3>Interpretation Guardrail</h3><p class="desc">Holiday_Flag identifies four competition-defined weeks, not causal markdown exposure. No discount, price, margin, or SKU field exists. Results support prioritization hypotheses, not ROI claims.</p><div id="typeSummary"></div></div></div>
+  </section>
+
+  <section class="page" id="page-econ">
+    <h2 class="section-title">Economic Sensitivity by Store</h2>
+    <p class="section-sub">HC3-robust OLS: weekly sales ~ fuel price + CPI + unemployment + holiday flag. Coefficients are associations conditional on included variables, not causal effects.</p>
+    <div class="card"><h3>Unemployment Coefficient by Store</h3><canvas id="chartEcon" height="320"></canvas></div>
+    <div class="tablewrap" style="margin-top:18px"><table><thead><tr><th>Scope</th><th>Term</th><th>Coefficient</th><th>p-value</th><th>R²</th><th>Fit</th></tr></thead><tbody id="regTableBody"></tbody></table></div>
+  </section>
+
+  <section class="page" id="page-forecast">
+    <h2 class="section-title">Forecast &amp; Model Evaluation</h2>
+    <p class="section-sub">Last 20 weeks held out in time order. Compare a transparent 52-week seasonal naive baseline with OLS using lag-52, holiday, macro variables, and trend.</p>
+    <div class="filters"><select id="forecastScope"></select></div>
+    <div class="card"><h3>Actual vs Predicted — Holdout Period</h3><canvas id="chartForecast" height="280"></canvas></div>
+    <div class="tablewrap" style="margin-top:18px"><table><thead><tr><th>Scope</th><th>Model</th><th>MAPE</th><th>RMSE</th><th>Test Weeks</th><th>Decision</th></tr></thead><tbody id="forecastTableBody"></tbody></table></div>
+  </section>
+
+  <section class="page" id="page-stores">
+    <h2 class="section-title">Store-wise Recommendations</h2>
+    <p class="section-sub">Recommendations distinguish nominal exploratory evidence from directional lift. No store survives multiplicity correction and no result is presented as causal markdown ROI.</p>
+    <div class="filters" id="storeFilters">
+      <button class="active" data-f="ALL">All (45)</button>
+      <button data-f="EXPAND HOLIDAY MARKDOWNS">Expand Markdowns</button>
+      <button data-f="REVIEW MARKDOWN ROI">Review ROI</button>
+      <button data-f="MAINTAIN CURRENT STRATEGY">Maintain</button>
+    </div>
+    <div class="tablewrap"><table><thead><tr><th>Store</th><th>Avg Weekly Sales</th><th>CoV %</th><th>Holiday Lift %</th><th>Recommendation</th></tr></thead><tbody id="storeTableBody"></tbody></table></div>
+  </section>
+</main>
+<footer>Built from the real Kaggle Walmart Store Sales Forecasting dataset (Store, Date, Weekly_Sales, Holiday_Flag, Temperature, Fuel_Price, CPI, Unemployment).</footer>
+<script>
+const DATA = __DASHBOARD_DATA__;
+const C = {teal:'#0E7C7B',amber:'#C97F0A',red:'#B23B3B',ink:'#0B1D33'};
+document.querySelectorAll('nav.tabs button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('nav.tabs button').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); document.getElementById('page-'+b.dataset.page).classList.add('active');
+}));
+
+const kpi = DATA.weekly_kpi;
+const totalSales = kpi.reduce((a,r)=>a+parseFloat(r.total_sales),0);
+const holidayWeeks = kpi.filter(r=>r.is_holiday_week==='1').length;
+const seg = DATA.store_segmentation;
+const expandCt = seg.filter(r=>r.recommendation==='EXPAND HOLIDAY MARKDOWNS').length;
+const reviewCt = seg.filter(r=>r.recommendation==='REVIEW MARKDOWN ROI').length;
+document.getElementById('tickerStrip').innerHTML = [
+  {l:'Total Sales (All Weeks)', v:'$'+(totalSales/1e9).toFixed(2)+'B'},
+  {l:'Weeks Analyzed', v:kpi.length},
+  {l:'Holiday Weeks', v:holidayWeeks},
+  {l:'Stores: Expand Markdowns', v:expandCt, d:'positive holiday lift', p:true},
+  {l:'Stores: Review Markdown ROI', v:reviewCt, d:'lift below 2%', p:false},
+].map(c=>`<div class="cell"><div class="label">${c.l}</div><div class="value">${c.v}</div>${c.d?`<div class="delta ${c.p?'pos':'neg'}">${c.d}</div>`:''}</div>`).join('');
+
+new Chart(document.getElementById('chartTrend'), {type:'line', data:{labels:kpi.map(r=>r.date),
+  datasets:[{data:kpi.map(r=>parseFloat(r.total_sales)), borderColor:C.ink, backgroundColor:'transparent', pointRadius:0, borderWidth:1.4, tension:.15}]},
+  options:{plugins:{legend:{display:false}}, scales:{x:{ticks:{maxTicksLimit:8,font:{size:10}},grid:{display:false}},y:{grid:{color:'#EEF1F4'}}}}});
+
+const actionCounts={};seg.forEach(r=>actionCounts[r.recommendation]=(actionCounts[r.recommendation]||0)+1);
+new Chart(document.getElementById('chartActionMix'), {type:'doughnut', data:{labels:Object.keys(actionCounts),
+  datasets:[{data:Object.values(actionCounts), backgroundColor:[C.teal,C.amber,'#C7D0D8'], borderWidth:0}]},
+  options:{plugins:{legend:{position:'bottom',labels:{boxWidth:10,font:{size:10}}}},cutout:'62%'}});
+
+const hol = [...DATA.holiday_impact].sort((a,b)=>b.holiday_lift_pct-a.holiday_lift_pct);
+new Chart(document.getElementById('chartHolidayLift'), {type:'bar', data:{labels:hol.map(r=>'S'+r.store_id),
+  datasets:[{data:hol.map(r=>parseFloat(r.holiday_lift_pct)), backgroundColor:hol.map(r=>parseFloat(r.holiday_lift_pct)>=10?C.teal:parseFloat(r.holiday_lift_pct)<2?C.red:'#C7D0D8')}]},
+  options:{plugins:{legend:{display:false}}, scales:{x:{ticks:{font:{size:8},maxRotation:90,minRotation:90},grid:{display:false}},y:{grid:{color:'#EEF1F4'}}}}});
+document.getElementById('holidayTableBody').innerHTML = hol.map(r=>`<tr><td class="txt">Store ${r.store_id}</td><td>$${parseInt(r.avg_regular_sales).toLocaleString()}</td><td>$${parseInt(r.avg_holiday_sales).toLocaleString()}</td><td>${r.holiday_lift_pct}%</td><td>${r.lift_rank}</td></tr>`).join('');
+
+const econ = DATA.regression_results.filter(r=>r.term==='unemployment'&&r.scope!=='Pooled store fixed effects').sort((a,b)=>a.coefficient-b.coefficient);
+new Chart(document.getElementById('chartEcon'), {type:'bar', data:{labels:econ.map(r=>'S'+r.store_id),
+  datasets:[{data:econ.map(r=>parseFloat(r.coefficient)), backgroundColor:econ.map(r=>parseFloat(r.p_value)<.05?(parseFloat(r.coefficient)<0?C.red:C.teal):'#C7D0D8')}]},
+  options:{plugins:{legend:{display:false}}, scales:{x:{ticks:{font:{size:8},maxRotation:90,minRotation:90},grid:{display:false}},y:{grid:{color:'#EEF1F4'}}}}});
+document.getElementById('regTableBody').innerHTML = DATA.regression_results.filter(r=>r.scope==='Pooled store fixed effects'||r.term==='unemployment').map(r=>`<tr><td class="txt">${r.scope}</td><td>${r.term}</td><td>${Number(r.coefficient).toLocaleString(undefined,{maximumFractionDigits:0})}</td><td>${Number(r.p_value).toFixed(4)}</td><td>${Number(r.r_squared).toFixed(3)}</td><td class="txt">${r.fit_quality}</td></tr>`).join('');
+
+const statStores=DATA.statistical_tests.filter(r=>r.scope.startsWith('Store')).sort((a,b)=>Number(b.lift_pct)-Number(a.lift_pct));
+new Chart(document.getElementById('chartConfidence'), {type:'bar',data:{labels:statStores.map(r=>'S'+r.scope.split(' ')[1]),datasets:[{label:'95% CI for lift %',data:statStores.map(r=>[Number(r.ci_lower_pct),Number(r.ci_upper_pct)]),backgroundColor:statStores.map(r=>r.significant_05==='True'?C.teal:'#C7D0D8')}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.raw[0].toFixed(1)}% to ${c.raw[1].toFixed(1)}%`}}},scales:{x:{ticks:{font:{size:8},maxRotation:90,minRotation:90},grid:{display:false}},y:{title:{display:true,text:'Lift 95% interval (%)'},grid:{color:'#EEF1F4'}}}}});
+document.getElementById('statsTableBody').innerHTML=DATA.statistical_tests.slice(0,12).map(r=>`<tr><td class="txt">${r.scope}</td><td class="txt">${r.test_method}</td><td>${Number(r.lift_pct).toFixed(1)}%</td><td>${Number(r.ci_lower_pct).toFixed(1)}% to ${Number(r.ci_upper_pct).toFixed(1)}%</td><td>${Number(r.p_value).toFixed(4)}</td><td class="txt">${r.significant_05==='True'?'Significant':'Directional only'}</td></tr>`).join('');
+
+const types=DATA.holiday_type_breakdown;
+new Chart(document.getElementById('chartTypes'),{type:'bar',data:{labels:types.map(r=>r.holiday_type),datasets:[{data:types.map(r=>Number(r.avg_store_sales)),backgroundColor:[C.teal,C.amber,C.ink,'#C7D0D8']}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{color:'#EEF1F4'}}}}});
+document.getElementById('typeSummary').innerHTML=types.map(r=>`<p class="desc"><strong>${r.holiday_type}:</strong> ${r.occurrence_weeks} weeks, ${Number(r.lift_vs_regular_pct).toFixed(1)}% vs regular-week average.</p>`).join('');
+
+const forecastScopes=[...new Set(DATA.forecast_metrics.map(r=>r.scope))];
+document.getElementById('forecastScope').innerHTML=forecastScopes.map(s=>`<option>${s}</option>`).join('');
+let forecastChart;
+function renderForecast(scope){const rows=DATA.forecast_predictions.filter(r=>r.scope===scope), dates=[...new Set(rows.map(r=>r.date))], models=[...new Set(rows.map(r=>r.model))]; const actual=dates.map(d=>Number(rows.find(r=>r.date===d).actual)); const datasets=[{label:'Actual',data:actual,borderColor:C.ink,borderWidth:2,pointRadius:1}].concat(models.map((m,i)=>({label:m,data:dates.map(d=>Number(rows.find(r=>r.date===d&&r.model===m).predicted)),borderColor:i?C.amber:C.teal,borderDash:i?[5,3]:[],pointRadius:1}))); if(forecastChart)forecastChart.destroy(); forecastChart=new Chart(document.getElementById('chartForecast'),{type:'line',data:{labels:dates,datasets},options:{plugins:{legend:{position:'bottom'}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:8}},y:{grid:{color:'#EEF1F4'}}}}}); document.getElementById('forecastTableBody').innerHTML=DATA.forecast_metrics.filter(r=>r.scope===scope).map(r=>`<tr><td class="txt">${r.scope}</td><td class="txt">${r.model}</td><td>${Number(r.mape_pct).toFixed(2)}%</td><td>$${Number(r.rmse).toLocaleString(undefined,{maximumFractionDigits:0})}</td><td>${r.test_weeks}</td><td class="txt">${r.winner==='True'?'Winner — lowest MAPE':'Challenger'}</td></tr>`).join('')}
+document.getElementById('forecastScope').addEventListener('change',e=>renderForecast(e.target.value)); renderForecast('Aggregate');
+
+function renderStoreTable(f){
+  const rows = seg.filter(r=>f==='ALL'||r.recommendation===f);
+  document.getElementById('storeTableBody').innerHTML = rows.map(r=>{
+    const cls = r.recommendation.startsWith('EXPAND')?'expand':r.recommendation.startsWith('REVIEW')?'review':'maintain';
+    const stat=DATA.statistical_tests.find(s=>s.scope===`Store ${r.store_id}`), supported=stat&&stat.significant_05==='True';
+    const rec=r.recommendation.startsWith('EXPAND')?(supported?`${r.recommendation} — nominal screen only`:`${r.recommendation} — directional, not significant`):r.recommendation;
+    return `<tr><td class="txt">Store ${r.store_id}</td><td>$${parseInt(r.avg_weekly_sales).toLocaleString()}</td><td>${r.coeff_of_variation_pct}%</td><td>${r.holiday_lift_pct}%</td><td><span class="tag ${cls}">${rec}</span></td></tr>`;
+  }).join('');
+}
+renderStoreTable('ALL');
+document.querySelectorAll('#storeFilters button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('#storeFilters button').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); renderStoreTable(b.dataset.f);
+}));
+</script></body></html>
