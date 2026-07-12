@@ -1,0 +1,70 @@
+// Executive KPIs
+Total Sales = SUM(WeeklyKPI[total_sales])
+Weeks Analyzed = DISTINCTCOUNT(WeeklyKPI[date])
+Stores Analyzed = 45
+Holiday Weeks = CALCULATE(COUNTROWS(WeeklyKPI), WeeklyKPI[is_holiday_week] = 1)
+
+Overall Lift % =
+CALCULATE(MAX(StatisticalTests[lift_pct]), StatisticalTests[scope] = "Overall")
+
+Overall CI Lower % =
+CALCULATE(MAX(StatisticalTests[ci_lower_pct]), StatisticalTests[scope] = "Overall")
+
+Overall CI Upper % =
+CALCULATE(MAX(StatisticalTests[ci_upper_pct]), StatisticalTests[scope] = "Overall")
+
+// Evidence counts
+Nominal Screen Stores =
+CALCULATE(
+    DISTINCTCOUNT(StatisticalTests[store_id]),
+    StatisticalTests[significant_05] = TRUE(),
+    NOT ISBLANK(StatisticalTests[store_id])
+)
+
+Bonferroni Confirmed Stores =
+CALCULATE(
+    DISTINCTCOUNT(StatisticalTests[store_id]),
+    StatisticalTests[significant_bonferroni_05] = TRUE()
+)
+
+FDR Confirmed Stores =
+CALCULATE(
+    DISTINCTCOUNT(StatisticalTests[store_id]),
+    StatisticalTests[significant_fdr_bh_05] = TRUE()
+)
+
+Evidence Label =
+VAR Nominal = SELECTEDVALUE(StatisticalTests[significant_05], FALSE())
+VAR FDR = SELECTEDVALUE(StatisticalTests[significant_fdr_bh_05], FALSE())
+RETURN SWITCH(TRUE(), FDR, "FDR-confirmed", Nominal, "Nominal screen only", "Directional / not significant")
+
+// Forecast evaluation
+Selected MAPE % = AVERAGE(ForecastMetrics[mape_pct])
+Selected RMSE = AVERAGE(ForecastMetrics[rmse])
+Winning Model =
+CALCULATE(SELECTEDVALUE(ForecastMetrics[model]), ForecastMetrics[winner] = TRUE())
+
+Aggregate OLS MAPE % =
+CALCULATE(
+    MAX(ForecastMetrics[mape_pct]),
+    ForecastMetrics[scope] = "Aggregate",
+    ForecastMetrics[model] = "OLS lag + holiday + macro"
+)
+
+Aggregate Seasonal MAPE % =
+CALCULATE(
+    MAX(ForecastMetrics[mape_pct]),
+    ForecastMetrics[scope] = "Aggregate",
+    ForecastMetrics[model] = "Seasonal naive (52-week)"
+)
+
+// Recommendation display
+Recommendation Evidence =
+VAR Rec = SELECTEDVALUE(StoreSegmentation[recommendation])
+VAR Nominal = SELECTEDVALUE(StatisticalTests[significant_05], FALSE())
+RETURN
+IF(
+    Rec = "EXPAND HOLIDAY MARKDOWNS",
+    IF(Nominal, "Controlled-pilot candidate - nominal screen", "Directional candidate only"),
+    Rec
+)

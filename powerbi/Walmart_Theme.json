@@ -1,0 +1,26 @@
+{
+  "name": "Walmart Decision Science",
+  "dataColors": ["#0E7C7B", "#C97F0A", "#0B1D33", "#B23B3B", "#6F8294", "#9FB2C4"],
+  "background": "#EEF1F4",
+  "foreground": "#0B1D33",
+  "tableAccent": "#0E7C7B",
+  "good": "#0E7C7B",
+  "neutral": "#C97F0A",
+  "bad": "#B23B3B",
+  "textClasses": {
+    "callout": {"fontFace": "Arial", "fontSize": 28, "color": "#0B1D33"},
+    "title": {"fontFace": "Georgia", "fontSize": 14, "color": "#0B1D33"},
+    "header": {"fontFace": "Georgia", "fontSize": 12, "color": "#0B1D33"},
+    "label": {"fontFace": "Arial", "fontSize": 10, "color": "#51606F"}
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{"show": true, "color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}],
+        "border": [{"show": true, "color": {"solid": {"color": "#DAE0E6"}}, "radius": 5}],
+        "visualHeader": [{"show": false}]
+      }
+    },
+    "page": {"*": {"background": [{"color": {"solid": {"color": "#EEF1F4"}}, "transparency": 0}]}}
+  }
+}

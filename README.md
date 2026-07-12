@@ -34,6 +34,7 @@ The headline data-quality finding is unchanged: the two December `Holiday_Flag` 
 - Time-based 20-week holdout with seasonal-naive and feature-OLS forecasts
 - Automated data/schema/regression tests
 - Six-tab offline Chart.js dashboard with confidence and model-evaluation views
+- Power BI build package with theme, Power Query imports, DAX measures, six-page layout and validation checklist
 
 ## Run from a clean checkout
 
@@ -57,6 +58,7 @@ analysis/                 statistical_tests.py, forecast.py
 data/                     source CSV and generated SQLite database
 dashboard/                generated HTML and data CSVs
 docs/                     methodology and hiring-reader one-pager
+powerbi/                  Power BI theme, model, DAX and report build specification
 scripts/                  loader, SQL runner, dashboard builder, pipeline
 sql/                      descriptive analysis and reporting views
 tests/                    pipeline regression tests

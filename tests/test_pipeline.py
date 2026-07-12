@@ -59,3 +59,10 @@ def test_dashboard_dom_and_data_contract():
                             cwd=ROOT, capture_output=True, text=True)
     assert result.returncode == 0, result.stdout + result.stderr
     assert "dashboard_contract_ok tabs=6" in result.stdout
+
+
+def test_powerbi_handoff_package():
+    result = subprocess.run([sys.executable, str(ROOT / "qa" / "powerbi_package_check.py")],
+                            cwd=ROOT, capture_output=True, text=True)
+    assert result.returncode == 0, result.stdout + result.stderr
+    assert "powerbi_package_ok pages=6" in result.stdout
