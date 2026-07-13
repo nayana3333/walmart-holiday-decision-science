@@ -1,46 +1,137 @@
+<div align="center">
+
 # Walmart Holiday Sales Decision Science
 
-Decision-science portfolio project built on the Kaggle Walmart Store Sales Forecasting data: 6,435 store-weeks, 45 stores, and 143 calendar weeks from 2010–2012.
+### From 6,435 store-weeks to an evidence-qualified retail decision
+
+[![Python 3.13](https://img.shields.io/badge/Python-3.13-0B1D33?logo=python&logoColor=white)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-SQLite-0E7C7B?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Tests](https://img.shields.io/badge/tests-8%20passing-0E7C7B)](tests/test_pipeline.py)
+[![Forecast MAPE](https://img.shields.io/badge/aggregate%20MAPE-1.87%25-C97F0A)](dashboard/data/forecast_metrics.csv)
+[![License](https://img.shields.io/badge/data-Kaggle%20Walmart-51606F)](data/Walmart.csv)
+
+**Python | SQL | Statistical inference | Robust regression | Forecasting | Automated QA | Chart.js | Power BI handoff**
+
+[Explore the dashboard](dashboard/Walmart_Dashboard.html) ·
+[Read the decision brief](docs/ONE_PAGER.pdf) ·
+[Review the methodology](docs/METHODOLOGY.md) ·
+[Inspect QA evidence](docs/QA_NOTES.md)
+
+</div>
+
+![Verified project overview](docs/assets/project-overview.svg)
+
+> [!IMPORTANT]
+> This dataset has no product price, markdown amount, margin, inventory, or SKU fields. The project estimates **holiday-week sales associations**, not price elasticity or causal markdown ROI.
+
+## The decision
+
+Walmart planners need to know where holiday-period demand is strong enough to justify a controlled commercial test, without confusing noisy historical correlations with proven markdown impact.
+
+This project turns a small observational dataset into a governed decision workflow:
+
+```mermaid
+flowchart LR
+    A["Walmart.csv<br/>6,435 store-weeks"] --> B["SQLite + SQL<br/>quality and reporting layer"]
+    B --> C["Statistical validation<br/>tests, bootstrap CIs, OLS"]
+    C --> D["Forecast evaluation<br/>20-week time holdout"]
+    D --> E["Decision dashboard<br/>6 analytical views"]
+    E --> F["Controlled pilot<br/>Store 7, not auto-rollout"]
+```
+
+## Executive findings
+
+| Finding | Verified result | Decision interpretation |
+|---|---:|---|
+| Overall flagged-week lift | **7.84%** | Positive association; 95% CI **2.08% to 13.67%**, Mann-Whitney p=0.0259 |
+| Store-level evidence | **7 / 45 nominal screens** | Exploratory only; **0 / 45** survive Bonferroni or FDR correction |
+| Strongest descriptive store | **Store 7: 19.44% lift** | Candidate for a controlled pilot, not an automatic rollout |
+| Aggregate forecast | **1.87% MAPE** | Feature OLS beats seasonal naive at 2.24% on the final 20 weeks |
+| Model wins across scopes | **OLS 24 / Naive 22** | Complexity is not universally better; retain a store-specific baseline |
+| Data-quality finding | **December flag is post-Christmas** | The two flagged weeks average 7.7% below regular weeks and should not be labelled Christmas demand |
+
+## Why this is a decision-science project
+
+The work goes beyond descriptive charts by connecting each technical step to a business decision and an evidence threshold.
+
+| Capability | Implementation | Business value |
+|---|---|---|
+| Data engineering | Validated CSV-to-SQLite load, indexes, reporting views, clear failures | Reproducible and auditable analytical base |
+| SQL analytics | CTEs, window ranking, quartiles, segmentation, governed views | Store-level prioritization and reusable BI outputs |
+| Statistical inference | Normality diagnostics, Welch/Mann-Whitney selection, 5,000-draw bootstrap CIs | Quantifies uncertainty instead of reporting lift alone |
+| Multiplicity control | Bonferroni and Benjamini-Hochberg FDR across 45 tests | Prevents nominal false positives from becoming rollout claims |
+| Regression | Store-level HC3-robust OLS and pooled store fixed effects | Measures conditional macro associations with fit diagnostics |
+| Forecasting | Seasonal-naive baseline versus feature OLS | Tests whether complexity improves future-period accuracy |
+| Model evaluation | Chronological 20-week holdout, MAPE and RMSE | Avoids shuffled time-series validation and benchmark-free claims |
+| Communication | Six-tab dashboard, one-page decision brief, Power BI package | Translates uncertainty into an executive recommendation |
+| Engineering QA | Independent recomputation, DOM/data contracts, fresh-clone test | Makes every headline claim traceable and repeatable |
+
+## Dashboard walkthrough
+
+The generated dashboard is a self-contained offline HTML file using the repository's bundled Chart.js asset.
+
+| View | What it answers |
+|---|---|
+| **Executive KPI** | What happened across all 45 stores and 143 weeks? |
+| **Holiday Impact** | Which stores show lift, and how uncertain is it? |
+| **Holiday Type Breakdown** | How do the four competition-defined weeks differ? |
+| **Economic Sensitivity** | Which conditional macro associations are detectable, and how well do models fit? |
+| **Forecast & Model Evaluation** | Which model wins on unseen future weeks for each store and aggregate? |
+| **Store Recommendations** | Where is a pilot justified, directional, or unsupported? |
+
+### Add genuine report screenshots
+
+The repository intentionally does not include fabricated screenshots. After opening the dashboard or building the PBIX, export three real images to `powerbi/screenshots/`:
+
+1. `executive_overview.png`
+2. `holiday_confidence.png`
+3. `forecast_evaluation.png`
+
+The exact capture checklist is in [powerbi/VALIDATION_CHECKLIST.md](powerbi/VALIDATION_CHECKLIST.md).
+
+## Statistical honesty
+
+The strongest feature of this project is not a larger claim; it is a better-calibrated one.
+
+- The overall comparison contains 450 holiday rows and 5,985 regular rows, but only **10 distinct holiday calendar weeks**.
+- Each store has only 10 flagged observations versus 133 regular observations.
+- Eight stores have unadjusted p<0.05; seven also have a positive bootstrap interval.
+- After correcting 45 simultaneous store tests, **none survives Bonferroni or FDR control**.
+- Store 7 remains useful as the highest-priority **experiment candidate**, not as a confirmed causal winner.
+
+That distinction is carried consistently through the CSV outputs, dashboard labels, methodology, QA notes, and executive brief.
+
+## Forecast design
+
+Two models are evaluated on the same final 20 weeks (2012-06-15 to 2012-10-26):
+
+1. **Seasonal naive:** sales from 52 weeks earlier.
+2. **Feature OLS:** lag-52 sales, holiday flag, fuel price, CPI, unemployment, and trend.
+
+No random shuffle is used. The seasonal baseline is retained even when OLS wins because it is transparent, difficult to overfit, and competitive across 22 of 46 scopes.
+
+> [!NOTE]
+> Feature OLS uses observed macro values in the historical holdout. A live deployment would require macro forecasts or scenarios.
 
 ## Run it yourself
+
+### Requirements
+
+- Python 3.13
+- No external database server
+- No web server for the dashboard
+
+### Two-command setup
 
 ```bash
 python -m pip install -r requirements.txt
 python scripts/run_pipeline.py
 ```
 
-The second command rebuilds every database, analysis export, dashboard, PDF, and test artifact.
+Then open:
 
-## Executive summary
-
-The data contains store-level weekly sales and macro variables, but **no SKU, price, discount, cost, margin, or markdown amount**. Accordingly, this project does not claim price elasticity or promotion ROI. It evaluates the association between competition-defined holiday weeks and sales, tests uncertainty, measures conditional macro associations, and evaluates two forecasting methods on a time-ordered holdout.
-
-The headline data-quality finding is unchanged: the two December `Holiday_Flag` dates are the **week after Christmas**, not Christmas week. Those weeks average 7.7% below regular weeks, so using the flag as “Christmas lift” understates the Christmas selling period.
-
-## Validated findings
-
-- Overall flagged-week sales are 7.84% above regular weeks (bootstrap 95% CI: 2.08% to 13.67%; Mann–Whitney p=0.0259). This is statistically detectable at the row level, but still based on only 10 calendar weeks repeated across stores and is not a causal markdown estimate.
-- Seven of 45 stores pass the project's **nominal exploratory screen** (unadjusted p<0.05 plus a positive bootstrap interval). None survives either Bonferroni or Benjamini-Hochberg FDR correction across 45 tests. Store 7 still leads the descriptive ranking at 19.44% lift (95% CI: 4.20% to 36.46%; nominal p=0.0166), making it a controlled-pilot candidate rather than a rollout decision.
-- Thanksgiving is the strongest directional holiday type (+41.3% versus regular weeks), but it has only two occurrences. Super Bowl has three (+3.6%), Labor Day three (+0.1%), and the post-Christmas flag two (-7.7%). These are descriptive, not causal.
-- On the final 20-week aggregate holdout, feature OLS achieves 1.87% MAPE and $1.11M RMSE versus seasonal naive at 2.24% and $1.31M. Across 46 evaluated scopes, OLS wins 24 and seasonal naive wins 22—evidence that the more complex model is not universally better.
-- The pooled store-fixed-effects OLS has R²=0.920 and a positive holiday coefficient of $77,786 (HC3 95% CI: $55,229 to $100,342; p<0.001). This is a conditional association; correlated time trends and omitted variables prevent causal interpretation.
-
-## What is implemented
-
-- SQLite load and governed SQL reporting views
-- Descriptive SQL using CTEs, windows, segmentation, and holiday-type labelling
-- Normality checks, Welch/Mann–Whitney selection, bootstrap lift intervals
-- Per-store robust OLS and pooled store fixed-effects OLS
-- Time-based 20-week holdout with seasonal-naive and feature-OLS forecasts
-- Automated data/schema/regression tests
-- Six-tab offline Chart.js dashboard with confidence and model-evaluation views
-- Power BI build package with theme, Power Query imports, DAX measures, six-page layout and validation checklist
-
-## Run from a clean checkout
-
-```bash
-python -m pip install -r requirements.txt
-python scripts/run_pipeline.py
+```text
+dashboard/Walmart_Dashboard.html
 ```
 
 On macOS/Linux, the wrapper is also available:
@@ -49,23 +140,101 @@ On macOS/Linux, the wrapper is also available:
 sh scripts/run_pipeline.sh
 ```
 
-The command rebuilds the database, SQL exports, statistical tests, forecasts, consolidated dashboard, one-page PDF, and test suite. Then open `dashboard/Walmart_Dashboard.html`.
-
-## Repository map
+### What the pipeline rebuilds
 
 ```text
-analysis/                 statistical_tests.py, forecast.py
-data/                     source CSV and generated SQLite database
-dashboard/                generated HTML and data CSVs
-docs/                     methodology and hiring-reader one-pager
-powerbi/                  Power BI theme, model, DAX and report build specification
-scripts/                  loader, SQL runner, dashboard builder, pipeline
-sql/                      descriptive analysis and reporting views
-tests/                    pipeline regression tests
+CSV validation and SQLite load
+  -> SQL analyses and reporting views
+  -> statistical tests and robust regressions
+  -> forecast predictions and evaluation metrics
+  -> dashboard data and offline HTML
+  -> print-ready one-page PDF
+  -> complete pytest suite
 ```
 
-## Limitations
+Expected final output:
 
-There are only 10 flagged calendar weeks; each holiday type occurs 2–3 times. Rows across stores in the same week share shocks and are not fully independent. Macro variables are observational and collinear with time. Forecast evaluation is one 20-week historical holdout, not repeated backtesting. The feature model uses observed holdout macro values, so operational deployment would require macro forecasts or scenarios. See [docs/METHODOLOGY.md](docs/METHODOLOGY.md) for assumptions and failure modes.
+```text
+........                                                                 [100%]
+8 passed
+Pipeline completed successfully.
+```
 
-For true markdown ROI or price elasticity, add product-level price, markdown exposure, units, margin, inventory, and control-group data.
+## Repository structure
+
+```text
+walmart-holiday-decision-science/
+├── analysis/              # Statistical inference, regression and forecasting
+├── dashboard/             # Generated offline dashboard and governed CSV outputs
+├── data/                  # Kaggle source CSV; SQLite DB is regenerated and ignored
+├── docs/                  # Methodology, QA notes and one-page hiring brief
+├── powerbi/               # Theme, Power Query, DAX, model and report specification
+├── qa/                    # Independent result and presentation-contract checks
+├── scripts/               # Load, orchestration, dashboard and PDF builders
+├── sql/                   # CTE/window analyses and reporting views
+├── tests/                 # Pipeline regression tests
+├── requirements.txt       # Python 3.13-compatible pinned dependencies
+└── README.md
+```
+
+## Reproducibility and QA
+
+The project has been verified in a fresh Python 3.13 environment and a clean local clone with no prebuilt SQLite database.
+
+Automated checks cover:
+
+- 6,435-row database load
+- Non-null key columns and expected schema types
+- Exactly 10 distinct flagged holiday weeks
+- SQL lift recomputation from raw data
+- Independent 7.839713% lift and 2.079147%-13.666078% bootstrap interval
+- Statistical, regression, and forecast artifact contracts
+- Six dashboard tabs, seven chart canvases, and five populated table targets
+- Power BI source, measure, theme, and headline contracts
+
+See [docs/QA_NOTES.md](docs/QA_NOTES.md) for the full evidence trail.
+
+## Power BI handoff
+
+The repository includes a complete Power BI build package:
+
+- Portable Power Query imports
+- Star-style store model
+- Reconciled DAX measures
+- Navy/teal/amber theme
+- Six-page report blueprint
+- Pre-submission validation checklist
+
+Start with [powerbi/README.md](powerbi/README.md). The `.pbix` is not committed because Power BI Desktop was not available in the build environment; the repository does not claim an artifact that was not actually created.
+
+## Business recommendation
+
+Run a controlled holiday-markdown pilot at Store 7 with:
+
+- matched comparison stores;
+- predefined margin-aware success metrics;
+- inventory and stockout monitoring;
+- pre/post analysis with an explicit causal design;
+- seasonal naive retained as the forecast governance baseline.
+
+The next data investment should add SKU-level price, units, markdown depth, margin, inventory, and control-group information. Only then can the analysis estimate true markdown ROI or price elasticity.
+
+## Portfolio artifacts
+
+- [Interactive offline dashboard](dashboard/Walmart_Dashboard.html)
+- [Executive one-page PDF](docs/ONE_PAGER.pdf)
+- [Technical methodology](docs/METHODOLOGY.md)
+- [Quality-assurance notes](docs/QA_NOTES.md)
+- [Power BI implementation package](powerbi/README.md)
+- [Forecast evaluation data](dashboard/data/forecast_metrics.csv)
+- [Statistical test data](dashboard/data/statistical_tests.csv)
+
+## Technology
+
+`Python` · `Pandas` · `SciPy` · `Statsmodels` · `SQL` · `SQLite` · `Pytest` · `HTML` · `CSS` · `JavaScript` · `Chart.js` · `DAX` · `Power Query` · `ReportLab` · `GitHub Actions`
+
+---
+
+<div align="center">
+Built as a decision-science portfolio project: rigorous enough to defend technically, clear enough to present to a client, and honest enough to distinguish evidence from ambition.
+</div>
