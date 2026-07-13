@@ -40,7 +40,7 @@ No value is implausibly close to zero. Aggregate error is lower than many store 
 
 ## Dashboard checks
 
-The Browser tool rejected direct automation of the local `file://` URL under its security policy, so no claim of a headless visual render is made. Instead, `qa/dashboard_dom_check.py` performs the allowed manual/static DOM and data-contract check and is part of pytest. It verifies:
+Automated browser rendering of a local `file://` artifact is not part of the test environment, so no claim of a headless visual render is made. Instead, `qa/dashboard_dom_check.py` performs a static DOM and data-contract check as part of pytest. It verifies:
 
 - Exactly six tabs and six matching page sections
 - Seven chart canvases and five populated table targets
