@@ -1,5 +1,6 @@
 """Generate the print-ready one-page hiring brief."""
 from pathlib import Path
+from reportlab import rl_config
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import A4
@@ -9,6 +10,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Tabl
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs" / "ONE_PAGER.pdf"
+rl_config.invariant = True
 NAVY = colors.HexColor("#0B1D33")
 TEAL = colors.HexColor("#0E7C7B")
 AMBER = colors.HexColor("#C97F0A")
